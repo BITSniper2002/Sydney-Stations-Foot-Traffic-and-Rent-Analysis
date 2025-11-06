@@ -1,0 +1,3887 @@
+Station,Entry_Exit,Trip,Month,Year
+Allawah Station,Entry,63274,10,2024
+Allawah Station,Exit,56147,10,2024
+Arncliffe Station,Entry,59748,10,2024
+Arncliffe Station,Exit,53814,10,2024
+Artarmon Station,Entry,102744,10,2024
+Artarmon Station,Exit,98111,10,2024
+Ashfield Station,Entry,263502,10,2024
+Ashfield Station,Exit,262891,10,2024
+Asquith Station,Entry,30489,10,2024
+Asquith Station,Exit,26990,10,2024
+Auburn Station,Entry,388434,10,2024
+Auburn Station,Exit,370482,10,2024
+Banksia Station,Entry,37213,10,2024
+Banksia Station,Exit,33657,10,2024
+Bankstown Station,Entry,43001,10,2024
+Bankstown Station,Exit,45708,10,2024
+Bardwell Park Station,Entry,28235,10,2024
+Bardwell Park Station,Exit,26310,10,2024
+Beecroft Station,Entry,33375,10,2024
+Beecroft Station,Exit,32080,10,2024
+Berala Station,Entry,41787,10,2024
+Berala Station,Exit,39257,10,2024
+Berowra Station,Entry,27407,10,2024
+Berowra Station,Exit,25228,10,2024
+Beverly Hills Station,Entry,48727,10,2024
+Beverly Hills Station,Exit,44033,10,2024
+Bexley North Station,Entry,33375,10,2024
+Bexley North Station,Exit,30459,10,2024
+Birrong Station,Entry,4906,10,2024
+Birrong Station,Exit,4972,10,2024
+Blacktown Station,Entry,394235,10,2024
+Blacktown Station,Exit,402198,10,2024
+Bondi Junction Station,Entry,615697,10,2024
+Bondi Junction Station,Exit,613902,10,2024
+Burwood Station,Entry,535059,10,2024
+Burwood Station,Exit,545690,10,2024
+Cabramatta Station,Entry,200976,10,2024
+Cabramatta Station,Exit,198226,10,2024
+Campbelltown Station,Entry,140534,10,2024
+Campbelltown Station,Exit,139117,10,2024
+Canley Vale Station,Entry,64413,10,2024
+Canley Vale Station,Exit,57012,10,2024
+Caringbah Station,Entry,59803,10,2024
+Caringbah Station,Exit,57111,10,2024
+Carlton Station,Entry,65672,10,2024
+Carlton Station,Exit,59861,10,2024
+Carramar Station,Entry,14061,10,2024
+Carramar Station,Exit,12442,10,2024
+Casula Station,Entry,9678,10,2024
+Casula Station,Exit,8543,10,2024
+Central Station,Entry,2291227,10,2024
+Central Station,Exit,2348040,10,2024
+Chatswood Station,Entry,805775,10,2024
+Chatswood Station,Exit,832389,10,2024
+Cheltenham Station,Entry,20745,10,2024
+Cheltenham Station,Exit,17446,10,2024
+Chester Hill Station,Entry,27618,10,2024
+Chester Hill Station,Exit,26191,10,2024
+Circular Quay Station,Entry,596173,10,2024
+Circular Quay Station,Exit,595492,10,2024
+Clarendon Station,Entry,2523,10,2024
+Clarendon Station,Exit,2506,10,2024
+Clyde Station,Entry,24832,10,2024
+Clyde Station,Exit,23978,10,2024
+Como Station,Entry,15395,10,2024
+Como Station,Exit,13129,10,2024
+Concord West Station,Entry,49473,10,2024
+Concord West Station,Exit,46366,10,2024
+Cronulla Station,Entry,64696,10,2024
+Cronulla Station,Exit,64400,10,2024
+Croydon Station,Entry,55479,10,2024
+Croydon Station,Exit,50024,10,2024
+Denistone Station,Entry,13801,10,2024
+Denistone Station,Exit,12078,10,2024
+Doonside Station,Entry,67988,10,2024
+Doonside Station,Exit,61413,10,2024
+East Hills Station,Entry,20168,10,2024
+East Hills Station,Exit,18435,10,2024
+East Richmond Station,Entry,4481,10,2024
+East Richmond Station,Exit,6109,10,2024
+Eastwood Station,Entry,182879,10,2024
+Eastwood Station,Exit,185588,10,2024
+Edgecliff Station,Entry,203201,10,2024
+Edgecliff Station,Exit,197946,10,2024
+Edmondson Park Station,Entry,103485,10,2024
+Edmondson Park Station,Exit,99317,10,2024
+Emu Plains Station,Entry,25761,10,2024
+Emu Plains Station,Exit,24129,10,2024
+Engadine Station,Entry,28830,10,2024
+Engadine Station,Exit,27160,10,2024
+Epping Station,Entry,370781,10,2024
+Epping Station,Exit,363360,10,2024
+Erskineville Station,Entry,59818,10,2024
+Erskineville Station,Exit,54486,10,2024
+Fairfield Station,Entry,145787,10,2024
+Fairfield Station,Exit,140688,10,2024
+Flemington Station,Entry,123429,10,2024
+Flemington Station,Exit,117127,10,2024
+Glenfield Station,Entry,128650,10,2024
+Glenfield Station,Exit,119715,10,2024
+Gordon Station,Entry,155906,10,2024
+Gordon Station,Exit,153138,10,2024
+Granville Station,Entry,178732,10,2024
+Granville Station,Exit,167978,10,2024
+Green Square Station,Entry,258723,10,2024
+Green Square Station,Exit,252479,10,2024
+Guildford Station,Entry,73897,10,2024
+Guildford Station,Exit,66928,10,2024
+Gymea Station,Entry,45453,10,2024
+Gymea Station,Exit,41969,10,2024
+Harris Park Station,Entry,71293,10,2024
+Harris Park Station,Exit,73349,10,2024
+Heathcote Station,Entry,12439,10,2024
+Heathcote Station,Exit,12131,10,2024
+Helensburgh Station,Entry,9937,10,2024
+Helensburgh Station,Exit,9138,10,2024
+Holsworthy Station,Entry,70534,10,2024
+Holsworthy Station,Exit,67098,10,2024
+Homebush Station,Entry,94152,10,2024
+Homebush Station,Exit,89397,10,2024
+Hornsby Station,Entry,285790,10,2024
+Hornsby Station,Exit,288247,10,2024
+Hurstville Station,Entry,492294,10,2024
+Hurstville Station,Exit,495994,10,2024
+Ingleburn Station,Entry,73255,10,2024
+Ingleburn Station,Exit,72533,10,2024
+Jannali Station,Entry,56616,10,2024
+Jannali Station,Exit,53203,10,2024
+Killara Station,Entry,46611,10,2024
+Killara Station,Exit,44599,10,2024
+Kings Cross Station,Entry,356379,10,2024
+Kings Cross Station,Exit,371570,10,2024
+Kingsgrove Station,Entry,55449,10,2024
+Kingsgrove Station,Exit,52285,10,2024
+Kingswood Station,Entry,53711,10,2024
+Kingswood Station,Exit,50126,10,2024
+Kirrawee Station,Entry,41620,10,2024
+Kirrawee Station,Exit,40122,10,2024
+Kogarah Station,Entry,266385,10,2024
+Kogarah Station,Exit,256771,10,2024
+Leightonfield Station,Entry,5410,10,2024
+Leightonfield Station,Exit,5277,10,2024
+Leppington Station,Entry,100687,10,2024
+Leppington Station,Exit,96542,10,2024
+Leumeah Station,Entry,60330,10,2024
+Leumeah Station,Exit,57067,10,2024
+Lewisham Station,Entry,64866,10,2024
+Lewisham Station,Exit,61274,10,2024
+Lidcombe Station,Entry,424036,10,2024
+Lidcombe Station,Exit,426129,10,2024
+Lindfield Station,Entry,91654,10,2024
+Lindfield Station,Exit,90037,10,2024
+Liverpool Station,Entry,215085,10,2024
+Liverpool Station,Exit,211290,10,2024
+Loftus Station,Entry,8967,10,2024
+Loftus Station,Exit,8279,10,2024
+Macarthur Station,Entry,73628,10,2024
+Macarthur Station,Exit,72263,10,2024
+Macdonaldtown Station,Entry,25478,10,2024
+Macdonaldtown Station,Exit,25191,10,2024
+Macquarie Fields Station,Entry,22710,10,2024
+Macquarie Fields Station,Exit,21924,10,2024
+Marayong Station,Entry,25103,10,2024
+Marayong Station,Exit,22802,10,2024
+Martin Place Station,Entry,820203,10,2024
+Martin Place Station,Exit,906918,10,2024
+Mascot Station,Entry,416908,10,2024
+Mascot Station,Exit,420260,10,2024
+Meadowbank Station,Entry,123209,10,2024
+Meadowbank Station,Exit,111662,10,2024
+Merrylands Station,Entry,155143,10,2024
+Merrylands Station,Exit,151062,10,2024
+Milsons Point Station,Entry,189168,10,2024
+Milsons Point Station,Exit,199826,10,2024
+Minto Station,Entry,69559,10,2024
+Minto Station,Exit,66779,10,2024
+Miranda Station,Entry,87069,10,2024
+Miranda Station,Exit,89762,10,2024
+Mortdale Station,Entry,80640,10,2024
+Mortdale Station,Exit,73597,10,2024
+Mount Colah Station,Entry,14224,10,2024
+Mount Colah Station,Exit,12767,10,2024
+Mount Druitt Station,Entry,156186,10,2024
+Mount Druitt Station,Exit,154516,10,2024
+Mount Kuring-gai Station,Entry,5462,10,2024
+Mount Kuring-gai Station,Exit,5394,10,2024
+Mulgrave Station,Entry,6539,10,2024
+Mulgrave Station,Exit,6126,10,2024
+Museum Station,Entry,238780,10,2024
+Museum Station,Exit,266589,10,2024
+Narwee Station,Entry,44765,10,2024
+Narwee Station,Exit,40702,10,2024
+Newtown Station,Entry,239551,10,2024
+Newtown Station,Exit,272517,10,2024
+Normanhurst Station,Entry,26786,10,2024
+Normanhurst Station,Exit,21692,10,2024
+North Strathfield Station,Entry,64269,10,2024
+North Strathfield Station,Exit,63210,10,2024
+North Sydney Station,Entry,288559,10,2024
+North Sydney Station,Exit,306935,10,2024
+Oatley Station,Entry,44427,10,2024
+Oatley Station,Exit,41636,10,2024
+Olympic Park Station,Entry,97160,10,2024
+Olympic Park Station,Exit,130364,10,2024
+Padstow Station,Entry,65535,10,2024
+Padstow Station,Exit,61086,10,2024
+Panania Station,Entry,39282,10,2024
+Panania Station,Exit,36651,10,2024
+Parramatta Station,Entry,1024871,10,2024
+Parramatta Station,Exit,1047203,10,2024
+Pendle Hill Station,Entry,75268,10,2024
+Pendle Hill Station,Exit,70670,10,2024
+Pennant Hills Station,Entry,40248,10,2024
+Pennant Hills Station,Exit,39110,10,2024
+Penrith Station,Entry,180839,10,2024
+Penrith Station,Exit,183502,10,2024
+Penshurst Station,Entry,73678,10,2024
+Penshurst Station,Exit,64273,10,2024
+Petersham Station,Entry,79717,10,2024
+Petersham Station,Exit,78120,10,2024
+Pymble Station,Entry,50310,10,2024
+Pymble Station,Exit,46820,10,2024
+Quakers Hill Station,Entry,60873,10,2024
+Quakers Hill Station,Exit,55456,10,2024
+Redfern Station,Entry,639520,10,2024
+Redfern Station,Exit,687911,10,2024
+Regents Park Station,Entry,39578,10,2024
+Regents Park Station,Exit,37280,10,2024
+Revesby Station,Entry,128028,10,2024
+Revesby Station,Exit,126089,10,2024
+Rhodes Station,Entry,239950,10,2024
+Rhodes Station,Exit,237856,10,2024
+Richmond Station,Entry,18040,10,2024
+Richmond Station,Exit,15676,10,2024
+Riverstone Station,Entry,30280,10,2024
+Riverstone Station,Exit,27543,10,2024
+Riverwood Station,Entry,83942,10,2024
+Riverwood Station,Exit,79157,10,2024
+Rockdale Station,Entry,252969,10,2024
+Rockdale Station,Exit,244713,10,2024
+Rooty Hill Station,Entry,89215,10,2024
+Rooty Hill Station,Exit,84793,10,2024
+Roseville Station,Entry,67071,10,2024
+Roseville Station,Exit,63887,10,2024
+Schofields Station,Entry,105360,10,2024
+Schofields Station,Exit,99183,10,2024
+Sefton Station,Entry,20284,10,2024
+Sefton Station,Exit,18796,10,2024
+Seven Hills Station,Entry,145937,10,2024
+Seven Hills Station,Exit,138777,10,2024
+St James Station,Entry,170765,10,2024
+St James Station,Exit,188285,10,2024
+St Leonards Station,Entry,263314,10,2024
+St Leonards Station,Exit,263371,10,2024
+St Marys Station,Entry,107770,10,2024
+St Marys Station,Exit,103991,10,2024
+St Peters Station,Entry,70946,10,2024
+St Peters Station,Exit,63356,10,2024
+Stanmore Station,Entry,71694,10,2024
+Stanmore Station,Exit,66665,10,2024
+Strathfield Station,Entry,682864,10,2024
+Strathfield Station,Exit,661033,10,2024
+Summer Hill Station,Entry,81147,10,2024
+Summer Hill Station,Exit,75769,10,2024
+Sutherland Station,Entry,161496,10,2024
+Sutherland Station,Exit,158565,10,2024
+Sydenham Station,Entry,513095,10,2024
+Sydenham Station,Exit,493034,10,2024
+Tempe Station,Entry,34790,10,2024
+Tempe Station,Exit,32974,10,2024
+Thornleigh Station,Entry,39022,10,2024
+Thornleigh Station,Exit,37746,10,2024
+Toongabbie Station,Entry,70288,10,2024
+Toongabbie Station,Exit,66597,10,2024
+Town Hall Station,Entry,1952476,10,2024
+Town Hall Station,Exit,1843632,10,2024
+Turramurra Station,Entry,85857,10,2024
+Turramurra Station,Exit,82553,10,2024
+Turrella Station,Entry,27440,10,2024
+Turrella Station,Exit,25183,10,2024
+Villawood Station,Entry,12175,10,2024
+Villawood Station,Exit,11735,10,2024
+Vineyard Station,Entry,3938,10,2024
+Vineyard Station,Exit,3697,10,2024
+Wahroonga Station,Entry,43208,10,2024
+Wahroonga Station,Exit,41492,10,2024
+Waitara Station,Entry,67732,10,2024
+Waitara Station,Exit,64679,10,2024
+Warrawee Station,Entry,20251,10,2024
+Warrawee Station,Exit,18512,10,2024
+Warwick Farm Station,Entry,60292,10,2024
+Warwick Farm Station,Exit,54423,10,2024
+Waterfall Station,Entry,9616,10,2024
+Waterfall Station,Exit,9800,10,2024
+Waverton Station,Entry,46699,10,2024
+Waverton Station,Exit,41402,10,2024
+Wentworthville Station,Entry,96060,10,2024
+Wentworthville Station,Exit,91754,10,2024
+Werrington Station,Entry,30581,10,2024
+Werrington Station,Exit,27299,10,2024
+West Ryde Station,Entry,116013,10,2024
+West Ryde Station,Exit,115443,10,2024
+Westmead Station,Entry,166292,10,2024
+Westmead Station,Exit,154737,10,2024
+Windsor Station,Entry,17351,10,2024
+Windsor Station,Exit,16926,10,2024
+Wolli Creek Station,Entry,233447,10,2024
+Wolli Creek Station,Exit,231665,10,2024
+Wollstonecraft Station,Entry,49773,10,2024
+Wollstonecraft Station,Exit,45662,10,2024
+Woolooware Station,Entry,28086,10,2024
+Woolooware Station,Exit,26520,10,2024
+Wynyard Station,Entry,1208006,10,2024
+Wynyard Station,Exit,1269883,10,2024
+Yagoona Station,Entry,9891,10,2024
+Yagoona Station,Exit,9058,10,2024
+Yennora Station,Entry,27898,10,2024
+Yennora Station,Exit,28131,10,2024
+Allawah Station,Entry,61103,11,2024
+Allawah Station,Exit,55064,11,2024
+Arncliffe Station,Entry,58465,11,2024
+Arncliffe Station,Exit,52697,11,2024
+Artarmon Station,Entry,101996,11,2024
+Artarmon Station,Exit,95886,11,2024
+Ashfield Station,Entry,264606,11,2024
+Ashfield Station,Exit,262657,11,2024
+Asquith Station,Entry,29018,11,2024
+Asquith Station,Exit,25898,11,2024
+Auburn Station,Entry,373393,11,2024
+Auburn Station,Exit,357053,11,2024
+Banksia Station,Entry,35627,11,2024
+Banksia Station,Exit,32430,11,2024
+Bankstown Station,Entry,102823,11,2024
+Bankstown Station,Exit,107392,11,2024
+Bardwell Park Station,Entry,26477,11,2024
+Bardwell Park Station,Exit,24435,11,2024
+Beecroft Station,Entry,31404,11,2024
+Beecroft Station,Exit,30308,11,2024
+Berala Station,Entry,45437,11,2024
+Berala Station,Exit,43598,11,2024
+Berowra Station,Entry,25130,11,2024
+Berowra Station,Exit,22911,11,2024
+Beverly Hills Station,Entry,46742,11,2024
+Beverly Hills Station,Exit,41499,11,2024
+Bexley North Station,Entry,31113,11,2024
+Bexley North Station,Exit,28214,11,2024
+Birrong Station,Entry,11601,11,2024
+Birrong Station,Exit,11453,11,2024
+Blacktown Station,Entry,383438,11,2024
+Blacktown Station,Exit,392319,11,2024
+Bondi Junction Station,Entry,617284,11,2024
+Bondi Junction Station,Exit,607849,11,2024
+Burwood Station,Entry,512587,11,2024
+Burwood Station,Exit,524549,11,2024
+Cabramatta Station,Entry,176704,11,2024
+Cabramatta Station,Exit,173562,11,2024
+Campbelltown Station,Entry,129235,11,2024
+Campbelltown Station,Exit,127961,11,2024
+Canley Vale Station,Entry,55861,11,2024
+Canley Vale Station,Exit,50803,11,2024
+Caringbah Station,Entry,60245,11,2024
+Caringbah Station,Exit,55550,11,2024
+Carlton Station,Entry,63545,11,2024
+Carlton Station,Exit,58965,11,2024
+Carramar Station,Entry,13114,11,2024
+Carramar Station,Exit,11492,11,2024
+Casula Station,Entry,9037,11,2024
+Casula Station,Exit,8263,11,2024
+Central Station,Entry,2036067,11,2024
+Central Station,Exit,2094407,11,2024
+Chatswood Station,Entry,797258,11,2024
+Chatswood Station,Exit,822656,11,2024
+Cheltenham Station,Entry,21194,11,2024
+Cheltenham Station,Exit,17628,11,2024
+Chester Hill Station,Entry,25114,11,2024
+Chester Hill Station,Exit,23780,11,2024
+Circular Quay Station,Entry,659339,11,2024
+Circular Quay Station,Exit,646875,11,2024
+Clarendon Station,Entry,1423,11,2024
+Clarendon Station,Exit,1426,11,2024
+Clyde Station,Entry,23524,11,2024
+Clyde Station,Exit,22398,11,2024
+Como Station,Entry,15010,11,2024
+Como Station,Exit,12530,11,2024
+Concord West Station,Entry,46399,11,2024
+Concord West Station,Exit,43484,11,2024
+Cronulla Station,Entry,65704,11,2024
+Cronulla Station,Exit,65865,11,2024
+Croydon Station,Entry,55074,11,2024
+Croydon Station,Exit,49428,11,2024
+Denistone Station,Entry,12232,11,2024
+Denistone Station,Exit,10842,11,2024
+Doonside Station,Entry,65482,11,2024
+Doonside Station,Exit,58721,11,2024
+East Hills Station,Entry,22713,11,2024
+East Hills Station,Exit,22778,11,2024
+East Richmond Station,Entry,4211,11,2024
+East Richmond Station,Exit,4800,11,2024
+Eastwood Station,Entry,165956,11,2024
+Eastwood Station,Exit,167148,11,2024
+Edgecliff Station,Entry,208956,11,2024
+Edgecliff Station,Exit,201751,11,2024
+Edmondson Park Station,Entry,93720,11,2024
+Edmondson Park Station,Exit,89143,11,2024
+Emu Plains Station,Entry,24603,11,2024
+Emu Plains Station,Exit,23074,11,2024
+Engadine Station,Entry,27431,11,2024
+Engadine Station,Exit,25348,11,2024
+Epping Station,Entry,371170,11,2024
+Epping Station,Exit,363876,11,2024
+Erskineville Station,Entry,59853,11,2024
+Erskineville Station,Exit,54371,11,2024
+Fairfield Station,Entry,144694,11,2024
+Fairfield Station,Exit,140740,11,2024
+Flemington Station,Entry,126546,11,2024
+Flemington Station,Exit,121186,11,2024
+Glenfield Station,Entry,135258,11,2024
+Glenfield Station,Exit,126863,11,2024
+Gordon Station,Entry,151986,11,2024
+Gordon Station,Exit,147189,11,2024
+Granville Station,Entry,174079,11,2024
+Granville Station,Exit,162946,11,2024
+Green Square Station,Entry,246970,11,2024
+Green Square Station,Exit,236726,11,2024
+Guildford Station,Entry,70816,11,2024
+Guildford Station,Exit,63096,11,2024
+Gymea Station,Entry,45118,11,2024
+Gymea Station,Exit,40722,11,2024
+Harris Park Station,Entry,66000,11,2024
+Harris Park Station,Exit,67090,11,2024
+Heathcote Station,Entry,11779,11,2024
+Heathcote Station,Exit,11327,11,2024
+Helensburgh Station,Entry,9700,11,2024
+Helensburgh Station,Exit,8604,11,2024
+Holsworthy Station,Entry,65564,11,2024
+Holsworthy Station,Exit,60221,11,2024
+Homebush Station,Entry,95696,11,2024
+Homebush Station,Exit,91696,11,2024
+Hornsby Station,Entry,288903,11,2024
+Hornsby Station,Exit,292115,11,2024
+Hurstville Station,Entry,473019,11,2024
+Hurstville Station,Exit,479330,11,2024
+Ingleburn Station,Entry,68337,11,2024
+Ingleburn Station,Exit,67595,11,2024
+Jannali Station,Entry,55472,11,2024
+Jannali Station,Exit,51475,11,2024
+Killara Station,Entry,44828,11,2024
+Killara Station,Exit,42479,11,2024
+Kings Cross Station,Entry,368659,11,2024
+Kings Cross Station,Exit,382626,11,2024
+Kingsgrove Station,Entry,53037,11,2024
+Kingsgrove Station,Exit,49565,11,2024
+Kingswood Station,Entry,51611,11,2024
+Kingswood Station,Exit,47384,11,2024
+Kirrawee Station,Entry,41676,11,2024
+Kirrawee Station,Exit,39296,11,2024
+Kogarah Station,Entry,257902,11,2024
+Kogarah Station,Exit,248534,11,2024
+Leightonfield Station,Entry,6025,11,2024
+Leightonfield Station,Exit,5048,11,2024
+Leppington Station,Entry,94047,11,2024
+Leppington Station,Exit,89198,11,2024
+Leumeah Station,Entry,53875,11,2024
+Leumeah Station,Exit,50470,11,2024
+Lewisham Station,Entry,64814,11,2024
+Lewisham Station,Exit,59286,11,2024
+Lidcombe Station,Entry,350695,11,2024
+Lidcombe Station,Exit,339337,11,2024
+Lindfield Station,Entry,88728,11,2024
+Lindfield Station,Exit,85067,11,2024
+Liverpool Station,Entry,199548,11,2024
+Liverpool Station,Exit,195794,11,2024
+Loftus Station,Entry,8761,11,2024
+Loftus Station,Exit,7722,11,2024
+Macarthur Station,Entry,64680,11,2024
+Macarthur Station,Exit,61656,11,2024
+Macdonaldtown Station,Entry,25278,11,2024
+Macdonaldtown Station,Exit,24934,11,2024
+Macquarie Fields Station,Entry,21447,11,2024
+Macquarie Fields Station,Exit,20078,11,2024
+Marayong Station,Entry,23994,11,2024
+Marayong Station,Exit,22060,11,2024
+Martin Place Station,Entry,810850,11,2024
+Martin Place Station,Exit,901103,11,2024
+Mascot Station,Entry,400036,11,2024
+Mascot Station,Exit,400147,11,2024
+Meadowbank Station,Entry,118297,11,2024
+Meadowbank Station,Exit,106985,11,2024
+Merrylands Station,Entry,147602,11,2024
+Merrylands Station,Exit,143418,11,2024
+Milsons Point Station,Entry,178284,11,2024
+Milsons Point Station,Exit,185607,11,2024
+Minto Station,Entry,64547,11,2024
+Minto Station,Exit,60668,11,2024
+Miranda Station,Entry,86682,11,2024
+Miranda Station,Exit,89125,11,2024
+Mortdale Station,Entry,78315,11,2024
+Mortdale Station,Exit,70785,11,2024
+Mount Colah Station,Entry,13410,11,2024
+Mount Colah Station,Exit,12087,11,2024
+Mount Druitt Station,Entry,148584,11,2024
+Mount Druitt Station,Exit,148137,11,2024
+Mount Kuring-gai Station,Entry,4928,11,2024
+Mount Kuring-gai Station,Exit,4652,11,2024
+Mulgrave Station,Entry,5819,11,2024
+Mulgrave Station,Exit,5666,11,2024
+Museum Station,Entry,239357,11,2024
+Museum Station,Exit,272615,11,2024
+Narwee Station,Entry,42597,11,2024
+Narwee Station,Exit,38600,11,2024
+Newtown Station,Entry,245188,11,2024
+Newtown Station,Exit,277320,11,2024
+Normanhurst Station,Entry,27102,11,2024
+Normanhurst Station,Exit,21648,11,2024
+North Strathfield Station,Entry,60960,11,2024
+North Strathfield Station,Exit,59483,11,2024
+North Sydney Station,Entry,264223,11,2024
+North Sydney Station,Exit,278732,11,2024
+Oatley Station,Entry,44161,11,2024
+Oatley Station,Exit,41041,11,2024
+Olympic Park Station,Entry,89403,11,2024
+Olympic Park Station,Exit,144247,11,2024
+Padstow Station,Entry,60101,11,2024
+Padstow Station,Exit,54635,11,2024
+Panania Station,Entry,37116,11,2024
+Panania Station,Exit,33612,11,2024
+Parramatta Station,Entry,966060,11,2024
+Parramatta Station,Exit,986471,11,2024
+Pendle Hill Station,Entry,72201,11,2024
+Pendle Hill Station,Exit,67555,11,2024
+Pennant Hills Station,Entry,38202,11,2024
+Pennant Hills Station,Exit,36287,11,2024
+Penrith Station,Entry,171877,11,2024
+Penrith Station,Exit,174896,11,2024
+Penshurst Station,Entry,69610,11,2024
+Penshurst Station,Exit,59799,11,2024
+Petersham Station,Entry,82762,11,2024
+Petersham Station,Exit,79810,11,2024
+Pymble Station,Entry,51184,11,2024
+Pymble Station,Exit,46710,11,2024
+Quakers Hill Station,Entry,57558,11,2024
+Quakers Hill Station,Exit,51909,11,2024
+Redfern Station,Entry,571576,11,2024
+Redfern Station,Exit,608866,11,2024
+Regents Park Station,Entry,34073,11,2024
+Regents Park Station,Exit,31793,11,2024
+Revesby Station,Entry,121443,11,2024
+Revesby Station,Exit,119391,11,2024
+Rhodes Station,Entry,221227,11,2024
+Rhodes Station,Exit,217800,11,2024
+Richmond Station,Entry,16167,11,2024
+Richmond Station,Exit,14621,11,2024
+Riverstone Station,Entry,28086,11,2024
+Riverstone Station,Exit,25388,11,2024
+Riverwood Station,Entry,77805,11,2024
+Riverwood Station,Exit,72834,11,2024
+Rockdale Station,Entry,242250,11,2024
+Rockdale Station,Exit,232958,11,2024
+Rooty Hill Station,Entry,84489,11,2024
+Rooty Hill Station,Exit,79577,11,2024
+Roseville Station,Entry,65221,11,2024
+Roseville Station,Exit,61181,11,2024
+Schofields Station,Entry,96637,11,2024
+Schofields Station,Exit,90971,11,2024
+Sefton Station,Entry,18822,11,2024
+Sefton Station,Exit,16949,11,2024
+Seven Hills Station,Entry,135265,11,2024
+Seven Hills Station,Exit,128162,11,2024
+St James Station,Entry,183179,11,2024
+St James Station,Exit,204664,11,2024
+St Leonards Station,Entry,251825,11,2024
+St Leonards Station,Exit,251292,11,2024
+St Marys Station,Entry,102277,11,2024
+St Marys Station,Exit,98643,11,2024
+St Peters Station,Entry,69716,11,2024
+St Peters Station,Exit,61122,11,2024
+Stanmore Station,Entry,74366,11,2024
+Stanmore Station,Exit,67827,11,2024
+Strathfield Station,Entry,625126,11,2024
+Strathfield Station,Exit,608437,11,2024
+Summer Hill Station,Entry,81280,11,2024
+Summer Hill Station,Exit,76120,11,2024
+Sutherland Station,Entry,151849,11,2024
+Sutherland Station,Exit,149833,11,2024
+Sydenham Station,Entry,488280,11,2024
+Sydenham Station,Exit,475166,11,2024
+Tempe Station,Entry,33848,11,2024
+Tempe Station,Exit,32258,11,2024
+Thornleigh Station,Entry,36157,11,2024
+Thornleigh Station,Exit,34433,11,2024
+Toongabbie Station,Entry,67154,11,2024
+Toongabbie Station,Exit,63330,11,2024
+Town Hall Station,Entry,1925719,11,2024
+Town Hall Station,Exit,1840600,11,2024
+Turramurra Station,Entry,82872,11,2024
+Turramurra Station,Exit,78027,11,2024
+Turrella Station,Entry,25607,11,2024
+Turrella Station,Exit,22937,11,2024
+Villawood Station,Entry,11247,11,2024
+Villawood Station,Exit,10991,11,2024
+Vineyard Station,Entry,3615,11,2024
+Vineyard Station,Exit,3492,11,2024
+Wahroonga Station,Entry,43275,11,2024
+Wahroonga Station,Exit,40780,11,2024
+Waitara Station,Entry,66391,11,2024
+Waitara Station,Exit,61173,11,2024
+Warrawee Station,Entry,20937,11,2024
+Warrawee Station,Exit,18724,11,2024
+Warwick Farm Station,Entry,53621,11,2024
+Warwick Farm Station,Exit,48882,11,2024
+Waterfall Station,Entry,8896,11,2024
+Waterfall Station,Exit,8870,11,2024
+Waverton Station,Entry,45434,11,2024
+Waverton Station,Exit,39862,11,2024
+Wentworthville Station,Entry,90702,11,2024
+Wentworthville Station,Exit,86307,11,2024
+Werrington Station,Entry,29453,11,2024
+Werrington Station,Exit,26206,11,2024
+West Ryde Station,Entry,108056,11,2024
+West Ryde Station,Exit,107269,11,2024
+Westmead Station,Entry,160727,11,2024
+Westmead Station,Exit,148839,11,2024
+Windsor Station,Entry,15866,11,2024
+Windsor Station,Exit,15427,11,2024
+Wolli Creek Station,Entry,221769,11,2024
+Wolli Creek Station,Exit,222811,11,2024
+Wollstonecraft Station,Entry,48923,11,2024
+Wollstonecraft Station,Exit,44427,11,2024
+Woolooware Station,Entry,27362,11,2024
+Woolooware Station,Exit,25193,11,2024
+Wynyard Station,Entry,1183093,11,2024
+Wynyard Station,Exit,1253792,11,2024
+Yagoona Station,Entry,23923,11,2024
+Yagoona Station,Exit,21749,11,2024
+Yennora Station,Entry,25580,11,2024
+Yennora Station,Exit,26200,11,2024
+Allawah Station,Entry,54328,12,2024
+Allawah Station,Exit,47966,12,2024
+Arncliffe Station,Entry,49441,12,2024
+Arncliffe Station,Exit,43941,12,2024
+Artarmon Station,Entry,89961,12,2024
+Artarmon Station,Exit,84083,12,2024
+Ashfield Station,Entry,240134,12,2024
+Ashfield Station,Exit,234519,12,2024
+Asquith Station,Entry,24230,12,2024
+Asquith Station,Exit,21426,12,2024
+Auburn Station,Entry,315195,12,2024
+Auburn Station,Exit,292578,12,2024
+Banksia Station,Entry,30814,12,2024
+Banksia Station,Exit,27231,12,2024
+Bankstown Station,Entry,58321,12,2024
+Bankstown Station,Exit,59007,12,2024
+Bardwell Park Station,Entry,23040,12,2024
+Bardwell Park Station,Exit,21106,12,2024
+Beecroft Station,Entry,26086,12,2024
+Beecroft Station,Exit,25005,12,2024
+Belmore Station,Entry,25,12,2024
+Belmore Station,Exit,25,12,2024
+Berala Station,Entry,40402,12,2024
+Berala Station,Exit,37575,12,2024
+Berowra Station,Entry,22322,12,2024
+Berowra Station,Exit,20452,12,2024
+Beverly Hills Station,Entry,43269,12,2024
+Beverly Hills Station,Exit,37897,12,2024
+Bexley North Station,Entry,28794,12,2024
+Bexley North Station,Exit,26018,12,2024
+Birrong Station,Entry,8455,12,2024
+Birrong Station,Exit,8389,12,2024
+Blacktown Station,Entry,345192,12,2024
+Blacktown Station,Exit,347650,12,2024
+Bondi Junction Station,Entry,557785,12,2024
+Bondi Junction Station,Exit,544445,12,2024
+Burwood Station,Entry,474110,12,2024
+Burwood Station,Exit,481405,12,2024
+Cabramatta Station,Entry,177923,12,2024
+Cabramatta Station,Exit,174827,12,2024
+Campbelltown Station,Entry,121373,12,2024
+Campbelltown Station,Exit,118485,12,2024
+Campsie Station,Entry,91,12,2024
+Campsie Station,Exit,86,12,2024
+Canley Vale Station,Entry,51356,12,2024
+Canley Vale Station,Exit,45438,12,2024
+Caringbah Station,Entry,49728,12,2024
+Caringbah Station,Exit,46086,12,2024
+Carlton Station,Entry,55654,12,2024
+Carlton Station,Exit,50006,12,2024
+Carramar Station,Entry,12501,12,2024
+Carramar Station,Exit,11018,12,2024
+Casula Station,Entry,7765,12,2024
+Casula Station,Exit,6897,12,2024
+Central Station,Entry,1668865,12,2024
+Central Station,Exit,1723793,12,2024
+Chatswood Station,Entry,755727,12,2024
+Chatswood Station,Exit,774126,12,2024
+Cheltenham Station,Entry,16152,12,2024
+Cheltenham Station,Exit,13988,12,2024
+Chester Hill Station,Entry,22626,12,2024
+Chester Hill Station,Exit,20985,12,2024
+Circular Quay Station,Entry,657619,12,2024
+Circular Quay Station,Exit,670078,12,2024
+Clarendon Station,Entry,1175,12,2024
+Clarendon Station,Exit,1138,12,2024
+Clyde Station,Entry,19084,12,2024
+Clyde Station,Exit,18014,12,2024
+Como Station,Entry,12619,12,2024
+Como Station,Exit,10370,12,2024
+Concord West Station,Entry,41062,12,2024
+Concord West Station,Exit,38369,12,2024
+Cronulla Station,Entry,67549,12,2024
+Cronulla Station,Exit,68113,12,2024
+Croydon Station,Entry,44164,12,2024
+Croydon Station,Exit,40471,12,2024
+Denistone Station,Entry,10601,12,2024
+Denistone Station,Exit,9603,12,2024
+Doonside Station,Entry,57118,12,2024
+Doonside Station,Exit,50912,12,2024
+East Hills Station,Entry,16813,12,2024
+East Hills Station,Exit,15061,12,2024
+East Richmond Station,Entry,3539,12,2024
+East Richmond Station,Exit,3677,12,2024
+Eastwood Station,Entry,152135,12,2024
+Eastwood Station,Exit,151508,12,2024
+Edgecliff Station,Entry,176446,12,2024
+Edgecliff Station,Exit,176126,12,2024
+Edmondson Park Station,Entry,82298,12,2024
+Edmondson Park Station,Exit,77648,12,2024
+Emu Plains Station,Entry,18285,12,2024
+Emu Plains Station,Exit,16863,12,2024
+Engadine Station,Entry,23770,12,2024
+Engadine Station,Exit,21441,12,2024
+Epping Station,Entry,319785,12,2024
+Epping Station,Exit,309723,12,2024
+Erskineville Station,Entry,48553,12,2024
+Erskineville Station,Exit,44085,12,2024
+Fairfield Station,Entry,123675,12,2024
+Fairfield Station,Exit,115988,12,2024
+Flemington Station,Entry,117407,12,2024
+Flemington Station,Exit,110865,12,2024
+Glenfield Station,Entry,111213,12,2024
+Glenfield Station,Exit,101949,12,2024
+Gordon Station,Entry,126046,12,2024
+Gordon Station,Exit,120434,12,2024
+Granville Station,Entry,148487,12,2024
+Granville Station,Exit,135639,12,2024
+Green Square Station,Entry,203103,12,2024
+Green Square Station,Exit,192787,12,2024
+Guildford Station,Entry,62371,12,2024
+Guildford Station,Exit,54348,12,2024
+Gymea Station,Entry,37336,12,2024
+Gymea Station,Exit,33731,12,2024
+Harris Park Station,Entry,69436,12,2024
+Harris Park Station,Exit,70194,12,2024
+Heathcote Station,Entry,10651,12,2024
+Heathcote Station,Exit,10079,12,2024
+Helensburgh Station,Entry,7850,12,2024
+Helensburgh Station,Exit,6824,12,2024
+Holsworthy Station,Entry,58878,12,2024
+Holsworthy Station,Exit,53949,12,2024
+Homebush Station,Entry,87019,12,2024
+Homebush Station,Exit,81392,12,2024
+Hornsby Station,Entry,250757,12,2024
+Hornsby Station,Exit,248642,12,2024
+Hurstville Station,Entry,427099,12,2024
+Hurstville Station,Exit,426572,12,2024
+Ingleburn Station,Entry,63008,12,2024
+Ingleburn Station,Exit,61269,12,2024
+Jannali Station,Entry,46270,12,2024
+Jannali Station,Exit,42382,12,2024
+Killara Station,Entry,38784,12,2024
+Killara Station,Exit,36495,12,2024
+Kings Cross Station,Entry,320457,12,2024
+Kings Cross Station,Exit,331477,12,2024
+Kingsgrove Station,Entry,47851,12,2024
+Kingsgrove Station,Exit,44640,12,2024
+Kingswood Station,Entry,43177,12,2024
+Kingswood Station,Exit,39513,12,2024
+Kirrawee Station,Entry,35784,12,2024
+Kirrawee Station,Exit,33612,12,2024
+Kogarah Station,Entry,224923,12,2024
+Kogarah Station,Exit,212366,12,2024
+Leightonfield Station,Entry,4940,12,2024
+Leightonfield Station,Exit,4498,12,2024
+Leppington Station,Entry,83136,12,2024
+Leppington Station,Exit,78259,12,2024
+Leumeah Station,Entry,48275,12,2024
+Leumeah Station,Exit,44736,12,2024
+Lewisham Station,Entry,53247,12,2024
+Lewisham Station,Exit,48043,12,2024
+Lidcombe Station,Entry,331489,12,2024
+Lidcombe Station,Exit,321670,12,2024
+Lindfield Station,Entry,76511,12,2024
+Lindfield Station,Exit,74010,12,2024
+Liverpool Station,Entry,181514,12,2024
+Liverpool Station,Exit,176639,12,2024
+Loftus Station,Entry,6612,12,2024
+Loftus Station,Exit,5662,12,2024
+Macarthur Station,Entry,61779,12,2024
+Macarthur Station,Exit,61169,12,2024
+Macdonaldtown Station,Entry,24464,12,2024
+Macdonaldtown Station,Exit,24367,12,2024
+Macquarie Fields Station,Entry,19656,12,2024
+Macquarie Fields Station,Exit,18358,12,2024
+Marayong Station,Entry,20339,12,2024
+Marayong Station,Exit,18166,12,2024
+Marrickville Station,Entry,25,12,2024
+Marrickville Station,Exit,25,12,2024
+Martin Place Station,Entry,745993,12,2024
+Martin Place Station,Exit,882299,12,2024
+Mascot Station,Entry,361782,12,2024
+Mascot Station,Exit,355622,12,2024
+Meadowbank Station,Entry,101241,12,2024
+Meadowbank Station,Exit,91161,12,2024
+Merrylands Station,Entry,133927,12,2024
+Merrylands Station,Exit,128409,12,2024
+Milsons Point Station,Entry,158938,12,2024
+Milsons Point Station,Exit,182755,12,2024
+Minto Station,Entry,59798,12,2024
+Minto Station,Exit,55963,12,2024
+Miranda Station,Entry,85243,12,2024
+Miranda Station,Exit,88240,12,2024
+Mortdale Station,Entry,70119,12,2024
+Mortdale Station,Exit,63176,12,2024
+Mount Colah Station,Entry,11288,12,2024
+Mount Colah Station,Exit,9955,12,2024
+Mount Druitt Station,Entry,131043,12,2024
+Mount Druitt Station,Exit,128245,12,2024
+Mount Kuring-gai Station,Entry,4458,12,2024
+Mount Kuring-gai Station,Exit,4183,12,2024
+Mulgrave Station,Entry,4524,12,2024
+Mulgrave Station,Exit,4275,12,2024
+Museum Station,Entry,199960,12,2024
+Museum Station,Exit,234397,12,2024
+Narwee Station,Entry,39087,12,2024
+Narwee Station,Exit,35336,12,2024
+Newtown Station,Entry,210546,12,2024
+Newtown Station,Exit,238002,12,2024
+Normanhurst Station,Entry,20777,12,2024
+Normanhurst Station,Exit,17619,12,2024
+North Strathfield Station,Entry,52527,12,2024
+North Strathfield Station,Exit,51563,12,2024
+North Sydney Station,Entry,200493,12,2024
+North Sydney Station,Exit,234204,12,2024
+Oatley Station,Entry,36363,12,2024
+Oatley Station,Exit,32951,12,2024
+Olympic Park Station,Entry,151516,12,2024
+Olympic Park Station,Exit,154435,12,2024
+Padstow Station,Entry,53930,12,2024
+Padstow Station,Exit,48716,12,2024
+Panania Station,Entry,32294,12,2024
+Panania Station,Exit,29272,12,2024
+Parramatta Station,Entry,851953,12,2024
+Parramatta Station,Exit,863234,12,2024
+Pendle Hill Station,Entry,63099,12,2024
+Pendle Hill Station,Exit,57630,12,2024
+Pennant Hills Station,Entry,32988,12,2024
+Pennant Hills Station,Exit,31203,12,2024
+Penrith Station,Entry,157637,12,2024
+Penrith Station,Exit,159608,12,2024
+Penshurst Station,Entry,62313,12,2024
+Penshurst Station,Exit,52264,12,2024
+Petersham Station,Entry,70435,12,2024
+Petersham Station,Exit,66731,12,2024
+Pymble Station,Entry,38780,12,2024
+Pymble Station,Exit,35642,12,2024
+Quakers Hill Station,Entry,46588,12,2024
+Quakers Hill Station,Exit,40959,12,2024
+Redfern Station,Entry,426692,12,2024
+Redfern Station,Exit,458399,12,2024
+Regents Park Station,Entry,28538,12,2024
+Regents Park Station,Exit,26559,12,2024
+Revesby Station,Entry,114240,12,2024
+Revesby Station,Exit,110991,12,2024
+Rhodes Station,Entry,201043,12,2024
+Rhodes Station,Exit,195434,12,2024
+Richmond Station,Entry,14473,12,2024
+Richmond Station,Exit,13488,12,2024
+Riverstone Station,Entry,22799,12,2024
+Riverstone Station,Exit,20685,12,2024
+Riverwood Station,Entry,71448,12,2024
+Riverwood Station,Exit,67006,12,2024
+Rockdale Station,Entry,222093,12,2024
+Rockdale Station,Exit,210059,12,2024
+Rooty Hill Station,Entry,73942,12,2024
+Rooty Hill Station,Exit,68511,12,2024
+Roseville Station,Entry,55184,12,2024
+Roseville Station,Exit,52279,12,2024
+Schofields Station,Entry,74593,12,2024
+Schofields Station,Exit,69538,12,2024
+Sefton Station,Entry,15455,12,2024
+Sefton Station,Exit,13915,12,2024
+Seven Hills Station,Entry,113413,12,2024
+Seven Hills Station,Exit,107299,12,2024
+St James Station,Entry,184136,12,2024
+St James Station,Exit,212228,12,2024
+St Leonards Station,Entry,201990,12,2024
+St Leonards Station,Exit,202497,12,2024
+St Marys Station,Entry,85854,12,2024
+St Marys Station,Exit,82972,12,2024
+St Peters Station,Entry,55372,12,2024
+St Peters Station,Exit,48347,12,2024
+Stanmore Station,Entry,60237,12,2024
+Stanmore Station,Exit,55030,12,2024
+Strathfield Station,Entry,553990,12,2024
+Strathfield Station,Exit,530759,12,2024
+Summer Hill Station,Entry,71169,12,2024
+Summer Hill Station,Exit,65553,12,2024
+Sutherland Station,Entry,137043,12,2024
+Sutherland Station,Exit,135435,12,2024
+Sydenham Station,Entry,467490,12,2024
+Sydenham Station,Exit,449449,12,2024
+Tempe Station,Entry,28652,12,2024
+Tempe Station,Exit,26394,12,2024
+Thornleigh Station,Entry,32966,12,2024
+Thornleigh Station,Exit,31452,12,2024
+Toongabbie Station,Entry,58394,12,2024
+Toongabbie Station,Exit,53571,12,2024
+Town Hall Station,Entry,1768433,12,2024
+Town Hall Station,Exit,1696527,12,2024
+Turramurra Station,Entry,71020,12,2024
+Turramurra Station,Exit,66121,12,2024
+Turrella Station,Entry,23131,12,2024
+Turrella Station,Exit,20767,12,2024
+Villawood Station,Entry,9890,12,2024
+Villawood Station,Exit,9550,12,2024
+Vineyard Station,Entry,2995,12,2024
+Vineyard Station,Exit,2798,12,2024
+Wahroonga Station,Entry,32756,12,2024
+Wahroonga Station,Exit,31597,12,2024
+Waitara Station,Entry,55042,12,2024
+Waitara Station,Exit,51472,12,2024
+Warrawee Station,Entry,13878,12,2024
+Warrawee Station,Exit,13224,12,2024
+Warwick Farm Station,Entry,49085,12,2024
+Warwick Farm Station,Exit,43643,12,2024
+Waterfall Station,Entry,7961,12,2024
+Waterfall Station,Exit,7926,12,2024
+Waverton Station,Entry,43460,12,2024
+Waverton Station,Exit,46119,12,2024
+Wentworthville Station,Entry,79973,12,2024
+Wentworthville Station,Exit,74037,12,2024
+Werrington Station,Entry,25348,12,2024
+Werrington Station,Exit,22267,12,2024
+West Ryde Station,Entry,98381,12,2024
+West Ryde Station,Exit,98194,12,2024
+Westmead Station,Entry,134035,12,2024
+Westmead Station,Exit,125405,12,2024
+Windsor Station,Entry,13908,12,2024
+Windsor Station,Exit,13313,12,2024
+Wolli Creek Station,Entry,211312,12,2024
+Wolli Creek Station,Exit,208342,12,2024
+Wollstonecraft Station,Entry,43358,12,2024
+Wollstonecraft Station,Exit,39399,12,2024
+Woolooware Station,Entry,23485,12,2024
+Woolooware Station,Exit,21630,12,2024
+Wynyard Station,Entry,1009851,12,2024
+Wynyard Station,Exit,1107752,12,2024
+Yagoona Station,Entry,17815,12,2024
+Yagoona Station,Exit,15606,12,2024
+Yennora Station,Entry,21752,12,2024
+Yennora Station,Exit,22309,12,2024
+Allawah Station,Entry,46319,1,2025
+Allawah Station,Exit,42699,1,2025
+Arncliffe Station,Entry,43694,1,2025
+Arncliffe Station,Exit,39714,1,2025
+Artarmon Station,Entry,78372,1,2025
+Artarmon Station,Exit,74882,1,2025
+Ashfield Station,Entry,213037,1,2025
+Ashfield Station,Exit,214257,1,2025
+Asquith Station,Entry,19129,1,2025
+Asquith Station,Exit,17311,1,2025
+Auburn Station,Entry,308141,1,2025
+Auburn Station,Exit,293768,1,2025
+Banksia Station,Entry,27402,1,2025
+Banksia Station,Exit,26242,1,2025
+Bankstown Station,Entry,28217,1,2025
+Bankstown Station,Exit,29625,1,2025
+Bardwell Park Station,Entry,20485,1,2025
+Bardwell Park Station,Exit,18921,1,2025
+Beecroft Station,Entry,21965,1,2025
+Beecroft Station,Exit,20985,1,2025
+Belmore Station,Entry,25,1,2025
+Belmore Station,Exit,25,1,2025
+Berala Station,Entry,33941,1,2025
+Berala Station,Exit,30550,1,2025
+Berowra Station,Entry,19959,1,2025
+Berowra Station,Exit,18279,1,2025
+Beverly Hills Station,Entry,38609,1,2025
+Beverly Hills Station,Exit,35120,1,2025
+Bexley North Station,Entry,26193,1,2025
+Bexley North Station,Exit,23754,1,2025
+Birrong Station,Entry,3623,1,2025
+Birrong Station,Exit,3786,1,2025
+Blacktown Station,Entry,288700,1,2025
+Blacktown Station,Exit,299968,1,2025
+Bondi Junction Station,Entry,515386,1,2025
+Bondi Junction Station,Exit,513010,1,2025
+Burwood Station,Entry,418591,1,2025
+Burwood Station,Exit,424480,1,2025
+Cabramatta Station,Entry,163585,1,2025
+Cabramatta Station,Exit,163071,1,2025
+Campbelltown Station,Entry,114901,1,2025
+Campbelltown Station,Exit,114276,1,2025
+Campsie Station,Entry,25,1,2025
+Campsie Station,Exit,25,1,2025
+Canley Vale Station,Entry,43806,1,2025
+Canley Vale Station,Exit,39815,1,2025
+Canterbury Station,Entry,25,1,2025
+Canterbury Station,Exit,25,1,2025
+Caringbah Station,Entry,44748,1,2025
+Caringbah Station,Exit,43490,1,2025
+Carlton Station,Entry,50648,1,2025
+Carlton Station,Exit,44771,1,2025
+Carramar Station,Entry,11730,1,2025
+Carramar Station,Exit,10214,1,2025
+Casula Station,Entry,6987,1,2025
+Casula Station,Exit,6381,1,2025
+Central Station,Entry,1646774,1,2025
+Central Station,Exit,1706386,1,2025
+Chatswood Station,Entry,686826,1,2025
+Chatswood Station,Exit,711607,1,2025
+Cheltenham Station,Entry,9918,1,2025
+Cheltenham Station,Exit,9272,1,2025
+Chester Hill Station,Entry,21390,1,2025
+Chester Hill Station,Exit,20221,1,2025
+Circular Quay Station,Entry,606130,1,2025
+Circular Quay Station,Exit,590125,1,2025
+Clarendon Station,Entry,1034,1,2025
+Clarendon Station,Exit,1037,1,2025
+Clyde Station,Entry,17913,1,2025
+Clyde Station,Exit,18479,1,2025
+Como Station,Entry,11276,1,2025
+Como Station,Exit,9562,1,2025
+Concord West Station,Entry,33780,1,2025
+Concord West Station,Exit,32666,1,2025
+Cronulla Station,Entry,66745,1,2025
+Cronulla Station,Exit,68963,1,2025
+Croydon Station,Entry,39048,1,2025
+Croydon Station,Exit,35802,1,2025
+Denistone Station,Entry,8251,1,2025
+Denistone Station,Exit,7799,1,2025
+Doonside Station,Entry,48983,1,2025
+Doonside Station,Exit,43313,1,2025
+Dulwich Hill Station,Entry,25,1,2025
+Dulwich Hill Station,Exit,25,1,2025
+East Hills Station,Entry,15459,1,2025
+East Hills Station,Exit,14082,1,2025
+East Richmond Station,Entry,2576,1,2025
+East Richmond Station,Exit,2912,1,2025
+Eastwood Station,Entry,128679,1,2025
+Eastwood Station,Exit,128725,1,2025
+Edgecliff Station,Entry,164809,1,2025
+Edgecliff Station,Exit,158688,1,2025
+Edmondson Park Station,Entry,75076,1,2025
+Edmondson Park Station,Exit,72669,1,2025
+Emu Plains Station,Entry,17780,1,2025
+Emu Plains Station,Exit,16474,1,2025
+Engadine Station,Entry,21964,1,2025
+Engadine Station,Exit,20407,1,2025
+Epping Station,Entry,289148,1,2025
+Epping Station,Exit,286363,1,2025
+Erskineville Station,Entry,46159,1,2025
+Erskineville Station,Exit,42037,1,2025
+Fairfield Station,Entry,108333,1,2025
+Fairfield Station,Exit,103697,1,2025
+Flemington Station,Entry,108946,1,2025
+Flemington Station,Exit,105209,1,2025
+Glenfield Station,Entry,94596,1,2025
+Glenfield Station,Exit,91339,1,2025
+Gordon Station,Entry,112184,1,2025
+Gordon Station,Exit,111271,1,2025
+Granville Station,Entry,186220,1,2025
+Granville Station,Exit,180670,1,2025
+Green Square Station,Entry,180238,1,2025
+Green Square Station,Exit,174719,1,2025
+Guildford Station,Entry,53927,1,2025
+Guildford Station,Exit,48089,1,2025
+Gymea Station,Entry,35569,1,2025
+Gymea Station,Exit,32872,1,2025
+Harris Park Station,Entry,53983,1,2025
+Harris Park Station,Exit,56393,1,2025
+Heathcote Station,Entry,9642,1,2025
+Heathcote Station,Exit,9547,1,2025
+Helensburgh Station,Entry,7790,1,2025
+Helensburgh Station,Exit,7236,1,2025
+Holsworthy Station,Entry,52642,1,2025
+Holsworthy Station,Exit,50666,1,2025
+Homebush Station,Entry,79383,1,2025
+Homebush Station,Exit,76002,1,2025
+Hornsby Station,Entry,227919,1,2025
+Hornsby Station,Exit,230325,1,2025
+Hurlstone Park Station,Entry,25,1,2025
+Hurlstone Park Station,Exit,25,1,2025
+Hurstville Station,Entry,388336,1,2025
+Hurstville Station,Exit,391905,1,2025
+Ingleburn Station,Entry,57850,1,2025
+Ingleburn Station,Exit,57586,1,2025
+Jannali Station,Entry,42620,1,2025
+Jannali Station,Exit,39981,1,2025
+Killara Station,Entry,33589,1,2025
+Killara Station,Exit,32588,1,2025
+Kings Cross Station,Entry,303254,1,2025
+Kings Cross Station,Exit,312603,1,2025
+Kingsgrove Station,Entry,42178,1,2025
+Kingsgrove Station,Exit,39999,1,2025
+Kingswood Station,Entry,37508,1,2025
+Kingswood Station,Exit,35003,1,2025
+Kirrawee Station,Entry,34059,1,2025
+Kirrawee Station,Exit,33106,1,2025
+Kogarah Station,Entry,188079,1,2025
+Kogarah Station,Exit,180855,1,2025
+Lakemba Station,Entry,25,1,2025
+Lakemba Station,Exit,25,1,2025
+Leightonfield Station,Entry,4301,1,2025
+Leightonfield Station,Exit,4360,1,2025
+Leppington Station,Entry,77046,1,2025
+Leppington Station,Exit,73819,1,2025
+Leumeah Station,Entry,45757,1,2025
+Leumeah Station,Exit,43264,1,2025
+Lewisham Station,Entry,47134,1,2025
+Lewisham Station,Exit,44361,1,2025
+Lidcombe Station,Entry,302755,1,2025
+Lidcombe Station,Exit,301760,1,2025
+Lindfield Station,Entry,67254,1,2025
+Lindfield Station,Exit,66964,1,2025
+Liverpool Station,Entry,165702,1,2025
+Liverpool Station,Exit,162357,1,2025
+Loftus Station,Entry,5529,1,2025
+Loftus Station,Exit,5061,1,2025
+Macarthur Station,Entry,53097,1,2025
+Macarthur Station,Exit,52536,1,2025
+Macdonaldtown Station,Entry,21879,1,2025
+Macdonaldtown Station,Exit,23298,1,2025
+Macquarie Fields Station,Entry,17829,1,2025
+Macquarie Fields Station,Exit,17636,1,2025
+Marayong Station,Entry,17822,1,2025
+Marayong Station,Exit,16527,1,2025
+Marrickville Station,Entry,50,1,2025
+Marrickville Station,Exit,25,1,2025
+Martin Place Station,Entry,731062,1,2025
+Martin Place Station,Exit,798887,1,2025
+Mascot Station,Entry,331895,1,2025
+Mascot Station,Exit,333217,1,2025
+Meadowbank Station,Entry,84750,1,2025
+Meadowbank Station,Exit,75705,1,2025
+Merrylands Station,Entry,119917,1,2025
+Merrylands Station,Exit,116999,1,2025
+Milsons Point Station,Entry,159743,1,2025
+Milsons Point Station,Exit,163965,1,2025
+Minto Station,Entry,54893,1,2025
+Minto Station,Exit,52469,1,2025
+Miranda Station,Entry,75944,1,2025
+Miranda Station,Exit,79696,1,2025
+Mortdale Station,Entry,63465,1,2025
+Mortdale Station,Exit,58027,1,2025
+Mount Colah Station,Entry,9284,1,2025
+Mount Colah Station,Exit,8523,1,2025
+Mount Druitt Station,Entry,110609,1,2025
+Mount Druitt Station,Exit,108008,1,2025
+Mount Kuring-gai Station,Entry,3789,1,2025
+Mount Kuring-gai Station,Exit,3495,1,2025
+Mulgrave Station,Entry,3822,1,2025
+Mulgrave Station,Exit,3726,1,2025
+Museum Station,Entry,188058,1,2025
+Museum Station,Exit,214947,1,2025
+Narwee Station,Entry,36110,1,2025
+Narwee Station,Exit,32627,1,2025
+Newtown Station,Entry,203602,1,2025
+Newtown Station,Exit,235440,1,2025
+Normanhurst Station,Entry,16152,1,2025
+Normanhurst Station,Exit,13896,1,2025
+North Strathfield Station,Entry,45837,1,2025
+North Strathfield Station,Exit,46962,1,2025
+North Sydney Station,Entry,197166,1,2025
+North Sydney Station,Exit,202147,1,2025
+Oatley Station,Entry,31091,1,2025
+Oatley Station,Exit,29223,1,2025
+Olympic Park Station,Entry,55528,1,2025
+Olympic Park Station,Exit,63059,1,2025
+Padstow Station,Entry,49038,1,2025
+Padstow Station,Exit,44905,1,2025
+Panania Station,Entry,28295,1,2025
+Panania Station,Exit,26103,1,2025
+Parramatta Station,Entry,735784,1,2025
+Parramatta Station,Exit,746616,1,2025
+Pendle Hill Station,Entry,53306,1,2025
+Pendle Hill Station,Exit,51064,1,2025
+Pennant Hills Station,Entry,26933,1,2025
+Pennant Hills Station,Exit,25924,1,2025
+Penrith Station,Entry,138479,1,2025
+Penrith Station,Exit,142256,1,2025
+Penshurst Station,Entry,54997,1,2025
+Penshurst Station,Exit,47722,1,2025
+Petersham Station,Entry,58606,1,2025
+Petersham Station,Exit,56665,1,2025
+Punchbowl Station,Entry,25,1,2025
+Punchbowl Station,Exit,25,1,2025
+Pymble Station,Entry,35340,1,2025
+Pymble Station,Exit,33369,1,2025
+Quakers Hill Station,Entry,39676,1,2025
+Quakers Hill Station,Exit,35746,1,2025
+Redfern Station,Entry,396437,1,2025
+Redfern Station,Exit,432688,1,2025
+Regents Park Station,Entry,26851,1,2025
+Regents Park Station,Exit,25065,1,2025
+Revesby Station,Entry,106276,1,2025
+Revesby Station,Exit,107883,1,2025
+Rhodes Station,Entry,178848,1,2025
+Rhodes Station,Exit,173999,1,2025
+Richmond Station,Entry,12896,1,2025
+Richmond Station,Exit,12102,1,2025
+Riverstone Station,Entry,19743,1,2025
+Riverstone Station,Exit,18463,1,2025
+Riverwood Station,Entry,66340,1,2025
+Riverwood Station,Exit,62827,1,2025
+Rockdale Station,Entry,195735,1,2025
+Rockdale Station,Exit,192230,1,2025
+Rooty Hill Station,Entry,64063,1,2025
+Rooty Hill Station,Exit,60464,1,2025
+Roseville Station,Entry,48750,1,2025
+Roseville Station,Exit,47895,1,2025
+Schofields Station,Entry,63987,1,2025
+Schofields Station,Exit,61760,1,2025
+Sefton Station,Entry,13618,1,2025
+Sefton Station,Exit,12722,1,2025
+Seven Hills Station,Entry,99913,1,2025
+Seven Hills Station,Exit,95916,1,2025
+St James Station,Entry,146946,1,2025
+St James Station,Exit,159046,1,2025
+St Leonards Station,Entry,183508,1,2025
+St Leonards Station,Exit,184018,1,2025
+St Marys Station,Entry,75127,1,2025
+St Marys Station,Exit,73038,1,2025
+St Peters Station,Entry,53399,1,2025
+St Peters Station,Exit,47404,1,2025
+Stanmore Station,Entry,54333,1,2025
+Stanmore Station,Exit,50899,1,2025
+Strathfield Station,Entry,496370,1,2025
+Strathfield Station,Exit,491121,1,2025
+Summer Hill Station,Entry,62732,1,2025
+Summer Hill Station,Exit,59519,1,2025
+Sutherland Station,Entry,122011,1,2025
+Sutherland Station,Exit,120182,1,2025
+Sydenham Station,Entry,452182,1,2025
+Sydenham Station,Exit,452565,1,2025
+Tempe Station,Entry,23491,1,2025
+Tempe Station,Exit,24258,1,2025
+Thornleigh Station,Entry,29232,1,2025
+Thornleigh Station,Exit,28018,1,2025
+Toongabbie Station,Entry,50784,1,2025
+Toongabbie Station,Exit,48577,1,2025
+Town Hall Station,Entry,1554600,1,2025
+Town Hall Station,Exit,1463864,1,2025
+Turramurra Station,Entry,63269,1,2025
+Turramurra Station,Exit,60602,1,2025
+Turrella Station,Entry,21554,1,2025
+Turrella Station,Exit,19357,1,2025
+Villawood Station,Entry,9456,1,2025
+Villawood Station,Exit,9405,1,2025
+Vineyard Station,Entry,2539,1,2025
+Vineyard Station,Exit,2440,1,2025
+Wahroonga Station,Entry,29864,1,2025
+Wahroonga Station,Exit,29385,1,2025
+Waitara Station,Entry,49320,1,2025
+Waitara Station,Exit,46133,1,2025
+Warrawee Station,Entry,12563,1,2025
+Warrawee Station,Exit,12560,1,2025
+Warwick Farm Station,Entry,45359,1,2025
+Warwick Farm Station,Exit,41390,1,2025
+Waterfall Station,Entry,7344,1,2025
+Waterfall Station,Exit,7709,1,2025
+Waverton Station,Entry,40459,1,2025
+Waverton Station,Exit,33745,1,2025
+Wentworthville Station,Entry,68952,1,2025
+Wentworthville Station,Exit,67481,1,2025
+Werrington Station,Entry,21821,1,2025
+Werrington Station,Exit,19405,1,2025
+West Ryde Station,Entry,81408,1,2025
+West Ryde Station,Exit,81605,1,2025
+Westmead Station,Entry,117457,1,2025
+Westmead Station,Exit,112555,1,2025
+Wiley Park Station,Entry,25,1,2025
+Wiley Park Station,Exit,25,1,2025
+Windsor Station,Entry,12242,1,2025
+Windsor Station,Exit,12002,1,2025
+Wolli Creek Station,Entry,196565,1,2025
+Wolli Creek Station,Exit,200138,1,2025
+Wollstonecraft Station,Entry,39721,1,2025
+Wollstonecraft Station,Exit,36000,1,2025
+Woolooware Station,Entry,21580,1,2025
+Woolooware Station,Exit,20941,1,2025
+Wynyard Station,Entry,948609,1,2025
+Wynyard Station,Exit,965432,1,2025
+Yagoona Station,Entry,8488,1,2025
+Yagoona Station,Exit,7849,1,2025
+Yennora Station,Entry,20093,1,2025
+Yennora Station,Exit,21115,1,2025
+Allawah Station,Entry,54471,2,2025
+Allawah Station,Exit,49029,2,2025
+Arncliffe Station,Entry,51112,2,2025
+Arncliffe Station,Exit,46393,2,2025
+Artarmon Station,Entry,92454,2,2025
+Artarmon Station,Exit,87593,2,2025
+Ashfield Station,Entry,237577,2,2025
+Ashfield Station,Exit,236851,2,2025
+Asquith Station,Entry,27885,2,2025
+Asquith Station,Exit,24860,2,2025
+Auburn Station,Entry,312275,2,2025
+Auburn Station,Exit,295670,2,2025
+Banksia Station,Entry,31911,2,2025
+Banksia Station,Exit,29037,2,2025
+Bankstown Station,Entry,60515,2,2025
+Bankstown Station,Exit,63182,2,2025
+Bardwell Park Station,Entry,23546,2,2025
+Bardwell Park Station,Exit,21785,2,2025
+Beecroft Station,Entry,28832,2,2025
+Beecroft Station,Exit,27520,2,2025
+Berala Station,Entry,39643,2,2025
+Berala Station,Exit,37430,2,2025
+Berowra Station,Entry,25353,2,2025
+Berowra Station,Exit,23036,2,2025
+Beverly Hills Station,Entry,42693,2,2025
+Beverly Hills Station,Exit,37430,2,2025
+Bexley North Station,Entry,27839,2,2025
+Bexley North Station,Exit,25053,2,2025
+Birrong Station,Entry,8996,2,2025
+Birrong Station,Exit,9282,2,2025
+Blacktown Station,Entry,313136,2,2025
+Blacktown Station,Exit,324491,2,2025
+Bondi Junction Station,Entry,547210,2,2025
+Bondi Junction Station,Exit,539879,2,2025
+Burwood Station,Entry,445399,2,2025
+Burwood Station,Exit,455442,2,2025
+Cabramatta Station,Entry,162086,2,2025
+Cabramatta Station,Exit,159905,2,2025
+Campbelltown Station,Entry,122211,2,2025
+Campbelltown Station,Exit,120280,2,2025
+Campsie Station,Entry,25,2,2025
+Campsie Station,Exit,25,2,2025
+Canley Vale Station,Entry,51496,2,2025
+Canley Vale Station,Exit,46659,2,2025
+Canterbury Station,Entry,25,2,2025
+Canterbury Station,Exit,25,2,2025
+Caringbah Station,Entry,54737,2,2025
+Caringbah Station,Exit,51396,2,2025
+Carlton Station,Entry,57167,2,2025
+Carlton Station,Exit,52296,2,2025
+Carramar Station,Entry,12271,2,2025
+Carramar Station,Exit,10561,2,2025
+Casula Station,Entry,8586,2,2025
+Casula Station,Exit,7559,2,2025
+Central Station,Entry,1958407,2,2025
+Central Station,Exit,2031464,2,2025
+Chatswood Station,Entry,776294,2,2025
+Chatswood Station,Exit,803153,2,2025
+Cheltenham Station,Entry,21314,2,2025
+Cheltenham Station,Exit,17545,2,2025
+Chester Hill Station,Entry,23977,2,2025
+Chester Hill Station,Exit,22465,2,2025
+Circular Quay Station,Entry,542829,2,2025
+Circular Quay Station,Exit,527070,2,2025
+Clarendon Station,Entry,1069,2,2025
+Clarendon Station,Exit,1115,2,2025
+Clyde Station,Entry,18797,2,2025
+Clyde Station,Exit,17646,2,2025
+Como Station,Entry,13906,2,2025
+Como Station,Exit,11851,2,2025
+Concord West Station,Entry,40163,2,2025
+Concord West Station,Exit,37984,2,2025
+Cronulla Station,Entry,56620,2,2025
+Cronulla Station,Exit,56297,2,2025
+Croydon Station,Entry,50911,2,2025
+Croydon Station,Exit,46254,2,2025
+Denistone Station,Entry,11084,2,2025
+Denistone Station,Exit,10196,2,2025
+Doonside Station,Entry,56208,2,2025
+Doonside Station,Exit,49916,2,2025
+East Hills Station,Entry,17662,2,2025
+East Hills Station,Exit,16036,2,2025
+East Richmond Station,Entry,3884,2,2025
+East Richmond Station,Exit,4411,2,2025
+Eastwood Station,Entry,143854,2,2025
+Eastwood Station,Exit,144125,2,2025
+Edgecliff Station,Entry,191782,2,2025
+Edgecliff Station,Exit,183528,2,2025
+Edmondson Park Station,Entry,89610,2,2025
+Edmondson Park Station,Exit,85552,2,2025
+Emu Plains Station,Entry,22192,2,2025
+Emu Plains Station,Exit,20631,2,2025
+Engadine Station,Entry,24816,2,2025
+Engadine Station,Exit,23616,2,2025
+Epping Station,Entry,367595,2,2025
+Epping Station,Exit,362127,2,2025
+Erskineville Station,Entry,49760,2,2025
+Erskineville Station,Exit,44254,2,2025
+Fairfield Station,Entry,120403,2,2025
+Fairfield Station,Exit,116293,2,2025
+Flemington Station,Entry,110256,2,2025
+Flemington Station,Exit,105628,2,2025
+Glenfield Station,Entry,116563,2,2025
+Glenfield Station,Exit,110989,2,2025
+Gordon Station,Entry,156653,2,2025
+Gordon Station,Exit,152830,2,2025
+Granville Station,Entry,147608,2,2025
+Granville Station,Exit,138453,2,2025
+Green Square Station,Entry,200534,2,2025
+Green Square Station,Exit,196245,2,2025
+Guildford Station,Entry,60292,2,2025
+Guildford Station,Exit,53655,2,2025
+Gymea Station,Entry,40803,2,2025
+Gymea Station,Exit,37893,2,2025
+Harris Park Station,Entry,56718,2,2025
+Harris Park Station,Exit,57857,2,2025
+Heathcote Station,Entry,10441,2,2025
+Heathcote Station,Exit,10578,2,2025
+Helensburgh Station,Entry,8950,2,2025
+Helensburgh Station,Exit,8155,2,2025
+Holsworthy Station,Entry,60950,2,2025
+Holsworthy Station,Exit,57656,2,2025
+Homebush Station,Entry,84049,2,2025
+Homebush Station,Exit,79911,2,2025
+Hornsby Station,Entry,260620,2,2025
+Hornsby Station,Exit,265559,2,2025
+Hurstville Station,Entry,426880,2,2025
+Hurstville Station,Exit,429218,2,2025
+Ingleburn Station,Entry,63560,2,2025
+Ingleburn Station,Exit,62520,2,2025
+Jannali Station,Entry,51351,2,2025
+Jannali Station,Exit,48841,2,2025
+Killara Station,Entry,42580,2,2025
+Killara Station,Exit,40362,2,2025
+Kings Cross Station,Entry,329335,2,2025
+Kings Cross Station,Exit,340452,2,2025
+Kingsgrove Station,Entry,47143,2,2025
+Kingsgrove Station,Exit,44083,2,2025
+Kingswood Station,Entry,42068,2,2025
+Kingswood Station,Exit,39057,2,2025
+Kirrawee Station,Entry,37149,2,2025
+Kirrawee Station,Exit,35924,2,2025
+Kogarah Station,Entry,230473,2,2025
+Kogarah Station,Exit,219870,2,2025
+Leightonfield Station,Entry,4141,2,2025
+Leightonfield Station,Exit,4095,2,2025
+Leppington Station,Entry,89123,2,2025
+Leppington Station,Exit,85160,2,2025
+Leumeah Station,Entry,50428,2,2025
+Leumeah Station,Exit,47562,2,2025
+Lewisham Station,Entry,56851,2,2025
+Lewisham Station,Exit,53347,2,2025
+Lidcombe Station,Entry,280975,2,2025
+Lidcombe Station,Exit,275505,2,2025
+Lindfield Station,Entry,83395,2,2025
+Lindfield Station,Exit,81365,2,2025
+Liverpool Station,Entry,183383,2,2025
+Liverpool Station,Exit,179574,2,2025
+Loftus Station,Entry,8764,2,2025
+Loftus Station,Exit,8219,2,2025
+Macarthur Station,Entry,59589,2,2025
+Macarthur Station,Exit,58424,2,2025
+Macdonaldtown Station,Entry,24916,2,2025
+Macdonaldtown Station,Exit,24171,2,2025
+Macquarie Fields Station,Entry,20658,2,2025
+Macquarie Fields Station,Exit,19247,2,2025
+Marayong Station,Entry,20595,2,2025
+Marayong Station,Exit,18612,2,2025
+Martin Place Station,Entry,810307,2,2025
+Martin Place Station,Exit,899578,2,2025
+Mascot Station,Entry,345670,2,2025
+Mascot Station,Exit,345289,2,2025
+Meadowbank Station,Entry,108238,2,2025
+Meadowbank Station,Exit,97869,2,2025
+Merrylands Station,Entry,127039,2,2025
+Merrylands Station,Exit,123960,2,2025
+Milsons Point Station,Entry,155947,2,2025
+Milsons Point Station,Exit,164877,2,2025
+Minto Station,Entry,61925,2,2025
+Minto Station,Exit,58786,2,2025
+Miranda Station,Entry,72590,2,2025
+Miranda Station,Exit,74444,2,2025
+Mortdale Station,Entry,70749,2,2025
+Mortdale Station,Exit,64228,2,2025
+Mount Colah Station,Entry,12840,2,2025
+Mount Colah Station,Exit,11423,2,2025
+Mount Druitt Station,Entry,127561,2,2025
+Mount Druitt Station,Exit,125767,2,2025
+Mount Kuring-gai Station,Entry,4393,2,2025
+Mount Kuring-gai Station,Exit,4208,2,2025
+Mulgrave Station,Entry,4409,2,2025
+Mulgrave Station,Exit,4460,2,2025
+Museum Station,Entry,211319,2,2025
+Museum Station,Exit,239289,2,2025
+Narwee Station,Entry,38826,2,2025
+Narwee Station,Exit,35045,2,2025
+Newtown Station,Entry,228797,2,2025
+Newtown Station,Exit,257961,2,2025
+Normanhurst Station,Entry,25486,2,2025
+Normanhurst Station,Exit,20126,2,2025
+North Strathfield Station,Entry,53512,2,2025
+North Strathfield Station,Exit,52472,2,2025
+North Sydney Station,Entry,222715,2,2025
+North Sydney Station,Exit,241212,2,2025
+Oatley Station,Entry,40758,2,2025
+Oatley Station,Exit,38542,2,2025
+Olympic Park Station,Entry,110317,2,2025
+Olympic Park Station,Exit,127434,2,2025
+Padstow Station,Entry,53209,2,2025
+Padstow Station,Exit,48296,2,2025
+Panania Station,Entry,35106,2,2025
+Panania Station,Exit,32354,2,2025
+Parramatta Station,Entry,882644,2,2025
+Parramatta Station,Exit,892838,2,2025
+Pendle Hill Station,Entry,63056,2,2025
+Pendle Hill Station,Exit,58281,2,2025
+Pennant Hills Station,Entry,35778,2,2025
+Pennant Hills Station,Exit,33892,2,2025
+Penrith Station,Entry,149892,2,2025
+Penrith Station,Exit,152483,2,2025
+Penshurst Station,Entry,62717,2,2025
+Penshurst Station,Exit,53932,2,2025
+Petersham Station,Entry,74720,2,2025
+Petersham Station,Exit,72143,2,2025
+Pymble Station,Entry,48805,2,2025
+Pymble Station,Exit,44693,2,2025
+Quakers Hill Station,Entry,51314,2,2025
+Quakers Hill Station,Exit,44867,2,2025
+Redfern Station,Entry,510847,2,2025
+Redfern Station,Exit,553877,2,2025
+Regents Park Station,Entry,28739,2,2025
+Regents Park Station,Exit,26500,2,2025
+Revesby Station,Entry,116469,2,2025
+Revesby Station,Exit,114220,2,2025
+Rhodes Station,Entry,197173,2,2025
+Rhodes Station,Exit,193559,2,2025
+Richmond Station,Entry,14597,2,2025
+Richmond Station,Exit,13291,2,2025
+Riverstone Station,Entry,23837,2,2025
+Riverstone Station,Exit,21918,2,2025
+Riverwood Station,Entry,70149,2,2025
+Riverwood Station,Exit,66031,2,2025
+Rockdale Station,Entry,213210,2,2025
+Rockdale Station,Exit,205485,2,2025
+Rooty Hill Station,Entry,71924,2,2025
+Rooty Hill Station,Exit,67816,2,2025
+Roseville Station,Entry,62133,2,2025
+Roseville Station,Exit,58746,2,2025
+Schofields Station,Entry,82477,2,2025
+Schofields Station,Exit,77482,2,2025
+Sefton Station,Entry,17110,2,2025
+Sefton Station,Exit,15537,2,2025
+Seven Hills Station,Entry,117771,2,2025
+Seven Hills Station,Exit,111552,2,2025
+St James Station,Entry,149585,2,2025
+St James Station,Exit,169479,2,2025
+St Leonards Station,Entry,220924,2,2025
+St Leonards Station,Exit,222408,2,2025
+St Marys Station,Entry,92362,2,2025
+St Marys Station,Exit,89520,2,2025
+St Peters Station,Entry,58831,2,2025
+St Peters Station,Exit,51466,2,2025
+Stanmore Station,Entry,66174,2,2025
+Stanmore Station,Exit,60433,2,2025
+Strathfield Station,Entry,551034,2,2025
+Strathfield Station,Exit,536110,2,2025
+Summer Hill Station,Entry,71477,2,2025
+Summer Hill Station,Exit,67366,2,2025
+Sutherland Station,Entry,143373,2,2025
+Sutherland Station,Exit,141118,2,2025
+Sydenham Station,Entry,476184,2,2025
+Sydenham Station,Exit,470552,2,2025
+Tempe Station,Entry,28734,2,2025
+Tempe Station,Exit,27469,2,2025
+Thornleigh Station,Entry,33983,2,2025
+Thornleigh Station,Exit,32646,2,2025
+Toongabbie Station,Entry,58646,2,2025
+Toongabbie Station,Exit,55352,2,2025
+Town Hall Station,Entry,1617361,2,2025
+Town Hall Station,Exit,1541738,2,2025
+Turramurra Station,Entry,77583,2,2025
+Turramurra Station,Exit,73175,2,2025
+Turrella Station,Entry,23081,2,2025
+Turrella Station,Exit,21206,2,2025
+Villawood Station,Entry,9827,2,2025
+Villawood Station,Exit,9352,2,2025
+Vineyard Station,Entry,3278,2,2025
+Vineyard Station,Exit,3027,2,2025
+Wahroonga Station,Entry,41754,2,2025
+Wahroonga Station,Exit,39072,2,2025
+Waitara Station,Entry,63625,2,2025
+Waitara Station,Exit,57617,2,2025
+Warrawee Station,Entry,21246,2,2025
+Warrawee Station,Exit,19069,2,2025
+Warwick Farm Station,Entry,49323,2,2025
+Warwick Farm Station,Exit,44897,2,2025
+Waterfall Station,Entry,8292,2,2025
+Waterfall Station,Exit,8742,2,2025
+Waverton Station,Entry,41327,2,2025
+Waverton Station,Exit,36126,2,2025
+Wentworthville Station,Entry,75970,2,2025
+Wentworthville Station,Exit,73042,2,2025
+Werrington Station,Entry,25372,2,2025
+Werrington Station,Exit,22311,2,2025
+West Ryde Station,Entry,94625,2,2025
+West Ryde Station,Exit,94428,2,2025
+Westmead Station,Entry,135486,2,2025
+Westmead Station,Exit,126864,2,2025
+Windsor Station,Entry,13599,2,2025
+Windsor Station,Exit,13246,2,2025
+Wolli Creek Station,Entry,192845,2,2025
+Wolli Creek Station,Exit,193163,2,2025
+Wollstonecraft Station,Entry,43657,2,2025
+Wollstonecraft Station,Exit,39606,2,2025
+Woolooware Station,Entry,24570,2,2025
+Woolooware Station,Exit,23272,2,2025
+Wynyard Station,Entry,1043048,2,2025
+Wynyard Station,Exit,1098772,2,2025
+Yagoona Station,Entry,19008,2,2025
+Yagoona Station,Exit,17383,2,2025
+Yennora Station,Entry,22352,2,2025
+Yennora Station,Exit,23276,2,2025
+Allawah Station,Entry,61982,3,2025
+Allawah Station,Exit,55981,3,2025
+Arncliffe Station,Entry,58683,3,2025
+Arncliffe Station,Exit,53529,3,2025
+Artarmon Station,Entry,106245,3,2025
+Artarmon Station,Exit,100482,3,2025
+Ashfield Station,Entry,271193,3,2025
+Ashfield Station,Exit,269097,3,2025
+Asquith Station,Entry,33009,3,2025
+Asquith Station,Exit,29097,3,2025
+Auburn Station,Entry,370136,3,2025
+Auburn Station,Exit,353350,3,2025
+Banksia Station,Entry,35967,3,2025
+Banksia Station,Exit,32958,3,2025
+Bankstown Station,Entry,75196,3,2025
+Bankstown Station,Exit,78036,3,2025
+Bardwell Park Station,Entry,25476,3,2025
+Bardwell Park Station,Exit,22761,3,2025
+Beecroft Station,Entry,34299,3,2025
+Beecroft Station,Exit,33259,3,2025
+Belmore Station,Entry,25,3,2025
+Belmore Station,Exit,25,3,2025
+Berala Station,Entry,46823,3,2025
+Berala Station,Exit,44328,3,2025
+Berowra Station,Entry,29057,3,2025
+Berowra Station,Exit,26651,3,2025
+Beverly Hills Station,Entry,48351,3,2025
+Beverly Hills Station,Exit,43496,3,2025
+Bexley North Station,Entry,31600,3,2025
+Bexley North Station,Exit,28859,3,2025
+Birrong Station,Entry,10490,3,2025
+Birrong Station,Exit,10679,3,2025
+Blacktown Station,Entry,360536,3,2025
+Blacktown Station,Exit,374234,3,2025
+Bondi Junction Station,Entry,595278,3,2025
+Bondi Junction Station,Exit,583772,3,2025
+Burwood Station,Entry,502383,3,2025
+Burwood Station,Exit,512144,3,2025
+Cabramatta Station,Entry,181825,3,2025
+Cabramatta Station,Exit,179311,3,2025
+Campbelltown Station,Entry,138055,3,2025
+Campbelltown Station,Exit,137306,3,2025
+Campsie Station,Entry,25,3,2025
+Campsie Station,Exit,25,3,2025
+Canley Vale Station,Entry,59713,3,2025
+Canley Vale Station,Exit,53886,3,2025
+Canterbury Station,Entry,25,3,2025
+Canterbury Station,Exit,25,3,2025
+Caringbah Station,Entry,60126,3,2025
+Caringbah Station,Exit,55880,3,2025
+Carlton Station,Entry,67495,3,2025
+Carlton Station,Exit,61424,3,2025
+Carramar Station,Entry,14039,3,2025
+Carramar Station,Exit,12125,3,2025
+Casula Station,Entry,9911,3,2025
+Casula Station,Exit,8720,3,2025
+Central Station,Entry,2412586,3,2025
+Central Station,Exit,2462188,3,2025
+Chatswood Station,Entry,864899,3,2025
+Chatswood Station,Exit,898301,3,2025
+Cheltenham Station,Entry,25803,3,2025
+Cheltenham Station,Exit,21686,3,2025
+Chester Hill Station,Entry,27401,3,2025
+Chester Hill Station,Exit,25204,3,2025
+Circular Quay Station,Entry,552964,3,2025
+Circular Quay Station,Exit,546729,3,2025
+Clarendon Station,Entry,1471,3,2025
+Clarendon Station,Exit,1453,3,2025
+Clyde Station,Entry,22453,3,2025
+Clyde Station,Exit,21942,3,2025
+Como Station,Entry,15486,3,2025
+Como Station,Exit,12934,3,2025
+Concord West Station,Entry,48617,3,2025
+Concord West Station,Exit,46592,3,2025
+Cronulla Station,Entry,57074,3,2025
+Cronulla Station,Exit,56175,3,2025
+Croydon Station,Entry,57490,3,2025
+Croydon Station,Exit,52258,3,2025
+Denistone Station,Entry,13859,3,2025
+Denistone Station,Exit,13021,3,2025
+Doonside Station,Entry,66422,3,2025
+Doonside Station,Exit,59349,3,2025
+Dulwich Hill Station,Entry,25,3,2025
+Dulwich Hill Station,Exit,25,3,2025
+East Hills Station,Entry,19948,3,2025
+East Hills Station,Exit,19304,3,2025
+East Richmond Station,Entry,5061,3,2025
+East Richmond Station,Exit,7608,3,2025
+Eastwood Station,Entry,173547,3,2025
+Eastwood Station,Exit,175161,3,2025
+Edgecliff Station,Entry,210184,3,2025
+Edgecliff Station,Exit,201353,3,2025
+Edmondson Park Station,Entry,105491,3,2025
+Edmondson Park Station,Exit,100124,3,2025
+Emu Plains Station,Entry,24270,3,2025
+Emu Plains Station,Exit,23742,3,2025
+Engadine Station,Entry,27839,3,2025
+Engadine Station,Exit,25897,3,2025
+Epping Station,Entry,400047,3,2025
+Epping Station,Exit,397039,3,2025
+Erskineville Station,Entry,58533,3,2025
+Erskineville Station,Exit,52776,3,2025
+Fairfield Station,Entry,148513,3,2025
+Fairfield Station,Exit,143314,3,2025
+Flemington Station,Entry,128071,3,2025
+Flemington Station,Exit,123257,3,2025
+Glenfield Station,Entry,149006,3,2025
+Glenfield Station,Exit,141159,3,2025
+Gordon Station,Entry,163778,3,2025
+Gordon Station,Exit,158667,3,2025
+Granville Station,Entry,211765,3,2025
+Granville Station,Exit,202870,3,2025
+Green Square Station,Entry,224978,3,2025
+Green Square Station,Exit,218954,3,2025
+Guildford Station,Entry,69388,3,2025
+Guildford Station,Exit,61821,3,2025
+Gymea Station,Entry,45151,3,2025
+Gymea Station,Exit,41574,3,2025
+Harris Park Station,Entry,62688,3,2025
+Harris Park Station,Exit,64024,3,2025
+Heathcote Station,Entry,11507,3,2025
+Heathcote Station,Exit,11313,3,2025
+Helensburgh Station,Entry,10308,3,2025
+Helensburgh Station,Exit,9535,3,2025
+Holsworthy Station,Entry,69010,3,2025
+Holsworthy Station,Exit,64913,3,2025
+Homebush Station,Entry,99279,3,2025
+Homebush Station,Exit,94497,3,2025
+Hornsby Station,Entry,301269,3,2025
+Hornsby Station,Exit,305587,3,2025
+Hurlstone Park Station,Entry,25,3,2025
+Hurlstone Park Station,Exit,25,3,2025
+Hurstville Station,Entry,478468,3,2025
+Hurstville Station,Exit,486353,3,2025
+Ingleburn Station,Entry,70891,3,2025
+Ingleburn Station,Exit,70168,3,2025
+Jannali Station,Entry,57066,3,2025
+Jannali Station,Exit,53976,3,2025
+Killara Station,Entry,49933,3,2025
+Killara Station,Exit,47707,3,2025
+Kings Cross Station,Entry,370482,3,2025
+Kings Cross Station,Exit,380097,3,2025
+Kingsgrove Station,Entry,53429,3,2025
+Kingsgrove Station,Exit,51048,3,2025
+Kingswood Station,Entry,53078,3,2025
+Kingswood Station,Exit,49971,3,2025
+Kirrawee Station,Entry,40845,3,2025
+Kirrawee Station,Exit,38911,3,2025
+Kogarah Station,Entry,254577,3,2025
+Kogarah Station,Exit,244513,3,2025
+Lakemba Station,Entry,25,3,2025
+Lakemba Station,Exit,25,3,2025
+Leightonfield Station,Entry,4907,3,2025
+Leightonfield Station,Exit,4917,3,2025
+Leppington Station,Entry,104448,3,2025
+Leppington Station,Exit,99990,3,2025
+Leumeah Station,Entry,60435,3,2025
+Leumeah Station,Exit,57555,3,2025
+Lewisham Station,Entry,64896,3,2025
+Lewisham Station,Exit,61725,3,2025
+Lidcombe Station,Entry,336276,3,2025
+Lidcombe Station,Exit,330824,3,2025
+Lindfield Station,Entry,95369,3,2025
+Lindfield Station,Exit,91798,3,2025
+Liverpool Station,Entry,209622,3,2025
+Liverpool Station,Exit,205852,3,2025
+Loftus Station,Entry,9582,3,2025
+Loftus Station,Exit,8750,3,2025
+Macarthur Station,Entry,73706,3,2025
+Macarthur Station,Exit,70982,3,2025
+Macdonaldtown Station,Entry,28732,3,2025
+Macdonaldtown Station,Exit,28250,3,2025
+Macquarie Fields Station,Entry,22821,3,2025
+Macquarie Fields Station,Exit,20868,3,2025
+Marayong Station,Entry,24054,3,2025
+Marayong Station,Exit,21851,3,2025
+Marrickville Station,Entry,25,3,2025
+Marrickville Station,Exit,25,3,2025
+Martin Place Station,Entry,902573,3,2025
+Martin Place Station,Exit,1020165,3,2025
+Mascot Station,Entry,387932,3,2025
+Mascot Station,Exit,390571,3,2025
+Meadowbank Station,Entry,128183,3,2025
+Meadowbank Station,Exit,114891,3,2025
+Merrylands Station,Entry,148574,3,2025
+Merrylands Station,Exit,143597,3,2025
+Milsons Point Station,Entry,170585,3,2025
+Milsons Point Station,Exit,176657,3,2025
+Minto Station,Entry,68251,3,2025
+Minto Station,Exit,64619,3,2025
+Miranda Station,Entry,78964,3,2025
+Miranda Station,Exit,79691,3,2025
+Mortdale Station,Entry,79154,3,2025
+Mortdale Station,Exit,71496,3,2025
+Mount Colah Station,Entry,14797,3,2025
+Mount Colah Station,Exit,13365,3,2025
+Mount Druitt Station,Entry,147199,3,2025
+Mount Druitt Station,Exit,145684,3,2025
+Mount Kuring-gai Station,Entry,4984,3,2025
+Mount Kuring-gai Station,Exit,4708,3,2025
+Mulgrave Station,Entry,5528,3,2025
+Mulgrave Station,Exit,5432,3,2025
+Museum Station,Entry,224312,3,2025
+Museum Station,Exit,257693,3,2025
+Narwee Station,Entry,42951,3,2025
+Narwee Station,Exit,38994,3,2025
+Newtown Station,Entry,256539,3,2025
+Newtown Station,Exit,287562,3,2025
+Normanhurst Station,Entry,32028,3,2025
+Normanhurst Station,Exit,25158,3,2025
+North Strathfield Station,Entry,65916,3,2025
+North Strathfield Station,Exit,64608,3,2025
+North Sydney Station,Entry,264706,3,2025
+North Sydney Station,Exit,285823,3,2025
+Oatley Station,Entry,46366,3,2025
+Oatley Station,Exit,43334,3,2025
+Olympic Park Station,Entry,93306,3,2025
+Olympic Park Station,Exit,104035,3,2025
+Padstow Station,Entry,59567,3,2025
+Padstow Station,Exit,55499,3,2025
+Panania Station,Entry,39005,3,2025
+Panania Station,Exit,35913,3,2025
+Parramatta Station,Entry,997794,3,2025
+Parramatta Station,Exit,1007387,3,2025
+Pendle Hill Station,Entry,74312,3,2025
+Pendle Hill Station,Exit,68961,3,2025
+Pennant Hills Station,Entry,44195,3,2025
+Pennant Hills Station,Exit,42628,3,2025
+Penrith Station,Entry,174517,3,2025
+Penrith Station,Exit,179332,3,2025
+Penshurst Station,Entry,70566,3,2025
+Penshurst Station,Exit,59740,3,2025
+Petersham Station,Entry,86305,3,2025
+Petersham Station,Exit,82914,3,2025
+Pymble Station,Entry,56064,3,2025
+Pymble Station,Exit,51081,3,2025
+Quakers Hill Station,Entry,62955,3,2025
+Quakers Hill Station,Exit,55279,3,2025
+Redfern Station,Entry,719325,3,2025
+Redfern Station,Exit,766396,3,2025
+Regents Park Station,Entry,33016,3,2025
+Regents Park Station,Exit,30220,3,2025
+Revesby Station,Entry,131389,3,2025
+Revesby Station,Exit,128478,3,2025
+Rhodes Station,Entry,247846,3,2025
+Rhodes Station,Exit,241758,3,2025
+Richmond Station,Entry,19968,3,2025
+Richmond Station,Exit,16128,3,2025
+Riverstone Station,Entry,28213,3,2025
+Riverstone Station,Exit,25837,3,2025
+Riverwood Station,Entry,78124,3,2025
+Riverwood Station,Exit,73748,3,2025
+Rockdale Station,Entry,238363,3,2025
+Rockdale Station,Exit,232123,3,2025
+Rooty Hill Station,Entry,85257,3,2025
+Rooty Hill Station,Exit,80271,3,2025
+Roseville Station,Entry,71138,3,2025
+Roseville Station,Exit,67247,3,2025
+Schofields Station,Entry,100150,3,2025
+Schofields Station,Exit,94243,3,2025
+Sefton Station,Entry,20221,3,2025
+Sefton Station,Exit,17878,3,2025
+Seven Hills Station,Entry,141955,3,2025
+Seven Hills Station,Exit,134520,3,2025
+St James Station,Entry,165836,3,2025
+St James Station,Exit,189885,3,2025
+St Leonards Station,Entry,254846,3,2025
+St Leonards Station,Exit,257711,3,2025
+St Marys Station,Entry,107733,3,2025
+St Marys Station,Exit,104637,3,2025
+St Peters Station,Entry,66399,3,2025
+St Peters Station,Exit,57792,3,2025
+Stanmore Station,Entry,73703,3,2025
+Stanmore Station,Exit,66956,3,2025
+Strathfield Station,Entry,630627,3,2025
+Strathfield Station,Exit,620604,3,2025
+Summer Hill Station,Entry,82960,3,2025
+Summer Hill Station,Exit,77574,3,2025
+Sutherland Station,Entry,159158,3,2025
+Sutherland Station,Exit,158071,3,2025
+Sydenham Station,Entry,503272,3,2025
+Sydenham Station,Exit,494516,3,2025
+Tempe Station,Entry,34531,3,2025
+Tempe Station,Exit,31792,3,2025
+Thornleigh Station,Entry,41394,3,2025
+Thornleigh Station,Exit,39718,3,2025
+Toongabbie Station,Entry,68562,3,2025
+Toongabbie Station,Exit,65024,3,2025
+Town Hall Station,Entry,1825801,3,2025
+Town Hall Station,Exit,1742006,3,2025
+Turramurra Station,Entry,91114,3,2025
+Turramurra Station,Exit,85187,3,2025
+Turrella Station,Entry,25480,3,2025
+Turrella Station,Exit,23461,3,2025
+Villawood Station,Entry,11264,3,2025
+Villawood Station,Exit,10957,3,2025
+Vineyard Station,Entry,3747,3,2025
+Vineyard Station,Exit,3559,3,2025
+Wahroonga Station,Entry,48217,3,2025
+Wahroonga Station,Exit,44860,3,2025
+Waitara Station,Entry,73498,3,2025
+Waitara Station,Exit,67345,3,2025
+Warrawee Station,Entry,23727,3,2025
+Warrawee Station,Exit,21510,3,2025
+Warwick Farm Station,Entry,56916,3,2025
+Warwick Farm Station,Exit,51074,3,2025
+Waterfall Station,Entry,8965,3,2025
+Waterfall Station,Exit,8893,3,2025
+Waverton Station,Entry,47289,3,2025
+Waverton Station,Exit,41471,3,2025
+Wentworthville Station,Entry,89383,3,2025
+Wentworthville Station,Exit,85746,3,2025
+Werrington Station,Entry,29955,3,2025
+Werrington Station,Exit,26419,3,2025
+West Ryde Station,Entry,112751,3,2025
+West Ryde Station,Exit,113647,3,2025
+Westmead Station,Entry,158391,3,2025
+Westmead Station,Exit,148467,3,2025
+Wiley Park Station,Entry,25,3,2025
+Wiley Park Station,Exit,25,3,2025
+Windsor Station,Entry,16513,3,2025
+Windsor Station,Exit,15980,3,2025
+Wolli Creek Station,Entry,241328,3,2025
+Wolli Creek Station,Exit,244350,3,2025
+Wollstonecraft Station,Entry,49826,3,2025
+Wollstonecraft Station,Exit,45607,3,2025
+Woolooware Station,Entry,28360,3,2025
+Woolooware Station,Exit,26659,3,2025
+Wynyard Station,Entry,1160596,3,2025
+Wynyard Station,Exit,1223375,3,2025
+Yagoona Station,Entry,22703,3,2025
+Yagoona Station,Exit,20909,3,2025
+Yennora Station,Entry,26041,3,2025
+Yennora Station,Exit,26602,3,2025
+Allawah Station,Entry,57225,4,2025
+Allawah Station,Exit,51016,4,2025
+Arncliffe Station,Entry,53544,4,2025
+Arncliffe Station,Exit,48311,4,2025
+Artarmon Station,Entry,89971,4,2025
+Artarmon Station,Exit,85170,4,2025
+Ashfield Station,Entry,238540,4,2025
+Ashfield Station,Exit,235209,4,2025
+Asquith Station,Entry,27827,4,2025
+Asquith Station,Exit,25107,4,2025
+Auburn Station,Entry,344925,4,2025
+Auburn Station,Exit,329592,4,2025
+Banksia Station,Entry,33654,4,2025
+Banksia Station,Exit,30193,4,2025
+Bankstown Station,Entry,60164,4,2025
+Bankstown Station,Exit,61941,4,2025
+Bardwell Park Station,Entry,22914,4,2025
+Bardwell Park Station,Exit,20340,4,2025
+Beecroft Station,Entry,29242,4,2025
+Beecroft Station,Exit,28441,4,2025
+Berala Station,Entry,44679,4,2025
+Berala Station,Exit,41361,4,2025
+Berowra Station,Entry,26057,4,2025
+Berowra Station,Exit,23547,4,2025
+Beverly Hills Station,Entry,44617,4,2025
+Beverly Hills Station,Exit,40377,4,2025
+Bexley North Station,Entry,29817,4,2025
+Bexley North Station,Exit,26871,4,2025
+Birrong Station,Entry,8329,4,2025
+Birrong Station,Exit,8441,4,2025
+Blacktown Station,Entry,337630,4,2025
+Blacktown Station,Exit,347570,4,2025
+Bondi Junction Station,Entry,504803,4,2025
+Bondi Junction Station,Exit,497711,4,2025
+Burwood Station,Entry,494468,4,2025
+Burwood Station,Exit,504518,4,2025
+Cabramatta Station,Entry,184686,4,2025
+Cabramatta Station,Exit,182677,4,2025
+Campbelltown Station,Entry,128337,4,2025
+Campbelltown Station,Exit,127541,4,2025
+Campsie Station,Entry,25,4,2025
+Campsie Station,Exit,25,4,2025
+Canley Vale Station,Entry,57645,4,2025
+Canley Vale Station,Exit,52553,4,2025
+Canterbury Station,Entry,25,4,2025
+Canterbury Station,Exit,25,4,2025
+Caringbah Station,Entry,54034,4,2025
+Caringbah Station,Exit,51465,4,2025
+Carlton Station,Entry,60008,4,2025
+Carlton Station,Exit,54833,4,2025
+Carramar Station,Entry,13561,4,2025
+Carramar Station,Exit,11687,4,2025
+Casula Station,Entry,9161,4,2025
+Casula Station,Exit,8237,4,2025
+Central Station,Entry,2174771,4,2025
+Central Station,Exit,2242834,4,2025
+Chatswood Station,Entry,785144,4,2025
+Chatswood Station,Exit,811436,4,2025
+Cheltenham Station,Entry,17886,4,2025
+Cheltenham Station,Exit,15568,4,2025
+Chester Hill Station,Entry,26572,4,2025
+Chester Hill Station,Exit,24758,4,2025
+Circular Quay Station,Entry,543667,4,2025
+Circular Quay Station,Exit,538844,4,2025
+Clarendon Station,Entry,1681,4,2025
+Clarendon Station,Exit,1589,4,2025
+Clyde Station,Entry,21214,4,2025
+Clyde Station,Exit,19809,4,2025
+Como Station,Entry,14171,4,2025
+Como Station,Exit,11883,4,2025
+Concord West Station,Entry,44260,4,2025
+Concord West Station,Exit,42620,4,2025
+Cronulla Station,Entry,61039,4,2025
+Cronulla Station,Exit,61091,4,2025
+Croydon Station,Entry,48230,4,2025
+Croydon Station,Exit,43571,4,2025
+Denistone Station,Entry,12111,4,2025
+Denistone Station,Exit,10864,4,2025
+Doonside Station,Entry,62568,4,2025
+Doonside Station,Exit,56097,4,2025
+East Hills Station,Entry,18639,4,2025
+East Hills Station,Exit,16877,4,2025
+East Richmond Station,Entry,4333,4,2025
+East Richmond Station,Exit,5770,4,2025
+Eastwood Station,Entry,161410,4,2025
+Eastwood Station,Exit,163022,4,2025
+Edgecliff Station,Entry,173686,4,2025
+Edgecliff Station,Exit,167927,4,2025
+Edmondson Park Station,Entry,97896,4,2025
+Edmondson Park Station,Exit,93476,4,2025
+Emu Plains Station,Entry,23993,4,2025
+Emu Plains Station,Exit,22307,4,2025
+Engadine Station,Entry,24086,4,2025
+Engadine Station,Exit,22746,4,2025
+Epping Station,Entry,344641,4,2025
+Epping Station,Exit,337466,4,2025
+Erskineville Station,Entry,55051,4,2025
+Erskineville Station,Exit,50554,4,2025
+Fairfield Station,Entry,131904,4,2025
+Fairfield Station,Exit,126879,4,2025
+Flemington Station,Entry,120301,4,2025
+Flemington Station,Exit,114599,4,2025
+Glenfield Station,Entry,116245,4,2025
+Glenfield Station,Exit,108281,4,2025
+Gordon Station,Entry,136408,4,2025
+Gordon Station,Exit,133973,4,2025
+Granville Station,Entry,160509,4,2025
+Granville Station,Exit,150988,4,2025
+Green Square Station,Entry,207543,4,2025
+Green Square Station,Exit,200423,4,2025
+Guildford Station,Entry,65858,4,2025
+Guildford Station,Exit,58682,4,2025
+Gymea Station,Entry,42366,4,2025
+Gymea Station,Exit,38648,4,2025
+Harris Park Station,Entry,65405,4,2025
+Harris Park Station,Exit,65894,4,2025
+Heathcote Station,Entry,10302,4,2025
+Heathcote Station,Exit,10327,4,2025
+Helensburgh Station,Entry,9045,4,2025
+Helensburgh Station,Exit,8190,4,2025
+Holsworthy Station,Entry,62481,4,2025
+Holsworthy Station,Exit,58870,4,2025
+Homebush Station,Entry,90285,4,2025
+Homebush Station,Exit,85599,4,2025
+Hornsby Station,Entry,263212,4,2025
+Hornsby Station,Exit,265574,4,2025
+Hurstville Station,Entry,448667,4,2025
+Hurstville Station,Exit,451106,4,2025
+Ingleburn Station,Entry,66982,4,2025
+Ingleburn Station,Exit,65903,4,2025
+Jannali Station,Entry,51342,4,2025
+Jannali Station,Exit,48764,4,2025
+Killara Station,Entry,43621,4,2025
+Killara Station,Exit,41241,4,2025
+Kings Cross Station,Entry,300584,4,2025
+Kings Cross Station,Exit,311759,4,2025
+Kingsgrove Station,Entry,47835,4,2025
+Kingsgrove Station,Exit,45626,4,2025
+Kingswood Station,Entry,47796,4,2025
+Kingswood Station,Exit,44902,4,2025
+Kirrawee Station,Entry,38369,4,2025
+Kirrawee Station,Exit,37224,4,2025
+Kogarah Station,Entry,233603,4,2025
+Kogarah Station,Exit,224164,4,2025
+Leightonfield Station,Entry,4607,4,2025
+Leightonfield Station,Exit,4564,4,2025
+Leppington Station,Entry,96098,4,2025
+Leppington Station,Exit,91639,4,2025
+Leumeah Station,Entry,54911,4,2025
+Leumeah Station,Exit,51871,4,2025
+Lewisham Station,Entry,54984,4,2025
+Lewisham Station,Exit,51851,4,2025
+Lidcombe Station,Entry,323602,4,2025
+Lidcombe Station,Exit,315576,4,2025
+Lindfield Station,Entry,82750,4,2025
+Lindfield Station,Exit,80024,4,2025
+Liverpool Station,Entry,195388,4,2025
+Liverpool Station,Exit,191359,4,2025
+Loftus Station,Entry,8072,4,2025
+Loftus Station,Exit,7304,4,2025
+Macarthur Station,Entry,69340,4,2025
+Macarthur Station,Exit,67289,4,2025
+Macdonaldtown Station,Entry,23748,4,2025
+Macdonaldtown Station,Exit,23611,4,2025
+Macquarie Fields Station,Entry,20926,4,2025
+Macquarie Fields Station,Exit,19872,4,2025
+Marayong Station,Entry,22137,4,2025
+Marayong Station,Exit,19934,4,2025
+Martin Place Station,Entry,797519,4,2025
+Martin Place Station,Exit,893730,4,2025
+Mascot Station,Entry,362074,4,2025
+Mascot Station,Exit,363166,4,2025
+Meadowbank Station,Entry,111215,4,2025
+Meadowbank Station,Exit,100636,4,2025
+Merrylands Station,Entry,141767,4,2025
+Merrylands Station,Exit,137423,4,2025
+Milsons Point Station,Entry,144953,4,2025
+Milsons Point Station,Exit,156300,4,2025
+Minto Station,Entry,64935,4,2025
+Minto Station,Exit,61773,4,2025
+Miranda Station,Entry,78636,4,2025
+Miranda Station,Exit,81947,4,2025
+Mortdale Station,Entry,74244,4,2025
+Mortdale Station,Exit,67184,4,2025
+Mount Colah Station,Entry,12756,4,2025
+Mount Colah Station,Exit,11695,4,2025
+Mount Druitt Station,Entry,136052,4,2025
+Mount Druitt Station,Exit,134100,4,2025
+Mount Kuring-gai Station,Entry,4753,4,2025
+Mount Kuring-gai Station,Exit,4812,4,2025
+Mulgrave Station,Entry,5300,4,2025
+Mulgrave Station,Exit,5193,4,2025
+Museum Station,Entry,196496,4,2025
+Museum Station,Exit,231307,4,2025
+Narwee Station,Entry,40416,4,2025
+Narwee Station,Exit,36568,4,2025
+Newtown Station,Entry,222995,4,2025
+Newtown Station,Exit,252268,4,2025
+Normanhurst Station,Entry,24941,4,2025
+Normanhurst Station,Exit,20528,4,2025
+North Strathfield Station,Entry,57843,4,2025
+North Strathfield Station,Exit,56456,4,2025
+North Sydney Station,Entry,218725,4,2025
+North Sydney Station,Exit,236139,4,2025
+Oatley Station,Entry,41089,4,2025
+Oatley Station,Exit,38271,4,2025
+Olympic Park Station,Entry,119263,4,2025
+Olympic Park Station,Exit,166476,4,2025
+Padstow Station,Entry,55408,4,2025
+Padstow Station,Exit,51028,4,2025
+Panania Station,Entry,35124,4,2025
+Panania Station,Exit,31856,4,2025
+Parramatta Station,Entry,931850,4,2025
+Parramatta Station,Exit,942132,4,2025
+Pendle Hill Station,Entry,69232,4,2025
+Pendle Hill Station,Exit,64908,4,2025
+Pennant Hills Station,Entry,39042,4,2025
+Pennant Hills Station,Exit,37539,4,2025
+Penrith Station,Entry,162049,4,2025
+Penrith Station,Exit,164602,4,2025
+Penshurst Station,Entry,64988,4,2025
+Penshurst Station,Exit,55885,4,2025
+Petersham Station,Entry,72377,4,2025
+Petersham Station,Exit,70222,4,2025
+Pymble Station,Entry,45742,4,2025
+Pymble Station,Exit,42206,4,2025
+Quakers Hill Station,Entry,54734,4,2025
+Quakers Hill Station,Exit,49056,4,2025
+Redfern Station,Entry,600242,4,2025
+Redfern Station,Exit,641523,4,2025
+Regents Park Station,Entry,31338,4,2025
+Regents Park Station,Exit,28743,4,2025
+Revesby Station,Entry,122497,4,2025
+Revesby Station,Exit,120915,4,2025
+Rhodes Station,Entry,226158,4,2025
+Rhodes Station,Exit,223262,4,2025
+Richmond Station,Entry,17543,4,2025
+Richmond Station,Exit,15233,4,2025
+Riverstone Station,Entry,25742,4,2025
+Riverstone Station,Exit,23624,4,2025
+Riverwood Station,Entry,73998,4,2025
+Riverwood Station,Exit,70003,4,2025
+Rockdale Station,Entry,224802,4,2025
+Rockdale Station,Exit,215874,4,2025
+Rooty Hill Station,Entry,81603,4,2025
+Rooty Hill Station,Exit,77256,4,2025
+Roseville Station,Entry,59789,4,2025
+Roseville Station,Exit,57118,4,2025
+Schofields Station,Entry,89903,4,2025
+Schofields Station,Exit,86102,4,2025
+Sefton Station,Entry,19058,4,2025
+Sefton Station,Exit,17291,4,2025
+Seven Hills Station,Entry,131276,4,2025
+Seven Hills Station,Exit,124623,4,2025
+St James Station,Entry,147311,4,2025
+St James Station,Exit,170028,4,2025
+St Leonards Station,Entry,215062,4,2025
+St Leonards Station,Exit,213736,4,2025
+St Marys Station,Entry,94301,4,2025
+St Marys Station,Exit,91037,4,2025
+St Peters Station,Entry,62526,4,2025
+St Peters Station,Exit,55113,4,2025
+Stanmore Station,Entry,61730,4,2025
+Stanmore Station,Exit,57063,4,2025
+Strathfield Station,Entry,563619,4,2025
+Strathfield Station,Exit,544110,4,2025
+Summer Hill Station,Entry,73013,4,2025
+Summer Hill Station,Exit,69040,4,2025
+Sutherland Station,Entry,147139,4,2025
+Sutherland Station,Exit,144915,4,2025
+Sydenham Station,Entry,469436,4,2025
+Sydenham Station,Exit,461312,4,2025
+Tempe Station,Entry,28368,4,2025
+Tempe Station,Exit,27404,4,2025
+Thornleigh Station,Entry,37210,4,2025
+Thornleigh Station,Exit,35692,4,2025
+Toongabbie Station,Entry,63926,4,2025
+Toongabbie Station,Exit,60454,4,2025
+Town Hall Station,Entry,1678900,4,2025
+Town Hall Station,Exit,1571627,4,2025
+Turramurra Station,Entry,77578,4,2025
+Turramurra Station,Exit,73236,4,2025
+Turrella Station,Entry,23585,4,2025
+Turrella Station,Exit,21794,4,2025
+Villawood Station,Entry,11284,4,2025
+Villawood Station,Exit,11006,4,2025
+Vineyard Station,Entry,3506,4,2025
+Vineyard Station,Exit,3275,4,2025
+Wahroonga Station,Entry,38516,4,2025
+Wahroonga Station,Exit,36954,4,2025
+Waitara Station,Entry,60544,4,2025
+Waitara Station,Exit,56987,4,2025
+Warrawee Station,Entry,17915,4,2025
+Warrawee Station,Exit,16578,4,2025
+Warwick Farm Station,Entry,53950,4,2025
+Warwick Farm Station,Exit,48866,4,2025
+Waterfall Station,Entry,7842,4,2025
+Waterfall Station,Exit,8019,4,2025
+Waverton Station,Entry,40306,4,2025
+Waverton Station,Exit,35629,4,2025
+Wentworthville Station,Entry,86407,4,2025
+Wentworthville Station,Exit,82026,4,2025
+Werrington Station,Entry,28207,4,2025
+Werrington Station,Exit,25043,4,2025
+West Ryde Station,Entry,104173,4,2025
+West Ryde Station,Exit,104591,4,2025
+Westmead Station,Entry,145658,4,2025
+Westmead Station,Exit,136438,4,2025
+Windsor Station,Entry,15515,4,2025
+Windsor Station,Exit,15106,4,2025
+Wolli Creek Station,Entry,204882,4,2025
+Wolli Creek Station,Exit,205395,4,2025
+Wollstonecraft Station,Entry,42988,4,2025
+Wollstonecraft Station,Exit,39039,4,2025
+Woolooware Station,Entry,26058,4,2025
+Woolooware Station,Exit,24320,4,2025
+Wynyard Station,Entry,997924,4,2025
+Wynyard Station,Exit,1047990,4,2025
+Yagoona Station,Entry,19763,4,2025
+Yagoona Station,Exit,18122,4,2025
+Yennora Station,Entry,23626,4,2025
+Yennora Station,Exit,24457,4,2025
+Allawah Station,Entry,60942,5,2025
+Allawah Station,Exit,54277,5,2025
+Arncliffe Station,Entry,60557,5,2025
+Arncliffe Station,Exit,55953,5,2025
+Artarmon Station,Entry,101297,5,2025
+Artarmon Station,Exit,95218,5,2025
+Ashfield Station,Entry,262075,5,2025
+Ashfield Station,Exit,258974,5,2025
+Asquith Station,Entry,30247,5,2025
+Asquith Station,Exit,26048,5,2025
+Auburn Station,Entry,351292,5,2025
+Auburn Station,Exit,329638,5,2025
+Banksia Station,Entry,34754,5,2025
+Banksia Station,Exit,31330,5,2025
+Bankstown Station,Entry,371,5,2025
+Bankstown Station,Exit,453,5,2025
+Bardwell Park Station,Entry,22666,5,2025
+Bardwell Park Station,Exit,19402,5,2025
+Beecroft Station,Entry,30603,5,2025
+Beecroft Station,Exit,28893,5,2025
+Berala Station,Entry,34988,5,2025
+Berala Station,Exit,28816,5,2025
+Berowra Station,Entry,26164,5,2025
+Berowra Station,Exit,23937,5,2025
+Beverly Hills Station,Entry,44417,5,2025
+Beverly Hills Station,Exit,39456,5,2025
+Bexley North Station,Entry,28742,5,2025
+Bexley North Station,Exit,25866,5,2025
+Birrong Station,Entry,25,5,2025
+Birrong Station,Exit,25,5,2025
+Blacktown Station,Entry,360996,5,2025
+Blacktown Station,Exit,376724,5,2025
+Bondi Junction Station,Entry,546316,5,2025
+Bondi Junction Station,Exit,537784,5,2025
+Burwood Station,Entry,490121,5,2025
+Burwood Station,Exit,505135,5,2025
+Cabramatta Station,Entry,173673,5,2025
+Cabramatta Station,Exit,168881,5,2025
+Campbelltown Station,Entry,130553,5,2025
+Campbelltown Station,Exit,128655,5,2025
+Canley Vale Station,Entry,53278,5,2025
+Canley Vale Station,Exit,46418,5,2025
+Caringbah Station,Entry,59754,5,2025
+Caringbah Station,Exit,56085,5,2025
+Carlton Station,Entry,64633,5,2025
+Carlton Station,Exit,58889,5,2025
+Carramar Station,Entry,12833,5,2025
+Carramar Station,Exit,10532,5,2025
+Casula Station,Entry,9290,5,2025
+Casula Station,Exit,7885,5,2025
+Central Station,Entry,2078247,5,2025
+Central Station,Exit,2173381,5,2025
+Chatswood Station,Entry,841191,5,2025
+Chatswood Station,Exit,873307,5,2025
+Cheltenham Station,Entry,23679,5,2025
+Cheltenham Station,Exit,19265,5,2025
+Chester Hill Station,Entry,23479,5,2025
+Chester Hill Station,Exit,21422,5,2025
+Circular Quay Station,Entry,558870,5,2025
+Circular Quay Station,Exit,502536,5,2025
+Clarendon Station,Entry,3060,5,2025
+Clarendon Station,Exit,3863,5,2025
+Clyde Station,Entry,21549,5,2025
+Clyde Station,Exit,20198,5,2025
+Como Station,Entry,15080,5,2025
+Como Station,Exit,12665,5,2025
+Concord West Station,Entry,44994,5,2025
+Concord West Station,Exit,41524,5,2025
+Cronulla Station,Entry,55314,5,2025
+Cronulla Station,Exit,54613,5,2025
+Croydon Station,Entry,53663,5,2025
+Croydon Station,Exit,47154,5,2025
+Denistone Station,Entry,12228,5,2025
+Denistone Station,Exit,10665,5,2025
+Doonside Station,Entry,64282,5,2025
+Doonside Station,Exit,55282,5,2025
+East Hills Station,Entry,18678,5,2025
+East Hills Station,Exit,16718,5,2025
+East Richmond Station,Entry,5024,5,2025
+East Richmond Station,Exit,6407,5,2025
+Eastwood Station,Entry,159531,5,2025
+Eastwood Station,Exit,160770,5,2025
+Edgecliff Station,Entry,197830,5,2025
+Edgecliff Station,Exit,189880,5,2025
+Edmondson Park Station,Entry,95968,5,2025
+Edmondson Park Station,Exit,90890,5,2025
+Emu Plains Station,Entry,25228,5,2025
+Emu Plains Station,Exit,22711,5,2025
+Engadine Station,Entry,27188,5,2025
+Engadine Station,Exit,25429,5,2025
+Epping Station,Entry,393781,5,2025
+Epping Station,Exit,389861,5,2025
+Erskineville Station,Entry,55432,5,2025
+Erskineville Station,Exit,49920,5,2025
+Fairfield Station,Entry,137289,5,2025
+Fairfield Station,Exit,131239,5,2025
+Flemington Station,Entry,122020,5,2025
+Flemington Station,Exit,114501,5,2025
+Glenfield Station,Entry,146149,5,2025
+Glenfield Station,Exit,138450,5,2025
+Gordon Station,Entry,163896,5,2025
+Gordon Station,Exit,159380,5,2025
+Granville Station,Entry,175344,5,2025
+Granville Station,Exit,166527,5,2025
+Green Square Station,Entry,201920,5,2025
+Green Square Station,Exit,194211,5,2025
+Guildford Station,Entry,64108,5,2025
+Guildford Station,Exit,55182,5,2025
+Gymea Station,Entry,44013,5,2025
+Gymea Station,Exit,40569,5,2025
+Harris Park Station,Entry,61823,5,2025
+Harris Park Station,Exit,62718,5,2025
+Heathcote Station,Entry,10880,5,2025
+Heathcote Station,Exit,10600,5,2025
+Helensburgh Station,Entry,9696,5,2025
+Helensburgh Station,Exit,8755,5,2025
+Holsworthy Station,Entry,63490,5,2025
+Holsworthy Station,Exit,59612,5,2025
+Homebush Station,Entry,90465,5,2025
+Homebush Station,Exit,83582,5,2025
+Hornsby Station,Entry,280542,5,2025
+Hornsby Station,Exit,286000,5,2025
+Hurstville Station,Entry,476523,5,2025
+Hurstville Station,Exit,481298,5,2025
+Ingleburn Station,Entry,67864,5,2025
+Ingleburn Station,Exit,66022,5,2025
+Jannali Station,Entry,55184,5,2025
+Jannali Station,Exit,52454,5,2025
+Killara Station,Entry,47079,5,2025
+Killara Station,Exit,43683,5,2025
+Kings Cross Station,Entry,346211,5,2025
+Kings Cross Station,Exit,357637,5,2025
+Kingsgrove Station,Entry,48598,5,2025
+Kingsgrove Station,Exit,45897,5,2025
+Kingswood Station,Entry,50209,5,2025
+Kingswood Station,Exit,46012,5,2025
+Kirrawee Station,Entry,41625,5,2025
+Kirrawee Station,Exit,39790,5,2025
+Kogarah Station,Entry,253082,5,2025
+Kogarah Station,Exit,242080,5,2025
+Leightonfield Station,Entry,4839,5,2025
+Leightonfield Station,Exit,4660,5,2025
+Leppington Station,Entry,95622,5,2025
+Leppington Station,Exit,90350,5,2025
+Leumeah Station,Entry,55064,5,2025
+Leumeah Station,Exit,51782,5,2025
+Lewisham Station,Entry,59672,5,2025
+Lewisham Station,Exit,53857,5,2025
+Lidcombe Station,Entry,381416,5,2025
+Lidcombe Station,Exit,386016,5,2025
+Lindfield Station,Entry,89855,5,2025
+Lindfield Station,Exit,86946,5,2025
+Liverpool Station,Entry,199039,5,2025
+Liverpool Station,Exit,194807,5,2025
+Loftus Station,Entry,9322,5,2025
+Loftus Station,Exit,8481,5,2025
+Macarthur Station,Entry,67358,5,2025
+Macarthur Station,Exit,64903,5,2025
+Macdonaldtown Station,Entry,26525,5,2025
+Macdonaldtown Station,Exit,25680,5,2025
+Macquarie Fields Station,Entry,21443,5,2025
+Macquarie Fields Station,Exit,19329,5,2025
+Marayong Station,Entry,23223,5,2025
+Marayong Station,Exit,20179,5,2025
+Martin Place Station,Entry,885785,5,2025
+Martin Place Station,Exit,992408,5,2025
+Mascot Station,Entry,348877,5,2025
+Mascot Station,Exit,346633,5,2025
+Meadowbank Station,Entry,118039,5,2025
+Meadowbank Station,Exit,104433,5,2025
+Merrylands Station,Entry,138903,5,2025
+Merrylands Station,Exit,131397,5,2025
+Milsons Point Station,Entry,159414,5,2025
+Milsons Point Station,Exit,169041,5,2025
+Minto Station,Entry,65073,5,2025
+Minto Station,Exit,60901,5,2025
+Miranda Station,Entry,80236,5,2025
+Miranda Station,Exit,82590,5,2025
+Mortdale Station,Entry,80954,5,2025
+Mortdale Station,Exit,73537,5,2025
+Mount Colah Station,Entry,13319,5,2025
+Mount Colah Station,Exit,11657,5,2025
+Mount Druitt Station,Entry,140853,5,2025
+Mount Druitt Station,Exit,137283,5,2025
+Mount Kuring-gai Station,Entry,4862,5,2025
+Mount Kuring-gai Station,Exit,4397,5,2025
+Mulgrave Station,Entry,5707,5,2025
+Mulgrave Station,Exit,5339,5,2025
+Museum Station,Entry,184766,5,2025
+Museum Station,Exit,221003,5,2025
+Narwee Station,Entry,40120,5,2025
+Narwee Station,Exit,35147,5,2025
+Newtown Station,Entry,240570,5,2025
+Newtown Station,Exit,272117,5,2025
+Normanhurst Station,Entry,28338,5,2025
+Normanhurst Station,Exit,22558,5,2025
+North Strathfield Station,Entry,60210,5,2025
+North Strathfield Station,Exit,57769,5,2025
+North Sydney Station,Entry,238407,5,2025
+North Sydney Station,Exit,261285,5,2025
+Oatley Station,Entry,44939,5,2025
+Oatley Station,Exit,41659,5,2025
+Olympic Park Station,Entry,86291,5,2025
+Olympic Park Station,Exit,91558,5,2025
+Padstow Station,Entry,54540,5,2025
+Padstow Station,Exit,50959,5,2025
+Panania Station,Entry,35735,5,2025
+Panania Station,Exit,32595,5,2025
+Parramatta Station,Entry,958672,5,2025
+Parramatta Station,Exit,978383,5,2025
+Pendle Hill Station,Entry,73563,5,2025
+Pendle Hill Station,Exit,66979,5,2025
+Pennant Hills Station,Entry,40479,5,2025
+Pennant Hills Station,Exit,38017,5,2025
+Penrith Station,Entry,165267,5,2025
+Penrith Station,Exit,168516,5,2025
+Penshurst Station,Entry,70105,5,2025
+Penshurst Station,Exit,59998,5,2025
+Petersham Station,Entry,78985,5,2025
+Petersham Station,Exit,75169,5,2025
+Pymble Station,Entry,50569,5,2025
+Pymble Station,Exit,45515,5,2025
+Quakers Hill Station,Entry,57641,5,2025
+Quakers Hill Station,Exit,49148,5,2025
+Redfern Station,Entry,652380,5,2025
+Redfern Station,Exit,705708,5,2025
+Regents Park Station,Entry,33422,5,2025
+Regents Park Station,Exit,29004,5,2025
+Revesby Station,Entry,121661,5,2025
+Revesby Station,Exit,117224,5,2025
+Rhodes Station,Entry,225553,5,2025
+Rhodes Station,Exit,216604,5,2025
+Richmond Station,Entry,17453,5,2025
+Richmond Station,Exit,14226,5,2025
+Riverstone Station,Entry,28780,5,2025
+Riverstone Station,Exit,26507,5,2025
+Riverwood Station,Entry,72873,5,2025
+Riverwood Station,Exit,67261,5,2025
+Rockdale Station,Entry,234211,5,2025
+Rockdale Station,Exit,225912,5,2025
+Rooty Hill Station,Entry,82812,5,2025
+Rooty Hill Station,Exit,76179,5,2025
+Roseville Station,Entry,67893,5,2025
+Roseville Station,Exit,63652,5,2025
+Schofields Station,Entry,94095,5,2025
+Schofields Station,Exit,85294,5,2025
+Sefton Station,Entry,19497,5,2025
+Sefton Station,Exit,17045,5,2025
+Seven Hills Station,Entry,136468,5,2025
+Seven Hills Station,Exit,126870,5,2025
+St James Station,Entry,147520,5,2025
+St James Station,Exit,172303,5,2025
+St Leonards Station,Entry,242021,5,2025
+St Leonards Station,Exit,245281,5,2025
+St Marys Station,Entry,103131,5,2025
+St Marys Station,Exit,99116,5,2025
+St Peters Station,Entry,64099,5,2025
+St Peters Station,Exit,55153,5,2025
+Stanmore Station,Entry,69213,5,2025
+Stanmore Station,Exit,61448,5,2025
+Strathfield Station,Entry,604756,5,2025
+Strathfield Station,Exit,596214,5,2025
+Summer Hill Station,Entry,77915,5,2025
+Summer Hill Station,Exit,71809,5,2025
+Sutherland Station,Entry,151083,5,2025
+Sutherland Station,Exit,147155,5,2025
+Sydenham Station,Entry,515480,5,2025
+Sydenham Station,Exit,504779,5,2025
+Tempe Station,Entry,32839,5,2025
+Tempe Station,Exit,31172,5,2025
+Thornleigh Station,Entry,37235,5,2025
+Thornleigh Station,Exit,35197,5,2025
+Toongabbie Station,Entry,65805,5,2025
+Toongabbie Station,Exit,61370,5,2025
+Town Hall Station,Entry,1788910,5,2025
+Town Hall Station,Exit,1738482,5,2025
+Turramurra Station,Entry,83665,5,2025
+Turramurra Station,Exit,76940,5,2025
+Turrella Station,Entry,22689,5,2025
+Turrella Station,Exit,20540,5,2025
+Villawood Station,Entry,11068,5,2025
+Villawood Station,Exit,10188,5,2025
+Vineyard Station,Entry,3788,5,2025
+Vineyard Station,Exit,3291,5,2025
+Wahroonga Station,Entry,44251,5,2025
+Wahroonga Station,Exit,40758,5,2025
+Waitara Station,Entry,67888,5,2025
+Waitara Station,Exit,61578,5,2025
+Warrawee Station,Entry,23768,5,2025
+Warrawee Station,Exit,21240,5,2025
+Warwick Farm Station,Entry,52228,5,2025
+Warwick Farm Station,Exit,47023,5,2025
+Waterfall Station,Entry,8846,5,2025
+Waterfall Station,Exit,8692,5,2025
+Waverton Station,Entry,44774,5,2025
+Waverton Station,Exit,39274,5,2025
+Wentworthville Station,Entry,87792,5,2025
+Wentworthville Station,Exit,81625,5,2025
+Werrington Station,Entry,29206,5,2025
+Werrington Station,Exit,25360,5,2025
+West Ryde Station,Entry,103315,5,2025
+West Ryde Station,Exit,101564,5,2025
+Westmead Station,Entry,153799,5,2025
+Westmead Station,Exit,141837,5,2025
+Windsor Station,Entry,15449,5,2025
+Windsor Station,Exit,14818,5,2025
+Wolli Creek Station,Entry,215264,5,2025
+Wolli Creek Station,Exit,215697,5,2025
+Wollstonecraft Station,Entry,47251,5,2025
+Wollstonecraft Station,Exit,43052,5,2025
+Woolooware Station,Entry,28136,5,2025
+Woolooware Station,Exit,26531,5,2025
+Wynyard Station,Entry,1105010,5,2025
+Wynyard Station,Exit,1191008,5,2025
+Yagoona Station,Entry,255,5,2025
+Yagoona Station,Exit,127,5,2025
+Yennora Station,Entry,23099,5,2025
+Yennora Station,Exit,23101,5,2025
+Allawah Station,Entry,57513,6,2025
+Allawah Station,Exit,51985,6,2025
+Arncliffe Station,Entry,53448,6,2025
+Arncliffe Station,Exit,48139,6,2025
+Artarmon Station,Entry,99205,6,2025
+Artarmon Station,Exit,95536,6,2025
+Ashfield Station,Entry,261247,6,2025
+Ashfield Station,Exit,257836,6,2025
+Asquith Station,Entry,30967,6,2025
+Asquith Station,Exit,27453,6,2025
+Auburn Station,Entry,352136,6,2025
+Auburn Station,Exit,335187,6,2025
+Banksia Station,Entry,31919,6,2025
+Banksia Station,Exit,28770,6,2025
+Bankstown Station,Entry,3618,6,2025
+Bankstown Station,Exit,3844,6,2025
+Bardwell Park Station,Entry,23344,6,2025
+Bardwell Park Station,Exit,20790,6,2025
+Beecroft Station,Entry,30616,6,2025
+Beecroft Station,Exit,29315,6,2025
+Berala Station,Entry,35803,6,2025
+Berala Station,Exit,30757,6,2025
+Berowra Station,Entry,25924,6,2025
+Berowra Station,Exit,23847,6,2025
+Beverly Hills Station,Entry,47356,6,2025
+Beverly Hills Station,Exit,43085,6,2025
+Bexley North Station,Entry,30470,6,2025
+Bexley North Station,Exit,28245,6,2025
+Birrong Station,Entry,331,6,2025
+Birrong Station,Exit,339,6,2025
+Blacktown Station,Entry,335067,6,2025
+Blacktown Station,Exit,348145,6,2025
+Bondi Junction Station,Entry,498175,6,2025
+Bondi Junction Station,Exit,494270,6,2025
+Burwood Station,Entry,496412,6,2025
+Burwood Station,Exit,510620,6,2025
+Cabramatta Station,Entry,178805,6,2025
+Cabramatta Station,Exit,175938,6,2025
+Campbelltown Station,Entry,130788,6,2025
+Campbelltown Station,Exit,130183,6,2025
+Campsie Station,Entry,25,6,2025
+Campsie Station,Exit,25,6,2025
+Canley Vale Station,Entry,54327,6,2025
+Canley Vale Station,Exit,49927,6,2025
+Canterbury Station,Entry,25,6,2025
+Canterbury Station,Exit,25,6,2025
+Caringbah Station,Entry,54050,6,2025
+Caringbah Station,Exit,50313,6,2025
+Carlton Station,Entry,61147,6,2025
+Carlton Station,Exit,55472,6,2025
+Carramar Station,Entry,13763,6,2025
+Carramar Station,Exit,11684,6,2025
+Casula Station,Entry,8889,6,2025
+Casula Station,Exit,7690,6,2025
+Central Station,Entry,1981218,6,2025
+Central Station,Exit,2064692,6,2025
+Chatswood Station,Entry,830131,6,2025
+Chatswood Station,Exit,859357,6,2025
+Cheltenham Station,Entry,22929,6,2025
+Cheltenham Station,Exit,18806,6,2025
+Chester Hill Station,Entry,25044,6,2025
+Chester Hill Station,Exit,23394,6,2025
+Circular Quay Station,Entry,686934,6,2025
+Circular Quay Station,Exit,591156,6,2025
+Clarendon Station,Entry,1354,6,2025
+Clarendon Station,Exit,1338,6,2025
+Clyde Station,Entry,21937,6,2025
+Clyde Station,Exit,20409,6,2025
+Como Station,Entry,13749,6,2025
+Como Station,Exit,11685,6,2025
+Concord West Station,Entry,45166,6,2025
+Concord West Station,Exit,42804,6,2025
+Cronulla Station,Entry,49095,6,2025
+Cronulla Station,Exit,48300,6,2025
+Croydon Station,Entry,52123,6,2025
+Croydon Station,Exit,46618,6,2025
+Denistone Station,Entry,12330,6,2025
+Denistone Station,Exit,10861,6,2025
+Doonside Station,Entry,61476,6,2025
+Doonside Station,Exit,54742,6,2025
+East Hills Station,Entry,18560,6,2025
+East Hills Station,Exit,17448,6,2025
+East Richmond Station,Entry,4465,6,2025
+East Richmond Station,Exit,5059,6,2025
+Eastwood Station,Entry,167955,6,2025
+Eastwood Station,Exit,170789,6,2025
+Edgecliff Station,Entry,178031,6,2025
+Edgecliff Station,Exit,170174,6,2025
+Edmondson Park Station,Entry,96512,6,2025
+Edmondson Park Station,Exit,92542,6,2025
+Emu Plains Station,Entry,23165,6,2025
+Emu Plains Station,Exit,21740,6,2025
+Engadine Station,Entry,24817,6,2025
+Engadine Station,Exit,23207,6,2025
+Epping Station,Entry,372625,6,2025
+Epping Station,Exit,366920,6,2025
+Erskineville Station,Entry,48371,6,2025
+Erskineville Station,Exit,42989,6,2025
+Fairfield Station,Entry,126987,6,2025
+Fairfield Station,Exit,122397,6,2025
+Flemington Station,Entry,124839,6,2025
+Flemington Station,Exit,118723,6,2025
+Glenfield Station,Entry,126914,6,2025
+Glenfield Station,Exit,119498,6,2025
+Gordon Station,Entry,150105,6,2025
+Gordon Station,Exit,147312,6,2025
+Granville Station,Entry,200176,6,2025
+Granville Station,Exit,190247,6,2025
+Green Square Station,Entry,218347,6,2025
+Green Square Station,Exit,212338,6,2025
+Guildford Station,Entry,62256,6,2025
+Guildford Station,Exit,56767,6,2025
+Gymea Station,Entry,38638,6,2025
+Gymea Station,Exit,35963,6,2025
+Harris Park Station,Entry,59754,6,2025
+Harris Park Station,Exit,60473,6,2025
+Heathcote Station,Entry,10709,6,2025
+Heathcote Station,Exit,10516,6,2025
+Helensburgh Station,Entry,9264,6,2025
+Helensburgh Station,Exit,8373,6,2025
+Holsworthy Station,Entry,64486,6,2025
+Holsworthy Station,Exit,61756,6,2025
+Homebush Station,Entry,91286,6,2025
+Homebush Station,Exit,85040,6,2025
+Hornsby Station,Entry,281311,6,2025
+Hornsby Station,Exit,286078,6,2025
+Hurstville Station,Entry,441740,6,2025
+Hurstville Station,Exit,446661,6,2025
+Ingleburn Station,Entry,67640,6,2025
+Ingleburn Station,Exit,66203,6,2025
+Jannali Station,Entry,49841,6,2025
+Jannali Station,Exit,47983,6,2025
+Killara Station,Entry,46202,6,2025
+Killara Station,Exit,44022,6,2025
+Kings Cross Station,Entry,311384,6,2025
+Kings Cross Station,Exit,324107,6,2025
+Kingsgrove Station,Entry,50020,6,2025
+Kingsgrove Station,Exit,47483,6,2025
+Kingswood Station,Entry,46947,6,2025
+Kingswood Station,Exit,44088,6,2025
+Kirrawee Station,Entry,37383,6,2025
+Kirrawee Station,Exit,35344,6,2025
+Kogarah Station,Entry,236459,6,2025
+Kogarah Station,Exit,227427,6,2025
+Lakemba Station,Entry,25,6,2025
+Lakemba Station,Exit,25,6,2025
+Leightonfield Station,Entry,5217,6,2025
+Leightonfield Station,Exit,5010,6,2025
+Leppington Station,Entry,95542,6,2025
+Leppington Station,Exit,91645,6,2025
+Leumeah Station,Entry,55801,6,2025
+Leumeah Station,Exit,52674,6,2025
+Lewisham Station,Entry,59829,6,2025
+Lewisham Station,Exit,55630,6,2025
+Lidcombe Station,Entry,370702,6,2025
+Lidcombe Station,Exit,373489,6,2025
+Lindfield Station,Entry,87883,6,2025
+Lindfield Station,Exit,86327,6,2025
+Liverpool Station,Entry,195761,6,2025
+Liverpool Station,Exit,193031,6,2025
+Loftus Station,Entry,8624,6,2025
+Loftus Station,Exit,7797,6,2025
+Macarthur Station,Entry,64376,6,2025
+Macarthur Station,Exit,62949,6,2025
+Macdonaldtown Station,Entry,27468,6,2025
+Macdonaldtown Station,Exit,26688,6,2025
+Macquarie Fields Station,Entry,21402,6,2025
+Macquarie Fields Station,Exit,19569,6,2025
+Marayong Station,Entry,22932,6,2025
+Marayong Station,Exit,20515,6,2025
+Martin Place Station,Entry,856015,6,2025
+Martin Place Station,Exit,949495,6,2025
+Mascot Station,Entry,361319,6,2025
+Mascot Station,Exit,365112,6,2025
+Meadowbank Station,Entry,118479,6,2025
+Meadowbank Station,Exit,109188,6,2025
+Merrylands Station,Entry,143693,6,2025
+Merrylands Station,Exit,139108,6,2025
+Milsons Point Station,Entry,162911,6,2025
+Milsons Point Station,Exit,176718,6,2025
+Minto Station,Entry,65167,6,2025
+Minto Station,Exit,62019,6,2025
+Miranda Station,Entry,71398,6,2025
+Miranda Station,Exit,73215,6,2025
+Mortdale Station,Entry,72382,6,2025
+Mortdale Station,Exit,65797,6,2025
+Mount Colah Station,Entry,13510,6,2025
+Mount Colah Station,Exit,12669,6,2025
+Mount Druitt Station,Entry,132687,6,2025
+Mount Druitt Station,Exit,131517,6,2025
+Mount Kuring-gai Station,Entry,5172,6,2025
+Mount Kuring-gai Station,Exit,5110,6,2025
+Mulgrave Station,Entry,5307,6,2025
+Mulgrave Station,Exit,5149,6,2025
+Museum Station,Entry,206933,6,2025
+Museum Station,Exit,242572,6,2025
+Narwee Station,Entry,41675,6,2025
+Narwee Station,Exit,38080,6,2025
+Newtown Station,Entry,235139,6,2025
+Newtown Station,Exit,266060,6,2025
+Normanhurst Station,Entry,27869,6,2025
+Normanhurst Station,Exit,22984,6,2025
+North Strathfield Station,Entry,61098,6,2025
+North Strathfield Station,Exit,60008,6,2025
+North Sydney Station,Entry,225815,6,2025
+North Sydney Station,Exit,241149,6,2025
+Oatley Station,Entry,40528,6,2025
+Oatley Station,Exit,37673,6,2025
+Olympic Park Station,Entry,81566,6,2025
+Olympic Park Station,Exit,84456,6,2025
+Padstow Station,Entry,56739,6,2025
+Padstow Station,Exit,52575,6,2025
+Panania Station,Entry,36374,6,2025
+Panania Station,Exit,33938,6,2025
+Parramatta Station,Entry,914783,6,2025
+Parramatta Station,Exit,927311,6,2025
+Pendle Hill Station,Entry,70331,6,2025
+Pendle Hill Station,Exit,65281,6,2025
+Pennant Hills Station,Entry,40473,6,2025
+Pennant Hills Station,Exit,38801,6,2025
+Penrith Station,Entry,158231,6,2025
+Penrith Station,Exit,161963,6,2025
+Penshurst Station,Entry,64171,6,2025
+Penshurst Station,Exit,54772,6,2025
+Petersham Station,Entry,77731,6,2025
+Petersham Station,Exit,75065,6,2025
+Pymble Station,Entry,50709,6,2025
+Pymble Station,Exit,46391,6,2025
+Quakers Hill Station,Entry,54862,6,2025
+Quakers Hill Station,Exit,48793,6,2025
+Redfern Station,Entry,518470,6,2025
+Redfern Station,Exit,556006,6,2025
+Regents Park Station,Entry,33896,6,2025
+Regents Park Station,Exit,30017,6,2025
+Revesby Station,Entry,123198,6,2025
+Revesby Station,Exit,121291,6,2025
+Rhodes Station,Entry,227985,6,2025
+Rhodes Station,Exit,223125,6,2025
+Richmond Station,Entry,15700,6,2025
+Richmond Station,Exit,13932,6,2025
+Riverstone Station,Entry,28068,6,2025
+Riverstone Station,Exit,26500,6,2025
+Riverwood Station,Entry,75397,6,2025
+Riverwood Station,Exit,72153,6,2025
+Rockdale Station,Entry,218394,6,2025
+Rockdale Station,Exit,212050,6,2025
+Rooty Hill Station,Entry,77788,6,2025
+Rooty Hill Station,Exit,74138,6,2025
+Roseville Station,Entry,64508,6,2025
+Roseville Station,Exit,62079,6,2025
+Schofields Station,Entry,93501,6,2025
+Schofields Station,Exit,88777,6,2025
+Sefton Station,Entry,19967,6,2025
+Sefton Station,Exit,18036,6,2025
+Seven Hills Station,Entry,127966,6,2025
+Seven Hills Station,Exit,121794,6,2025
+St James Station,Entry,164570,6,2025
+St James Station,Exit,189807,6,2025
+St Leonards Station,Entry,235773,6,2025
+St Leonards Station,Exit,237444,6,2025
+St Marys Station,Entry,97515,6,2025
+St Marys Station,Exit,94160,6,2025
+St Peters Station,Entry,56468,6,2025
+St Peters Station,Exit,50038,6,2025
+Stanmore Station,Entry,67192,6,2025
+Stanmore Station,Exit,61327,6,2025
+Strathfield Station,Entry,576411,6,2025
+Strathfield Station,Exit,559369,6,2025
+Summer Hill Station,Entry,76039,6,2025
+Summer Hill Station,Exit,71381,6,2025
+Sutherland Station,Entry,149194,6,2025
+Sutherland Station,Exit,146113,6,2025
+Sydenham Station,Entry,487923,6,2025
+Sydenham Station,Exit,474589,6,2025
+Tempe Station,Entry,29978,6,2025
+Tempe Station,Exit,29027,6,2025
+Thornleigh Station,Entry,38220,6,2025
+Thornleigh Station,Exit,36601,6,2025
+Toongabbie Station,Entry,63403,6,2025
+Toongabbie Station,Exit,60331,6,2025
+Town Hall Station,Entry,1783024,6,2025
+Town Hall Station,Exit,1708548,6,2025
+Turramurra Station,Entry,82645,6,2025
+Turramurra Station,Exit,78274,6,2025
+Turrella Station,Entry,23366,6,2025
+Turrella Station,Exit,21482,6,2025
+Villawood Station,Entry,11445,6,2025
+Villawood Station,Exit,10946,6,2025
+Vineyard Station,Entry,3623,6,2025
+Vineyard Station,Exit,3264,6,2025
+Wahroonga Station,Entry,43005,6,2025
+Wahroonga Station,Exit,40763,6,2025
+Waitara Station,Entry,68587,6,2025
+Waitara Station,Exit,63413,6,2025
+Warrawee Station,Entry,21039,6,2025
+Warrawee Station,Exit,19029,6,2025
+Warwick Farm Station,Entry,53292,6,2025
+Warwick Farm Station,Exit,48285,6,2025
+Waterfall Station,Entry,8441,6,2025
+Waterfall Station,Exit,8495,6,2025
+Waverton Station,Entry,44433,6,2025
+Waverton Station,Exit,39939,6,2025
+Wentworthville Station,Entry,85159,6,2025
+Wentworthville Station,Exit,81181,6,2025
+Werrington Station,Entry,27981,6,2025
+Werrington Station,Exit,24927,6,2025
+West Ryde Station,Entry,106520,6,2025
+West Ryde Station,Exit,107432,6,2025
+Westmead Station,Entry,147331,6,2025
+Westmead Station,Exit,136762,6,2025
+Windsor Station,Entry,14524,6,2025
+Windsor Station,Exit,14268,6,2025
+Wolli Creek Station,Entry,211027,6,2025
+Wolli Creek Station,Exit,212655,6,2025
+Wollstonecraft Station,Entry,45760,6,2025
+Wollstonecraft Station,Exit,42396,6,2025
+Woolooware Station,Entry,23496,6,2025
+Woolooware Station,Exit,22574,6,2025
+Wynyard Station,Entry,1115867,6,2025
+Wynyard Station,Exit,1188021,6,2025
+Yagoona Station,Entry,854,6,2025
+Yagoona Station,Exit,737,6,2025
+Yennora Station,Entry,23187,6,2025
+Yennora Station,Exit,23658,6,2025
+Allawah Station,Entry,58917,7,2025
+Allawah Station,Exit,52867,7,2025
+Arncliffe Station,Entry,57570,7,2025
+Arncliffe Station,Exit,52366,7,2025
+Artarmon Station,Entry,93827,7,2025
+Artarmon Station,Exit,90089,7,2025
+Ashfield Station,Entry,248178,7,2025
+Ashfield Station,Exit,245551,7,2025
+Asquith Station,Entry,28312,7,2025
+Asquith Station,Exit,25825,7,2025
+Auburn Station,Entry,351312,7,2025
+Auburn Station,Exit,333797,7,2025
+Banksia Station,Entry,33060,7,2025
+Banksia Station,Exit,30316,7,2025
+Bankstown Station,Entry,90563,7,2025
+Bankstown Station,Exit,93770,7,2025
+Bardwell Park Station,Entry,21799,7,2025
+Bardwell Park Station,Exit,19785,7,2025
+Beecroft Station,Entry,27971,7,2025
+Beecroft Station,Exit,27281,7,2025
+Belmore Station,Entry,25,7,2025
+Belmore Station,Exit,25,7,2025
+Berala Station,Entry,46705,7,2025
+Berala Station,Exit,43576,7,2025
+Berowra Station,Entry,25754,7,2025
+Berowra Station,Exit,24047,7,2025
+Beverly Hills Station,Entry,43921,7,2025
+Beverly Hills Station,Exit,39508,7,2025
+Bexley North Station,Entry,28610,7,2025
+Bexley North Station,Exit,26084,7,2025
+Birrong Station,Entry,8992,7,2025
+Birrong Station,Exit,9240,7,2025
+Blacktown Station,Entry,338414,7,2025
+Blacktown Station,Exit,350860,7,2025
+Bondi Junction Station,Entry,510556,7,2025
+Bondi Junction Station,Exit,507173,7,2025
+Burwood Station,Entry,485283,7,2025
+Burwood Station,Exit,496751,7,2025
+Cabramatta Station,Entry,181641,7,2025
+Cabramatta Station,Exit,178425,7,2025
+Campbelltown Station,Entry,130047,7,2025
+Campbelltown Station,Exit,129211,7,2025
+Campsie Station,Entry,25,7,2025
+Campsie Station,Exit,25,7,2025
+Canley Vale Station,Entry,55134,7,2025
+Canley Vale Station,Exit,50341,7,2025
+Canterbury Station,Entry,25,7,2025
+Canterbury Station,Exit,25,7,2025
+Caringbah Station,Entry,55257,7,2025
+Caringbah Station,Exit,52447,7,2025
+Carlton Station,Entry,62898,7,2025
+Carlton Station,Exit,58029,7,2025
+Carramar Station,Entry,13858,7,2025
+Carramar Station,Exit,11868,7,2025
+Casula Station,Entry,8799,7,2025
+Casula Station,Exit,7725,7,2025
+Central Station,Entry,1994180,7,2025
+Central Station,Exit,2071142,7,2025
+Chatswood Station,Entry,812957,7,2025
+Chatswood Station,Exit,838868,7,2025
+Cheltenham Station,Entry,18110,7,2025
+Cheltenham Station,Exit,15851,7,2025
+Chester Hill Station,Entry,25532,7,2025
+Chester Hill Station,Exit,24022,7,2025
+Circular Quay Station,Entry,479461,7,2025
+Circular Quay Station,Exit,479612,7,2025
+Clarendon Station,Entry,4059,7,2025
+Clarendon Station,Exit,4072,7,2025
+Clyde Station,Entry,22600,7,2025
+Clyde Station,Exit,21311,7,2025
+Como Station,Entry,14076,7,2025
+Como Station,Exit,12094,7,2025
+Concord West Station,Entry,41996,7,2025
+Concord West Station,Exit,40545,7,2025
+Cronulla Station,Entry,58411,7,2025
+Cronulla Station,Exit,56549,7,2025
+Croydon Station,Entry,48298,7,2025
+Croydon Station,Exit,43750,7,2025
+Denistone Station,Entry,11595,7,2025
+Denistone Station,Exit,10498,7,2025
+Doonside Station,Entry,61767,7,2025
+Doonside Station,Exit,55883,7,2025
+Dulwich Hill Station,Entry,25,7,2025
+Dulwich Hill Station,Exit,25,7,2025
+East Hills Station,Entry,17903,7,2025
+East Hills Station,Exit,16242,7,2025
+East Richmond Station,Entry,4161,7,2025
+East Richmond Station,Exit,5018,7,2025
+Eastwood Station,Entry,164550,7,2025
+Eastwood Station,Exit,166663,7,2025
+Edgecliff Station,Entry,173464,7,2025
+Edgecliff Station,Exit,168310,7,2025
+Edmondson Park Station,Entry,94035,7,2025
+Edmondson Park Station,Exit,89868,7,2025
+Emu Plains Station,Entry,23683,7,2025
+Emu Plains Station,Exit,22219,7,2025
+Engadine Station,Entry,25559,7,2025
+Engadine Station,Exit,24447,7,2025
+Epping Station,Entry,358300,7,2025
+Epping Station,Exit,349499,7,2025
+Erskineville Station,Entry,52158,7,2025
+Erskineville Station,Exit,47554,7,2025
+Fairfield Station,Entry,128138,7,2025
+Fairfield Station,Exit,123682,7,2025
+Flemington Station,Entry,123925,7,2025
+Flemington Station,Exit,116530,7,2025
+Glenfield Station,Entry,126093,7,2025
+Glenfield Station,Exit,118972,7,2025
+Gordon Station,Entry,140779,7,2025
+Gordon Station,Exit,139244,7,2025
+Granville Station,Entry,160238,7,2025
+Granville Station,Exit,150463,7,2025
+Green Square Station,Entry,205952,7,2025
+Green Square Station,Exit,199601,7,2025
+Guildford Station,Entry,65680,7,2025
+Guildford Station,Exit,58735,7,2025
+Gymea Station,Entry,41873,7,2025
+Gymea Station,Exit,38632,7,2025
+Harris Park Station,Entry,63993,7,2025
+Harris Park Station,Exit,64426,7,2025
+Heathcote Station,Entry,11109,7,2025
+Heathcote Station,Exit,10836,7,2025
+Helensburgh Station,Entry,6552,7,2025
+Helensburgh Station,Exit,5998,7,2025
+Holsworthy Station,Entry,62568,7,2025
+Holsworthy Station,Exit,59554,7,2025
+Homebush Station,Entry,92483,7,2025
+Homebush Station,Exit,86470,7,2025
+Hornsby Station,Entry,268064,7,2025
+Hornsby Station,Exit,269678,7,2025
+Hurstville Station,Entry,454722,7,2025
+Hurstville Station,Exit,458697,7,2025
+Ingleburn Station,Entry,67917,7,2025
+Ingleburn Station,Exit,67183,7,2025
+Jannali Station,Entry,51035,7,2025
+Jannali Station,Exit,48989,7,2025
+Killara Station,Entry,43873,7,2025
+Killara Station,Exit,42121,7,2025
+Kings Cross Station,Entry,309068,7,2025
+Kings Cross Station,Exit,322459,7,2025
+Kingsgrove Station,Entry,47904,7,2025
+Kingsgrove Station,Exit,46068,7,2025
+Kingswood Station,Entry,47845,7,2025
+Kingswood Station,Exit,44610,7,2025
+Kirrawee Station,Entry,39422,7,2025
+Kirrawee Station,Exit,38270,7,2025
+Kogarah Station,Entry,240068,7,2025
+Kogarah Station,Exit,229462,7,2025
+Lakemba Station,Entry,25,7,2025
+Lakemba Station,Exit,25,7,2025
+Leightonfield Station,Entry,6037,7,2025
+Leightonfield Station,Exit,5878,7,2025
+Leppington Station,Entry,94134,7,2025
+Leppington Station,Exit,89916,7,2025
+Leumeah Station,Entry,54612,7,2025
+Leumeah Station,Exit,51324,7,2025
+Lewisham Station,Entry,55989,7,2025
+Lewisham Station,Exit,52243,7,2025
+Lidcombe Station,Entry,315893,7,2025
+Lidcombe Station,Exit,307944,7,2025
+Lindfield Station,Entry,84215,7,2025
+Lindfield Station,Exit,82511,7,2025
+Liverpool Station,Entry,196356,7,2025
+Liverpool Station,Exit,193161,7,2025
+Loftus Station,Entry,8451,7,2025
+Loftus Station,Exit,7630,7,2025
+Macarthur Station,Entry,66654,7,2025
+Macarthur Station,Exit,65448,7,2025
+Macdonaldtown Station,Entry,24515,7,2025
+Macdonaldtown Station,Exit,23530,7,2025
+Macquarie Fields Station,Entry,20574,7,2025
+Macquarie Fields Station,Exit,19619,7,2025
+Marayong Station,Entry,23554,7,2025
+Marayong Station,Exit,21384,7,2025
+Marrickville Station,Entry,25,7,2025
+Marrickville Station,Exit,25,7,2025
+Martin Place Station,Entry,873207,7,2025
+Martin Place Station,Exit,966867,7,2025
+Mascot Station,Entry,349622,7,2025
+Mascot Station,Exit,350203,7,2025
+Meadowbank Station,Entry,111085,7,2025
+Meadowbank Station,Exit,100959,7,2025
+Merrylands Station,Entry,148825,7,2025
+Merrylands Station,Exit,143900,7,2025
+Milsons Point Station,Entry,158169,7,2025
+Milsons Point Station,Exit,169666,7,2025
+Minto Station,Entry,64841,7,2025
+Minto Station,Exit,61790,7,2025
+Miranda Station,Entry,80359,7,2025
+Miranda Station,Exit,83369,7,2025
+Mortdale Station,Entry,75425,7,2025
+Mortdale Station,Exit,68208,7,2025
+Mount Colah Station,Entry,12965,7,2025
+Mount Colah Station,Exit,12060,7,2025
+Mount Druitt Station,Entry,135738,7,2025
+Mount Druitt Station,Exit,134502,7,2025
+Mount Kuring-gai Station,Entry,4984,7,2025
+Mount Kuring-gai Station,Exit,4909,7,2025
+Mulgrave Station,Entry,5571,7,2025
+Mulgrave Station,Exit,5501,7,2025
+Museum Station,Entry,195696,7,2025
+Museum Station,Exit,225755,7,2025
+Narwee Station,Entry,40188,7,2025
+Narwee Station,Exit,36241,7,2025
+Newtown Station,Entry,222743,7,2025
+Newtown Station,Exit,256699,7,2025
+Normanhurst Station,Entry,24458,7,2025
+Normanhurst Station,Exit,20395,7,2025
+North Strathfield Station,Entry,58868,7,2025
+North Strathfield Station,Exit,58000,7,2025
+North Sydney Station,Entry,227518,7,2025
+North Sydney Station,Exit,241750,7,2025
+Oatley Station,Entry,40269,7,2025
+Oatley Station,Exit,38259,7,2025
+Olympic Park Station,Entry,73295,7,2025
+Olympic Park Station,Exit,82153,7,2025
+Padstow Station,Entry,54095,7,2025
+Padstow Station,Exit,51177,7,2025
+Panania Station,Entry,34516,7,2025
+Panania Station,Exit,31568,7,2025
+Parramatta Station,Entry,964268,7,2025
+Parramatta Station,Exit,971167,7,2025
+Pendle Hill Station,Entry,71064,7,2025
+Pendle Hill Station,Exit,66015,7,2025
+Pennant Hills Station,Entry,38518,7,2025
+Pennant Hills Station,Exit,37183,7,2025
+Penrith Station,Entry,159108,7,2025
+Penrith Station,Exit,162122,7,2025
+Penshurst Station,Entry,66137,7,2025
+Penshurst Station,Exit,57022,7,2025
+Petersham Station,Entry,71725,7,2025
+Petersham Station,Exit,69190,7,2025
+Punchbowl Station,Entry,25,7,2025
+Punchbowl Station,Exit,25,7,2025
+Pymble Station,Entry,45127,7,2025
+Pymble Station,Exit,41974,7,2025
+Quakers Hill Station,Entry,54036,7,2025
+Quakers Hill Station,Exit,48625,7,2025
+Redfern Station,Entry,468311,7,2025
+Redfern Station,Exit,502042,7,2025
+Regents Park Station,Entry,32543,7,2025
+Regents Park Station,Exit,30254,7,2025
+Revesby Station,Entry,120169,7,2025
+Revesby Station,Exit,117026,7,2025
+Rhodes Station,Entry,222963,7,2025
+Rhodes Station,Exit,219302,7,2025
+Richmond Station,Entry,16585,7,2025
+Richmond Station,Exit,14833,7,2025
+Riverstone Station,Entry,26799,7,2025
+Riverstone Station,Exit,25319,7,2025
+Riverwood Station,Entry,72659,7,2025
+Riverwood Station,Exit,68348,7,2025
+Rockdale Station,Entry,224779,7,2025
+Rockdale Station,Exit,216235,7,2025
+Rooty Hill Station,Entry,82309,7,2025
+Rooty Hill Station,Exit,77813,7,2025
+Roseville Station,Entry,58857,7,2025
+Roseville Station,Exit,57340,7,2025
+Schofields Station,Entry,92216,7,2025
+Schofields Station,Exit,88680,7,2025
+Sefton Station,Entry,19174,7,2025
+Sefton Station,Exit,17363,7,2025
+Seven Hills Station,Entry,129986,7,2025
+Seven Hills Station,Exit,124071,7,2025
+St James Station,Entry,153633,7,2025
+St James Station,Exit,172280,7,2025
+St Leonards Station,Entry,230293,7,2025
+St Leonards Station,Exit,230154,7,2025
+St Marys Station,Entry,101385,7,2025
+St Marys Station,Exit,99524,7,2025
+St Peters Station,Entry,59902,7,2025
+St Peters Station,Exit,53180,7,2025
+Stanmore Station,Entry,61838,7,2025
+Stanmore Station,Exit,56454,7,2025
+Strathfield Station,Entry,570989,7,2025
+Strathfield Station,Exit,550555,7,2025
+Summer Hill Station,Entry,73143,7,2025
+Summer Hill Station,Exit,67883,7,2025
+Sutherland Station,Entry,153885,7,2025
+Sutherland Station,Exit,155797,7,2025
+Sydenham Station,Entry,495662,7,2025
+Sydenham Station,Exit,481705,7,2025
+Tempe Station,Entry,29489,7,2025
+Tempe Station,Exit,28708,7,2025
+Thornleigh Station,Entry,37089,7,2025
+Thornleigh Station,Exit,35339,7,2025
+Toongabbie Station,Entry,63477,7,2025
+Toongabbie Station,Exit,60707,7,2025
+Town Hall Station,Entry,1752127,7,2025
+Town Hall Station,Exit,1657792,7,2025
+Turramurra Station,Entry,77653,7,2025
+Turramurra Station,Exit,73960,7,2025
+Turrella Station,Entry,22319,7,2025
+Turrella Station,Exit,20834,7,2025
+Villawood Station,Entry,11715,7,2025
+Villawood Station,Exit,11436,7,2025
+Vineyard Station,Entry,3765,7,2025
+Vineyard Station,Exit,3450,7,2025
+Wahroonga Station,Entry,37316,7,2025
+Wahroonga Station,Exit,36047,7,2025
+Waitara Station,Entry,63300,7,2025
+Waitara Station,Exit,59136,7,2025
+Warrawee Station,Entry,18249,7,2025
+Warrawee Station,Exit,17396,7,2025
+Warwick Farm Station,Entry,53199,7,2025
+Warwick Farm Station,Exit,47962,7,2025
+Waterfall Station,Entry,9195,7,2025
+Waterfall Station,Exit,9248,7,2025
+Waverton Station,Entry,43098,7,2025
+Waverton Station,Exit,38311,7,2025
+Wentworthville Station,Entry,87364,7,2025
+Wentworthville Station,Exit,84018,7,2025
+Werrington Station,Entry,28344,7,2025
+Werrington Station,Exit,25240,7,2025
+West Ryde Station,Entry,103280,7,2025
+West Ryde Station,Exit,103692,7,2025
+Westmead Station,Entry,147549,7,2025
+Westmead Station,Exit,136937,7,2025
+Wiley Park Station,Entry,25,7,2025
+Wiley Park Station,Exit,25,7,2025
+Windsor Station,Entry,15753,7,2025
+Windsor Station,Exit,15187,7,2025
+Wolli Creek Station,Entry,199697,7,2025
+Wolli Creek Station,Exit,199754,7,2025
+Wollstonecraft Station,Entry,44139,7,2025
+Wollstonecraft Station,Exit,40454,7,2025
+Woolooware Station,Entry,25435,7,2025
+Woolooware Station,Exit,24456,7,2025
+Wynyard Station,Entry,1082408,7,2025
+Wynyard Station,Exit,1144223,7,2025
+Yagoona Station,Entry,19854,7,2025
+Yagoona Station,Exit,18726,7,2025
+Yennora Station,Entry,23818,7,2025
+Yennora Station,Exit,24254,7,2025
+Allawah Station,Entry,59301,8,2025
+Allawah Station,Exit,53393,8,2025
+Arncliffe Station,Entry,52918,8,2025
+Arncliffe Station,Exit,48156,8,2025
+Artarmon Station,Entry,98682,8,2025
+Artarmon Station,Exit,94248,8,2025
+Ashfield Station,Entry,257215,8,2025
+Ashfield Station,Exit,257009,8,2025
+Asquith Station,Entry,28999,8,2025
+Asquith Station,Exit,26068,8,2025
+Auburn Station,Entry,363911,8,2025
+Auburn Station,Exit,346105,8,2025
+Banksia Station,Entry,32431,8,2025
+Banksia Station,Exit,30013,8,2025
+Bankstown Station,Entry,88493,8,2025
+Bankstown Station,Exit,90921,8,2025
+Bardwell Park Station,Entry,22545,8,2025
+Bardwell Park Station,Exit,20531,8,2025
+Beecroft Station,Entry,30588,8,2025
+Beecroft Station,Exit,29158,8,2025
+Berala Station,Entry,46660,8,2025
+Berala Station,Exit,42358,8,2025
+Berowra Station,Entry,25136,8,2025
+Berowra Station,Exit,23305,8,2025
+Beverly Hills Station,Entry,45999,8,2025
+Beverly Hills Station,Exit,41377,8,2025
+Bexley North Station,Entry,29599,8,2025
+Bexley North Station,Exit,26982,8,2025
+Birrong Station,Entry,9100,8,2025
+Birrong Station,Exit,8728,8,2025
+Blacktown Station,Entry,348304,8,2025
+Blacktown Station,Exit,360474,8,2025
+Bondi Junction Station,Entry,500520,8,2025
+Bondi Junction Station,Exit,498472,8,2025
+Burwood Station,Entry,504427,8,2025
+Burwood Station,Exit,519125,8,2025
+Cabramatta Station,Entry,178969,8,2025
+Cabramatta Station,Exit,176406,8,2025
+Campbelltown Station,Entry,132244,8,2025
+Campbelltown Station,Exit,132865,8,2025
+Canley Vale Station,Entry,52990,8,2025
+Canley Vale Station,Exit,48782,8,2025
+Caringbah Station,Entry,56045,8,2025
+Caringbah Station,Exit,51977,8,2025
+Carlton Station,Entry,63053,8,2025
+Carlton Station,Exit,58481,8,2025
+Carramar Station,Entry,13710,8,2025
+Carramar Station,Exit,11730,8,2025
+Casula Station,Entry,8883,8,2025
+Casula Station,Exit,7815,8,2025
+Central Station,Entry,2169682,8,2025
+Central Station,Exit,2234345,8,2025
+Chatswood Station,Entry,843666,8,2025
+Chatswood Station,Exit,871940,8,2025
+Cheltenham Station,Entry,22107,8,2025
+Cheltenham Station,Exit,18876,8,2025
+Chester Hill Station,Entry,25631,8,2025
+Chester Hill Station,Exit,23936,8,2025
+Circular Quay Station,Entry,526230,8,2025
+Circular Quay Station,Exit,517651,8,2025
+Clarendon Station,Entry,1921,8,2025
+Clarendon Station,Exit,1925,8,2025
+Clyde Station,Entry,22861,8,2025
+Clyde Station,Exit,21613,8,2025
+Como Station,Entry,13673,8,2025
+Como Station,Exit,11936,8,2025
+Concord West Station,Entry,44231,8,2025
+Concord West Station,Exit,41360,8,2025
+Cronulla Station,Entry,50733,8,2025
+Cronulla Station,Exit,50084,8,2025
+Croydon Station,Entry,52151,8,2025
+Croydon Station,Exit,46404,8,2025
+Denistone Station,Entry,12088,8,2025
+Denistone Station,Exit,10730,8,2025
+Doonside Station,Entry,65310,8,2025
+Doonside Station,Exit,58416,8,2025
+East Hills Station,Entry,18373,8,2025
+East Hills Station,Exit,16572,8,2025
+East Richmond Station,Entry,4714,8,2025
+East Richmond Station,Exit,6444,8,2025
+Eastwood Station,Entry,162831,8,2025
+Eastwood Station,Exit,165442,8,2025
+Edgecliff Station,Entry,181282,8,2025
+Edgecliff Station,Exit,173601,8,2025
+Edmondson Park Station,Entry,100324,8,2025
+Edmondson Park Station,Exit,95744,8,2025
+Emu Plains Station,Entry,24375,8,2025
+Emu Plains Station,Exit,22714,8,2025
+Engadine Station,Entry,25343,8,2025
+Engadine Station,Exit,23866,8,2025
+Epping Station,Entry,388205,8,2025
+Epping Station,Exit,377726,8,2025
+Erskineville Station,Entry,50281,8,2025
+Erskineville Station,Exit,45200,8,2025
+Fairfield Station,Entry,127646,8,2025
+Fairfield Station,Exit,122339,8,2025
+Flemington Station,Entry,119800,8,2025
+Flemington Station,Exit,114044,8,2025
+Glenfield Station,Entry,127633,8,2025
+Glenfield Station,Exit,121759,8,2025
+Gordon Station,Entry,151757,8,2025
+Gordon Station,Exit,148163,8,2025
+Granville Station,Entry,162422,8,2025
+Granville Station,Exit,152441,8,2025
+Green Square Station,Entry,211277,8,2025
+Green Square Station,Exit,206287,8,2025
+Guildford Station,Entry,64734,8,2025
+Guildford Station,Exit,57530,8,2025
+Gymea Station,Entry,40789,8,2025
+Gymea Station,Exit,37768,8,2025
+Harris Park Station,Entry,65098,8,2025
+Harris Park Station,Exit,65280,8,2025
+Heathcote Station,Entry,10492,8,2025
+Heathcote Station,Exit,10352,8,2025
+Helensburgh Station,Entry,8577,8,2025
+Helensburgh Station,Exit,7919,8,2025
+Holsworthy Station,Entry,63932,8,2025
+Holsworthy Station,Exit,60475,8,2025
+Homebush Station,Entry,90906,8,2025
+Homebush Station,Exit,85050,8,2025
+Hornsby Station,Entry,286411,8,2025
+Hornsby Station,Exit,289684,8,2025
+Hurstville Station,Entry,450515,8,2025
+Hurstville Station,Exit,459743,8,2025
+Ingleburn Station,Entry,67034,8,2025
+Ingleburn Station,Exit,65586,8,2025
+Jannali Station,Entry,51273,8,2025
+Jannali Station,Exit,48893,8,2025
+Killara Station,Entry,47609,8,2025
+Killara Station,Exit,45173,8,2025
+Kings Cross Station,Entry,311934,8,2025
+Kings Cross Station,Exit,322435,8,2025
+Kingsgrove Station,Entry,49040,8,2025
+Kingsgrove Station,Exit,46699,8,2025
+Kingswood Station,Entry,49708,8,2025
+Kingswood Station,Exit,46934,8,2025
+Kirrawee Station,Entry,37979,8,2025
+Kirrawee Station,Exit,36403,8,2025
+Kogarah Station,Entry,235780,8,2025
+Kogarah Station,Exit,225920,8,2025
+Leightonfield Station,Entry,5553,8,2025
+Leightonfield Station,Exit,5435,8,2025
+Leppington Station,Entry,99792,8,2025
+Leppington Station,Exit,95389,8,2025
+Leumeah Station,Entry,54952,8,2025
+Leumeah Station,Exit,51306,8,2025
+Lewisham Station,Entry,58613,8,2025
+Lewisham Station,Exit,55370,8,2025
+Lidcombe Station,Entry,327409,8,2025
+Lidcombe Station,Exit,332538,8,2025
+Lindfield Station,Entry,89540,8,2025
+Lindfield Station,Exit,86933,8,2025
+Liverpool Station,Entry,199871,8,2025
+Liverpool Station,Exit,197362,8,2025
+Loftus Station,Entry,8806,8,2025
+Loftus Station,Exit,8000,8,2025
+Macarthur Station,Entry,70961,8,2025
+Macarthur Station,Exit,67808,8,2025
+Macdonaldtown Station,Entry,27972,8,2025
+Macdonaldtown Station,Exit,27812,8,2025
+Macquarie Fields Station,Entry,21149,8,2025
+Macquarie Fields Station,Exit,19627,8,2025
+Marayong Station,Entry,23917,8,2025
+Marayong Station,Exit,21809,8,2025
+Martin Place Station,Entry,844773,8,2025
+Martin Place Station,Exit,930774,8,2025
+Mascot Station,Entry,375096,8,2025
+Mascot Station,Exit,374862,8,2025
+Meadowbank Station,Entry,117955,8,2025
+Meadowbank Station,Exit,107069,8,2025
+Merrylands Station,Entry,146991,8,2025
+Merrylands Station,Exit,142402,8,2025
+Milsons Point Station,Entry,158217,8,2025
+Milsons Point Station,Exit,164734,8,2025
+Minto Station,Entry,66191,8,2025
+Minto Station,Exit,62571,8,2025
+Miranda Station,Entry,74827,8,2025
+Miranda Station,Exit,76805,8,2025
+Mortdale Station,Entry,72792,8,2025
+Mortdale Station,Exit,65649,8,2025
+Mount Colah Station,Entry,13332,8,2025
+Mount Colah Station,Exit,12222,8,2025
+Mount Druitt Station,Entry,138852,8,2025
+Mount Druitt Station,Exit,137709,8,2025
+Mount Kuring-gai Station,Entry,4599,8,2025
+Mount Kuring-gai Station,Exit,4569,8,2025
+Mulgrave Station,Entry,5475,8,2025
+Mulgrave Station,Exit,5219,8,2025
+Museum Station,Entry,215500,8,2025
+Museum Station,Exit,246704,8,2025
+Narwee Station,Entry,40714,8,2025
+Narwee Station,Exit,36461,8,2025
+Newtown Station,Entry,241484,8,2025
+Newtown Station,Exit,273987,8,2025
+Normanhurst Station,Entry,27493,8,2025
+Normanhurst Station,Exit,22154,8,2025
+North Strathfield Station,Entry,60311,8,2025
+North Strathfield Station,Exit,59132,8,2025
+North Sydney Station,Entry,265190,8,2025
+North Sydney Station,Exit,272644,8,2025
+Oatley Station,Entry,41411,8,2025
+Oatley Station,Exit,38724,8,2025
+Olympic Park Station,Entry,78693,8,2025
+Olympic Park Station,Exit,88266,8,2025
+Padstow Station,Entry,55779,8,2025
+Padstow Station,Exit,50976,8,2025
+Panania Station,Entry,35757,8,2025
+Panania Station,Exit,32659,8,2025
+Parramatta Station,Entry,991548,8,2025
+Parramatta Station,Exit,1003172,8,2025
+Pendle Hill Station,Entry,72848,8,2025
+Pendle Hill Station,Exit,68158,8,2025
+Pennant Hills Station,Entry,52472,8,2025
+Pennant Hills Station,Exit,51391,8,2025
+Penrith Station,Entry,163419,8,2025
+Penrith Station,Exit,168347,8,2025
+Penshurst Station,Entry,64821,8,2025
+Penshurst Station,Exit,54272,8,2025
+Petersham Station,Entry,79386,8,2025
+Petersham Station,Exit,76522,8,2025
+Pymble Station,Entry,50636,8,2025
+Pymble Station,Exit,46650,8,2025
+Quakers Hill Station,Entry,58224,8,2025
+Quakers Hill Station,Exit,52348,8,2025
+Redfern Station,Entry,621545,8,2025
+Redfern Station,Exit,666227,8,2025
+Regents Park Station,Entry,32902,8,2025
+Regents Park Station,Exit,30449,8,2025
+Revesby Station,Entry,124415,8,2025
+Revesby Station,Exit,122804,8,2025
+Rhodes Station,Entry,226785,8,2025
+Rhodes Station,Exit,221544,8,2025
+Richmond Station,Entry,17346,8,2025
+Richmond Station,Exit,14639,8,2025
+Riverstone Station,Entry,28151,8,2025
+Riverstone Station,Exit,26597,8,2025
+Riverwood Station,Entry,74123,8,2025
+Riverwood Station,Exit,69560,8,2025
+Rockdale Station,Entry,219362,8,2025
+Rockdale Station,Exit,213089,8,2025
+Rooty Hill Station,Entry,84365,8,2025
+Rooty Hill Station,Exit,80285,8,2025
+Roseville Station,Entry,66101,8,2025
+Roseville Station,Exit,62611,8,2025
+Schofields Station,Entry,95438,8,2025
+Schofields Station,Exit,90661,8,2025
+Sefton Station,Entry,20471,8,2025
+Sefton Station,Exit,17909,8,2025
+Seven Hills Station,Entry,135385,8,2025
+Seven Hills Station,Exit,129285,8,2025
+St James Station,Entry,165573,8,2025
+St James Station,Exit,186149,8,2025
+St Leonards Station,Entry,243328,8,2025
+St Leonards Station,Exit,244332,8,2025
+St Marys Station,Entry,102477,8,2025
+St Marys Station,Exit,100058,8,2025
+St Peters Station,Entry,58579,8,2025
+St Peters Station,Exit,50673,8,2025
+Stanmore Station,Entry,67848,8,2025
+Stanmore Station,Exit,61430,8,2025
+Strathfield Station,Entry,639785,8,2025
+Strathfield Station,Exit,620363,8,2025
+Summer Hill Station,Entry,76857,8,2025
+Summer Hill Station,Exit,71604,8,2025
+Sutherland Station,Entry,136671,8,2025
+Sutherland Station,Exit,132730,8,2025
+Sydenham Station,Entry,479105,8,2025
+Sydenham Station,Exit,464133,8,2025
+Tempe Station,Entry,30482,8,2025
+Tempe Station,Exit,29414,8,2025
+Thornleigh Station,Entry,37713,8,2025
+Thornleigh Station,Exit,35499,8,2025
+Toongabbie Station,Entry,65326,8,2025
+Toongabbie Station,Exit,61622,8,2025
+Town Hall Station,Entry,1763282,8,2025
+Town Hall Station,Exit,1670753,8,2025
+Turramurra Station,Entry,83647,8,2025
+Turramurra Station,Exit,78328,8,2025
+Turrella Station,Entry,22289,8,2025
+Turrella Station,Exit,20496,8,2025
+Villawood Station,Entry,11279,8,2025
+Villawood Station,Exit,10709,8,2025
+Vineyard Station,Entry,3771,8,2025
+Vineyard Station,Exit,3477,8,2025
+Wahroonga Station,Entry,43314,8,2025
+Wahroonga Station,Exit,40365,8,2025
+Waitara Station,Entry,67789,8,2025
+Waitara Station,Exit,62497,8,2025
+Warrawee Station,Entry,20753,8,2025
+Warrawee Station,Exit,18551,8,2025
+Warwick Farm Station,Entry,53300,8,2025
+Warwick Farm Station,Exit,48494,8,2025
+Waterfall Station,Entry,8618,8,2025
+Waterfall Station,Exit,8535,8,2025
+Waverton Station,Entry,44527,8,2025
+Waverton Station,Exit,39561,8,2025
+Wentworthville Station,Entry,88689,8,2025
+Wentworthville Station,Exit,85207,8,2025
+Werrington Station,Entry,29637,8,2025
+Werrington Station,Exit,26322,8,2025
+West Ryde Station,Entry,106085,8,2025
+West Ryde Station,Exit,105920,8,2025
+Westmead Station,Entry,153791,8,2025
+Westmead Station,Exit,142725,8,2025
+Windsor Station,Entry,15802,8,2025
+Windsor Station,Exit,15451,8,2025
+Wolli Creek Station,Entry,215691,8,2025
+Wolli Creek Station,Exit,215833,8,2025
+Wollstonecraft Station,Entry,46708,8,2025
+Wollstonecraft Station,Exit,43318,8,2025
+Woolooware Station,Entry,26027,8,2025
+Woolooware Station,Exit,24369,8,2025
+Wynyard Station,Entry,1098802,8,2025
+Wynyard Station,Exit,1173823,8,2025
+Yagoona Station,Entry,19599,8,2025
+Yagoona Station,Exit,18543,8,2025
+Yennora Station,Entry,23267,8,2025
+Yennora Station,Exit,23549,8,2025
+Allawah Station,Entry,58671,9,2025
+Allawah Station,Exit,52104,9,2025
+Arncliffe Station,Entry,52550,9,2025
+Arncliffe Station,Exit,47188,9,2025
+Artarmon Station,Entry,93270,9,2025
+Artarmon Station,Exit,88557,9,2025
+Ashfield Station,Entry,248304,9,2025
+Ashfield Station,Exit,245387,9,2025
+Asquith Station,Entry,29393,9,2025
+Asquith Station,Exit,25985,9,2025
+Auburn Station,Entry,342481,9,2025
+Auburn Station,Exit,325424,9,2025
+Banksia Station,Entry,31851,9,2025
+Banksia Station,Exit,28765,9,2025
+Bankstown Station,Entry,88742,9,2025
+Bankstown Station,Exit,92901,9,2025
+Bardwell Park Station,Entry,22126,9,2025
+Bardwell Park Station,Exit,19883,9,2025
+Beecroft Station,Entry,31083,9,2025
+Beecroft Station,Exit,29664,9,2025
+Berala Station,Entry,46670,9,2025
+Berala Station,Exit,43537,9,2025
+Berowra Station,Entry,25619,9,2025
+Berowra Station,Exit,23781,9,2025
+Beverly Hills Station,Entry,44432,9,2025
+Beverly Hills Station,Exit,39571,9,2025
+Bexley North Station,Entry,28569,9,2025
+Bexley North Station,Exit,26341,9,2025
+Birrong Station,Entry,9017,9,2025
+Birrong Station,Exit,8753,9,2025
+Blacktown Station,Entry,328908,9,2025
+Blacktown Station,Exit,341134,9,2025
+Bondi Junction Station,Entry,475954,9,2025
+Bondi Junction Station,Exit,469400,9,2025
+Burwood Station,Entry,476975,9,2025
+Burwood Station,Exit,488955,9,2025
+Cabramatta Station,Entry,183711,9,2025
+Cabramatta Station,Exit,181845,9,2025
+Campbelltown Station,Entry,123794,9,2025
+Campbelltown Station,Exit,122508,9,2025
+Canley Vale Station,Entry,52244,9,2025
+Canley Vale Station,Exit,47254,9,2025
+Caringbah Station,Entry,55145,9,2025
+Caringbah Station,Exit,51699,9,2025
+Carlton Station,Entry,59845,9,2025
+Carlton Station,Exit,54551,9,2025
+Carramar Station,Entry,13763,9,2025
+Carramar Station,Exit,11774,9,2025
+Casula Station,Entry,8175,9,2025
+Casula Station,Exit,7168,9,2025
+Central Station,Entry,1921421,9,2025
+Central Station,Exit,1998506,9,2025
+Chatswood Station,Entry,782359,9,2025
+Chatswood Station,Exit,811696,9,2025
+Cheltenham Station,Entry,21851,9,2025
+Cheltenham Station,Exit,18689,9,2025
+Chester Hill Station,Entry,25373,9,2025
+Chester Hill Station,Exit,23838,9,2025
+Circular Quay Station,Entry,494356,9,2025
+Circular Quay Station,Exit,500392,9,2025
+Clarendon Station,Entry,2689,9,2025
+Clarendon Station,Exit,3726,9,2025
+Clyde Station,Entry,22875,9,2025
+Clyde Station,Exit,21117,9,2025
+Como Station,Entry,13628,9,2025
+Como Station,Exit,11689,9,2025
+Concord West Station,Entry,43311,9,2025
+Concord West Station,Exit,40118,9,2025
+Cronulla Station,Entry,57957,9,2025
+Cronulla Station,Exit,58242,9,2025
+Croydon Station,Entry,52137,9,2025
+Croydon Station,Exit,45751,9,2025
+Denistone Station,Entry,12356,9,2025
+Denistone Station,Exit,10975,9,2025
+Doonside Station,Entry,61553,9,2025
+Doonside Station,Exit,54477,9,2025
+East Hills Station,Entry,29592,9,2025
+East Hills Station,Exit,28427,9,2025
+East Richmond Station,Entry,4359,9,2025
+East Richmond Station,Exit,5292,9,2025
+Eastwood Station,Entry,163373,9,2025
+Eastwood Station,Exit,165556,9,2025
+Edgecliff Station,Entry,167823,9,2025
+Edgecliff Station,Exit,161446,9,2025
+Edmondson Park Station,Entry,95708,9,2025
+Edmondson Park Station,Exit,91183,9,2025
+Emu Plains Station,Entry,23933,9,2025
+Emu Plains Station,Exit,22283,9,2025
+Engadine Station,Entry,25107,9,2025
+Engadine Station,Exit,23577,9,2025
+Epping Station,Entry,365296,9,2025
+Epping Station,Exit,353471,9,2025
+Erskineville Station,Entry,47982,9,2025
+Erskineville Station,Exit,42670,9,2025
+Fairfield Station,Entry,126757,9,2025
+Fairfield Station,Exit,121851,9,2025
+Flemington Station,Entry,119843,9,2025
+Flemington Station,Exit,112293,9,2025
+Glenfield Station,Entry,120718,9,2025
+Glenfield Station,Exit,114284,9,2025
+Gordon Station,Entry,143927,9,2025
+Gordon Station,Exit,140522,9,2025
+Granville Station,Entry,163676,9,2025
+Granville Station,Exit,153262,9,2025
+Green Square Station,Entry,192326,9,2025
+Green Square Station,Exit,186671,9,2025
+Guildford Station,Entry,61132,9,2025
+Guildford Station,Exit,54350,9,2025
+Gymea Station,Entry,40564,9,2025
+Gymea Station,Exit,37064,9,2025
+Harris Park Station,Entry,59253,9,2025
+Harris Park Station,Exit,59288,9,2025
+Heathcote Station,Entry,10742,9,2025
+Heathcote Station,Exit,10681,9,2025
+Helensburgh Station,Entry,8740,9,2025
+Helensburgh Station,Exit,8315,9,2025
+Holsworthy Station,Entry,59398,9,2025
+Holsworthy Station,Exit,55441,9,2025
+Homebush Station,Entry,88298,9,2025
+Homebush Station,Exit,80835,9,2025
+Hornsby Station,Entry,273658,9,2025
+Hornsby Station,Exit,279005,9,2025
+Hurstville Station,Entry,449303,9,2025
+Hurstville Station,Exit,456920,9,2025
+Ingleburn Station,Entry,64682,9,2025
+Ingleburn Station,Exit,63389,9,2025
+Jannali Station,Entry,49938,9,2025
+Jannali Station,Exit,47447,9,2025
+Killara Station,Entry,45973,9,2025
+Killara Station,Exit,43087,9,2025
+Kings Cross Station,Entry,284872,9,2025
+Kings Cross Station,Exit,294191,9,2025
+Kingsgrove Station,Entry,48659,9,2025
+Kingsgrove Station,Exit,46053,9,2025
+Kingswood Station,Entry,47067,9,2025
+Kingswood Station,Exit,43689,9,2025
+Kirrawee Station,Entry,37870,9,2025
+Kirrawee Station,Exit,36612,9,2025
+Kogarah Station,Entry,236518,9,2025
+Kogarah Station,Exit,226484,9,2025
+Leightonfield Station,Entry,5750,9,2025
+Leightonfield Station,Exit,5629,9,2025
+Leppington Station,Entry,94866,9,2025
+Leppington Station,Exit,90106,9,2025
+Leumeah Station,Entry,53304,9,2025
+Leumeah Station,Exit,49719,9,2025
+Lewisham Station,Entry,56090,9,2025
+Lewisham Station,Exit,51610,9,2025
+Lidcombe Station,Entry,301673,9,2025
+Lidcombe Station,Exit,294633,9,2025
+Lindfield Station,Entry,85111,9,2025
+Lindfield Station,Exit,82593,9,2025
+Liverpool Station,Entry,199791,9,2025
+Liverpool Station,Exit,197898,9,2025
+Loftus Station,Entry,8722,9,2025
+Loftus Station,Exit,7815,9,2025
+Macarthur Station,Entry,63953,9,2025
+Macarthur Station,Exit,62417,9,2025
+Macdonaldtown Station,Entry,23957,9,2025
+Macdonaldtown Station,Exit,22692,9,2025
+Macquarie Fields Station,Entry,18718,9,2025
+Macquarie Fields Station,Exit,17474,9,2025
+Marayong Station,Entry,23110,9,2025
+Marayong Station,Exit,20986,9,2025
+Martin Place Station,Entry,753256,9,2025
+Martin Place Station,Exit,851013,9,2025
+Mascot Station,Entry,341472,9,2025
+Mascot Station,Exit,342139,9,2025
+Meadowbank Station,Entry,116860,9,2025
+Meadowbank Station,Exit,105653,9,2025
+Merrylands Station,Entry,138194,9,2025
+Merrylands Station,Exit,133969,9,2025
+Milsons Point Station,Entry,141059,9,2025
+Milsons Point Station,Exit,148953,9,2025
+Minto Station,Entry,62589,9,2025
+Minto Station,Exit,59159,9,2025
+Miranda Station,Entry,74474,9,2025
+Miranda Station,Exit,76873,9,2025
+Mortdale Station,Entry,72891,9,2025
+Mortdale Station,Exit,65262,9,2025
+Mount Colah Station,Entry,13274,9,2025
+Mount Colah Station,Exit,12214,9,2025
+Mount Druitt Station,Entry,129937,9,2025
+Mount Druitt Station,Exit,128408,9,2025
+Mount Kuring-gai Station,Entry,4825,9,2025
+Mount Kuring-gai Station,Exit,4775,9,2025
+Mulgrave Station,Entry,5693,9,2025
+Mulgrave Station,Exit,5436,9,2025
+Museum Station,Entry,191247,9,2025
+Museum Station,Exit,219326,9,2025
+Narwee Station,Entry,40478,9,2025
+Narwee Station,Exit,36087,9,2025
+Newtown Station,Entry,213025,9,2025
+Newtown Station,Exit,241165,9,2025
+Normanhurst Station,Entry,27588,9,2025
+Normanhurst Station,Exit,22254,9,2025
+North Strathfield Station,Entry,59633,9,2025
+North Strathfield Station,Exit,57255,9,2025
+North Sydney Station,Entry,237298,9,2025
+North Sydney Station,Exit,249569,9,2025
+Oatley Station,Entry,41024,9,2025
+Oatley Station,Exit,38015,9,2025
+Olympic Park Station,Entry,71395,9,2025
+Olympic Park Station,Exit,75123,9,2025
+Padstow Station,Entry,54760,9,2025
+Padstow Station,Exit,50293,9,2025
+Panania Station,Entry,35727,9,2025
+Panania Station,Exit,32434,9,2025
+Parramatta Station,Entry,961732,9,2025
+Parramatta Station,Exit,977748,9,2025
+Pendle Hill Station,Entry,69873,9,2025
+Pendle Hill Station,Exit,64431,9,2025
+Pennant Hills Station,Entry,50642,9,2025
+Pennant Hills Station,Exit,50441,9,2025
+Penrith Station,Entry,153276,9,2025
+Penrith Station,Exit,158252,9,2025
+Penshurst Station,Entry,64217,9,2025
+Penshurst Station,Exit,54422,9,2025
+Petersham Station,Entry,72010,9,2025
+Petersham Station,Exit,68114,9,2025
+Pymble Station,Entry,49315,9,2025
+Pymble Station,Exit,44955,9,2025
+Quakers Hill Station,Entry,56453,9,2025
+Quakers Hill Station,Exit,50672,9,2025
+Redfern Station,Entry,581284,9,2025
+Redfern Station,Exit,629487,9,2025
+Regents Park Station,Entry,33320,9,2025
+Regents Park Station,Exit,30798,9,2025
+Revesby Station,Entry,120736,9,2025
+Revesby Station,Exit,117467,9,2025
+Rhodes Station,Entry,221434,9,2025
+Rhodes Station,Exit,215967,9,2025
+Richmond Station,Entry,15899,9,2025
+Richmond Station,Exit,13986,9,2025
+Riverstone Station,Entry,28311,9,2025
+Riverstone Station,Exit,26289,9,2025
+Riverwood Station,Entry,72296,9,2025
+Riverwood Station,Exit,67497,9,2025
+Rockdale Station,Entry,215914,9,2025
+Rockdale Station,Exit,207543,9,2025
+Rooty Hill Station,Entry,78831,9,2025
+Rooty Hill Station,Exit,74065,9,2025
+Roseville Station,Entry,60800,9,2025
+Roseville Station,Exit,57726,9,2025
+Schofields Station,Entry,93234,9,2025
+Schofields Station,Exit,87607,9,2025
+Sefton Station,Entry,19977,9,2025
+Sefton Station,Exit,17639,9,2025
+Seven Hills Station,Entry,129095,9,2025
+Seven Hills Station,Exit,122105,9,2025
+St James Station,Entry,148012,9,2025
+St James Station,Exit,167778,9,2025
+St Leonards Station,Entry,229310,9,2025
+St Leonards Station,Exit,232018,9,2025
+St Marys Station,Entry,97369,9,2025
+St Marys Station,Exit,95371,9,2025
+St Peters Station,Entry,54790,9,2025
+St Peters Station,Exit,47854,9,2025
+Stanmore Station,Entry,62256,9,2025
+Stanmore Station,Exit,55671,9,2025
+Strathfield Station,Entry,559038,9,2025
+Strathfield Station,Exit,544398,9,2025
+Summer Hill Station,Entry,71799,9,2025
+Summer Hill Station,Exit,66840,9,2025
+Sutherland Station,Entry,135873,9,2025
+Sutherland Station,Exit,132054,9,2025
+Sydenham Station,Entry,440305,9,2025
+Sydenham Station,Exit,425403,9,2025
+Tempe Station,Entry,29625,9,2025
+Tempe Station,Exit,27724,9,2025
+Thornleigh Station,Entry,37482,9,2025
+Thornleigh Station,Exit,35634,9,2025
+Toongabbie Station,Entry,63149,9,2025
+Toongabbie Station,Exit,59078,9,2025
+Town Hall Station,Entry,1618196,9,2025
+Town Hall Station,Exit,1545263,9,2025
+Turramurra Station,Entry,78626,9,2025
+Turramurra Station,Exit,73400,9,2025
+Turrella Station,Entry,21606,9,2025
+Turrella Station,Exit,19833,9,2025
+Villawood Station,Entry,11218,9,2025
+Villawood Station,Exit,10892,9,2025
+Vineyard Station,Entry,3676,9,2025
+Vineyard Station,Exit,3427,9,2025
+Wahroonga Station,Entry,40892,9,2025
+Wahroonga Station,Exit,38094,9,2025
+Waitara Station,Entry,64475,9,2025
+Waitara Station,Exit,59524,9,2025
+Warrawee Station,Entry,20065,9,2025
+Warrawee Station,Exit,17734,9,2025
+Warwick Farm Station,Entry,52636,9,2025
+Warwick Farm Station,Exit,47914,9,2025
+Waterfall Station,Entry,8453,9,2025
+Waterfall Station,Exit,9333,9,2025
+Waverton Station,Entry,40762,9,2025
+Waverton Station,Exit,36010,9,2025
+Wentworthville Station,Entry,84528,9,2025
+Wentworthville Station,Exit,80501,9,2025
+Werrington Station,Entry,29083,9,2025
+Werrington Station,Exit,25595,9,2025
+West Ryde Station,Entry,104722,9,2025
+West Ryde Station,Exit,104805,9,2025
+Westmead Station,Entry,147646,9,2025
+Westmead Station,Exit,137517,9,2025
+Windsor Station,Entry,15168,9,2025
+Windsor Station,Exit,14597,9,2025
+Wolli Creek Station,Entry,187934,9,2025
+Wolli Creek Station,Exit,186583,9,2025
+Wollstonecraft Station,Entry,43183,9,2025
+Wollstonecraft Station,Exit,39763,9,2025
+Woolooware Station,Entry,24655,9,2025
+Woolooware Station,Exit,23186,9,2025
+Wynyard Station,Entry,1014292,9,2025
+Wynyard Station,Exit,1077792,9,2025
+Yagoona Station,Entry,20711,9,2025
+Yagoona Station,Exit,19186,9,2025
+Yennora Station,Entry,22512,9,2025
+Yennora Station,Exit,23180,9,2025
