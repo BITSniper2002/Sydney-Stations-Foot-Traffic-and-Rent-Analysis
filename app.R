@@ -1,5 +1,6 @@
 # app.R — Sydney Stations Foot Traffic (CSV-backed, with debug previews & export)
 # ------------------------------------------------------------------------------
+# this is backup of the Ass2.R
 
 # Packages
 library(shiny)
@@ -82,57 +83,34 @@ make_metric_df <- function(d, metric = "Total") {
               .groups = "drop")
 }
 
-# ---------- Facility Icon Mapping ----------
-facility_icons <- list(
-  "Baby change table" = "baby_change.png",
-  "Bike lockers" = "bike_lockers.png",
-  "Bike racks" = "bike_racks.png",
-  "Bike shed" = "bike_shed.png",
-  "Commuter car park" = "commuter_car_park.png",
-  "Emergency help point" = "emergency_help_point.png",
-  "Free mobile phone charging" = "mobile_charging.png",
-  "Information point" = "information_point.png",
-  "Kiss and ride stopping area" = "kiss_and_ride.png",
-  "Luggage storage" = "luggage_storage.png",
-  "Next service display" = "next_service_display.png",
-  "No Opal card top up or single trip ticket sales" = "no_opal.png",
-  "Opal card top up machine (Card Payment only)" = "opal_no_single.png",
-  "Opal card top up or single trip ticket machine (Card Payment only)" = "opal_card_only.png",
-  "Opal card top up or single trip ticket machine (Cash or Card Payment)" = "opal_both_payments.png",
-  "Payphone" = "payphone.png",
-  "Taxi rank" = "taxi_rank.png",
-  "Toilets" = "toilets.png",
-  "Transport Park&Ride" = "transport_park_ride.png",
-  "Wheelchair accessible car space" = "wheelchair_carspace.png",
-  "Wheelchair accessible payphone" = "wheelchair_payphone.png",
-  "Wheelchair accessible toilet" = "wheelchair_toilet.png",
-  "Wheelchair accessible toilet (MLAK)" = "MLAK.png"
-)
-
-# ---------- Helper: Render facility icons ----------
-render_facility_icons <- function(fac_string) {
-  if (is.null(fac_string) || is.na(fac_string) || fac_string == "") {
-    return(HTML("<p><em>No facility data available.</em></p>"))
-  }
-  facs <- trimws(unlist(strsplit(fac_string, "\\|")))
-  facs <- facs[facs != ""]
-  
-  htmltools::tags$div(
-    style = "display:flex; flex-wrap:wrap; gap:8px;",
-    lapply(facs, function(f) {
-      img_file <- facility_icons[[f]]
-      if (!is.null(img_file)) {
-        htmltools::tags$img(
-          src = file.path("facilities", img_file),
-          title = f,
-          alt = f,
-          style = "width:144px; height:144px; object-fit:contain; border-radius:6px; border:1px solid #ddd; padding:2px;"
-        )
-      } else {
-        htmltools::tags$span(f)
-      }
-    })
+# Facility icon mapper
+facility_icon <- function(name) {
+  icons <- list(
+    "Baby change table" = "👶",
+    "Bike lockers" = "🚲",
+    "Bike racks" = "🚴",
+    "Bike shed" = "🏠🚲",
+    "Commuter car park" = "🅿️",
+    "Emergency help point" = "🚨",
+    "Free mobile phone charging" = "🔌",
+    "Information point" = "ℹ️",
+    "Kiss and ride stopping area" = "🚗💋",
+    "Luggage storage" = "🎒",
+    "Next service display" = "🕒",
+    "No Opal card top up or single trip ticket sales" = "🚫💳",
+    "Opal card top up machine (Card Payment only)" = "💳",
+    "Opal card top up or single trip ticket machine (Card Payment only)" = "💳📱",
+    "Opal card top up or single trip ticket machine (Cash or Card Payment)" = "💵💳",
+    "Payphone" = "☎️",
+    "Taxi rank" = "🚕",
+    "Toilets" = "🚻",
+    "Transport Park&Ride" = "🚗🏃",
+    "Wheelchair accessible car space" = "♿️🅿️",
+    "Wheelchair accessible payphone" = "♿️☎️",
+    "Wheelchair accessible toilet" = "♿️🚻",
+    "Wheelchair accessible toilet (MLAK)" = "♿️🔑🚻"
   )
+  icons[[name]] %||% "❓"
 }
 
 
@@ -492,16 +470,17 @@ server <- function(input, output, session) {
       distinct(FACILITIES) %>%
       pull(FACILITIES)
     
-    if (length(fac) == 0 || is.na(fac) || fac == "") {
+    if (is.null(fac) || all(is.na(fac)) || fac == "") {
       HTML("<p><em>No facility data available for this station.</em></p>")
     } else {
-      tagList(
+      # Split by | and display as bullets
+      fac_list <- unlist(strsplit(fac, "\\|"))
+      tags$div(
         h5("Facilities available:"),
-        render_facility_icons(fac)
+        tags$ul(lapply(fac_list, function(x) tags$li(trimws(x))))
       )
     }
   })
-  
   
   
   # ----- Compare -----
@@ -517,10 +496,12 @@ server <- function(input, output, session) {
   output$cmp_facilities <- renderUI({
     req(input$compare_stations)
     
+    # Extract facilities for selected stations
     fac_df <- raw_tbl %>%
       filter(station %in% input$compare_stations) %>%
       distinct(station, FACILITIES)
     
+    # Build a named list of facilities per station
     fac_list <- setNames(
       lapply(fac_df$FACILITIES, function(f) {
         if (is.null(f) || is.na(f) || f == "") return(character(0))
@@ -529,20 +510,23 @@ server <- function(input, output, session) {
       fac_df$station
     )
     
+    # ---- Facilities common to ALL selected stations (intersection) ----
     common_facilities <- if (length(fac_list) > 0) Reduce(intersect, fac_list) else character(0)
     common_facilities <- sort(unique(common_facilities))
     
+    # ---- Facilities per station that are NOT in the common set ----
     diff_facilities <- lapply(names(fac_list), function(st) {
       setdiff(fac_list[[st]], common_facilities)
     })
     names(diff_facilities) <- names(fac_list)
     
-    tagList(
+    # ---- UI ----
+    tags$div(
       h4("Facilities common to all compared stations"),
       if (length(common_facilities) == 0) {
-        HTML("<p><em>No facilities shared by all selected stations.</em></p>")
+        HTML("<p><em>No facilities are shared by all selected stations (or some stations have no facility data).</em></p>")
       } else {
-        render_facility_icons(paste(common_facilities, collapse = "|"))
+        tags$ul(lapply(common_facilities, function(f) tags$li(f)))
       },
       br(),
       h4("Other facilities by station (not common to all)"),
@@ -554,16 +538,18 @@ server <- function(input, output, session) {
         } else {
           tags$div(
             tags$b(st),
-            render_facility_icons(paste(diff_facilities[[st]], collapse = "|"))
+            tags$ul(lapply(diff_facilities[[st]], function(f) tags$li(f)))
           )
         }
       })
     )
   })
   
-
-
-
+  
+  
+  
+  
+  
   
   
   # ----- Data table (time-aware sorting) -----
