@@ -170,6 +170,9 @@ fac_path <- "./datasets/locationfacilitydata_filtered.csv"
 facilities_tbl <- readr::read_csv(fac_path, show_col_types = FALSE) %>%
   rename(station = LOCATION_NAME)
 
+station_wordcount_path <- "./datasets/sydney_train_metro_station_counts.csv"
+station_wordcount <- readr::read_csv(station_wordcount_path, show_col_types = FALSE)
+
 # merge facilities info into the main table
 raw_tbl <- raw_tbl %>%
   left_join(facilities_tbl, by = "station")
@@ -262,9 +265,16 @@ ui <- fluidPage(
                    )
                  ),
                  br(),
-                 plotlyOutput("top_bar", height = "420px"),
+                 plotlyOutput("top_bar", height = "450px"),
+                 plotOutput("station_wordcloud", height = "500px"),
+                 tags$p(
+                   class = "text-muted text-center",
+                   style = "font-size: 0.9em; margin-top: 6px;",
+                   "Word cloud showing TOP40 station prominence based on GTFS route frequency (Sydney Metro & Trains)."
+                 ),
                  br(),
-                 plotlyOutput("agg_ts", height = "300px")
+                 plotlyOutput("agg_ts", height = "400px")
+                 
         ),
         tabPanel("Station profile",
                  plotlyOutput("profile_ts", height = "420px"),
@@ -428,8 +438,8 @@ server <- function(input, output, session) {
   output$top_bar <- renderPlotly({
     ld <- latest_date()
     validate(need(!is.na(ld), "No data in selection."))
-    validate(need(is.numeric(input$top_n) && input$top_n > 0 && input$top_n <= 30,
-                  "Top N must be between 1 and 30"))
+    validate(need(is.numeric(input$top_n) && input$top_n > 0 && input$top_n <= 25,
+                  "Top N must be between 1 and 25"))
     
     top_df <- df() %>%
       filter(date == ld) %>%
@@ -453,14 +463,39 @@ server <- function(input, output, session) {
         margin = list(l = 120, r = 20, t = 20, b = 20)
       )
   })
+  # ----- Overview: Wordcloud of stations -----
+  output$station_wordcloud <- renderPlot({
+    req(nrow(station_wordcount) > 0)
+    
+    library(wordcloud)
+    library(RColorBrewer)
+    
+    wordcloud(
+      words = station_wordcount$station_name,
+      freq = station_wordcount$total_appearance,
+      min.freq = 1,
+      max.words = 40,
+      random.order = FALSE,
+      rot.per = 0.15,
+      colors = brewer.pal(8, "Dark2"),
+      scale = c(2.5, 1)
+    )
+  })
   
   # ----- Overview: Aggregate time series -----
   output$agg_ts <- renderPlotly({
     agg <- df() %>% group_by(date) %>% summarise(total_trips = sum(trips), .groups = "drop")
     plot_ly(agg, x = ~date, y = ~total_trips, type = "scatter", mode = "lines") %>%
       layout(yaxis = list(title = paste0(input$metric, " trips (total)")),
-             xaxis = list(title = NULL))
+             xaxis = list(title = NULL)) %>%
+      layout(
+        xaxis = list(title = paste0(input$metric, " trips — across date range")),
+        yaxis = list(title = NULL),
+        margin = list(l = 120, r = 20, t = 50, b = 100)
+      )
+    
   })
+  
   
   # ----- Station profile -----
   output$profile_ts <- renderPlotly({
@@ -495,11 +530,15 @@ server <- function(input, output, session) {
     if (length(fac) == 0 || is.na(fac) || fac == "") {
       HTML("<p><em>No facility data available for this station.</em></p>")
     } else {
-      tagList(
-        h5("Facilities available:"),
-        render_facility_icons(fac)
+      tags$div(
+        style = "margin-bottom:100px;",
+        tagList(
+          h5("Facilities available:"),
+          render_facility_icons(fac)
+        )
       )
     }
+    
   })
   
   
@@ -548,11 +587,12 @@ server <- function(input, output, session) {
       h4("Other facilities by station (not common to all)"),
       lapply(names(diff_facilities), function(st) {
         if (length(fac_list[[st]]) == 0) {
-          tags$div(tags$b(st), HTML("<em>No facility data available.</em>"))
+          tags$div(style = "margin-bottom:100px;",tags$b(st), HTML("<em>No facility data available.</em>"))
         } else if (length(diff_facilities[[st]]) == 0) {
-          tags$div(tags$b(st), HTML("<em>All facilities are common to all compared stations.</em>"))
+          tags$div(style = "margin-bottom:100px;",tags$b(st), HTML("<em>All facilities are common to all compared stations.</em>"))
         } else {
           tags$div(
+            style = "margin-bottom:100px;",
             tags$b(st),
             render_facility_icons(paste(diff_facilities[[st]], collapse = "|"))
           )
