@@ -1,6 +1,5 @@
 # app.R — Sydney Stations Foot Traffic (CSV-backed, with debug previews & export)
 # ------------------------------------------------------------------------------
-# this is backup of the Ass2.R
 
 # Packages
 library(shiny)
@@ -11,6 +10,7 @@ library(plotly)
 library(DT)
 library(scales)
 library(janitor)
+library(wordcloud2)
 
 # ---------- Helpers ----------
 # 2-decimal abbreviated number: 1,234 -> 1.23K, 12,345,678 -> 12.35M, etc.
@@ -83,34 +83,57 @@ make_metric_df <- function(d, metric = "Total") {
               .groups = "drop")
 }
 
-# Facility icon mapper
-facility_icon <- function(name) {
-  icons <- list(
-    "Baby change table" = "👶",
-    "Bike lockers" = "🚲",
-    "Bike racks" = "🚴",
-    "Bike shed" = "🏠🚲",
-    "Commuter car park" = "🅿️",
-    "Emergency help point" = "🚨",
-    "Free mobile phone charging" = "🔌",
-    "Information point" = "ℹ️",
-    "Kiss and ride stopping area" = "🚗💋",
-    "Luggage storage" = "🎒",
-    "Next service display" = "🕒",
-    "No Opal card top up or single trip ticket sales" = "🚫💳",
-    "Opal card top up machine (Card Payment only)" = "💳",
-    "Opal card top up or single trip ticket machine (Card Payment only)" = "💳📱",
-    "Opal card top up or single trip ticket machine (Cash or Card Payment)" = "💵💳",
-    "Payphone" = "☎️",
-    "Taxi rank" = "🚕",
-    "Toilets" = "🚻",
-    "Transport Park&Ride" = "🚗🏃",
-    "Wheelchair accessible car space" = "♿️🅿️",
-    "Wheelchair accessible payphone" = "♿️☎️",
-    "Wheelchair accessible toilet" = "♿️🚻",
-    "Wheelchair accessible toilet (MLAK)" = "♿️🔑🚻"
+# ---------- Facility Icon Mapping ----------
+facility_icons <- list(
+  "Baby change table" = "baby_change.png",
+  "Bike lockers" = "bike_lockers.png",
+  "Bike racks" = "bike_racks.png",
+  "Bike shed" = "bike_shed.png",
+  "Commuter car park" = "commuter_car_park.png",
+  "Emergency help point" = "emergency_help_point.png",
+  "Free mobile phone charging" = "mobile_charging.png",
+  "Information point" = "information_point.png",
+  "Kiss and ride stopping area" = "kiss_and_ride.png",
+  "Luggage storage" = "luggage_storage.png",
+  "Next service display" = "next_service_display.png",
+  "No Opal card top up or single trip ticket sales" = "no_opal.png",
+  "Opal card top up machine (Card Payment only)" = "opal_no_single.png",
+  "Opal card top up or single trip ticket machine (Card Payment only)" = "opal_card_only.png",
+  "Opal card top up or single trip ticket machine (Cash or Card Payment)" = "opal_both_payments.png",
+  "Payphone" = "payphone.png",
+  "Taxi rank" = "taxi_rank.png",
+  "Toilets" = "toilets.png",
+  "Transport Park&Ride" = "transport_park_ride.png",
+  "Wheelchair accessible car space" = "wheelchair_carspace.png",
+  "Wheelchair accessible payphone" = "wheelchair_payphone.png",
+  "Wheelchair accessible toilet" = "wheelchair_toilet.png",
+  "Wheelchair accessible toilet (MLAK)" = "MLAK.png"
+)
+
+# ---------- Helper: Render facility icons ----------
+render_facility_icons <- function(fac_string) {
+  if (is.null(fac_string) || is.na(fac_string) || fac_string == "") {
+    return(HTML("<p><em>No facility data available.</em></p>"))
+  }
+  facs <- trimws(unlist(strsplit(fac_string, "\\|")))
+  facs <- facs[facs != ""]
+  
+  htmltools::tags$div(
+    style = "display:flex; flex-wrap:wrap; gap:8px;",
+    lapply(facs, function(f) {
+      img_file <- facility_icons[[f]]
+      if (!is.null(img_file)) {
+        htmltools::tags$img(
+          src = file.path("facilities", img_file),
+          title = f,
+          alt = f,
+          style = "width:144px; height:144px; object-fit:contain; border-radius:6px; border:1px solid #ddd; padding:2px;"
+        )
+      } else {
+        htmltools::tags$span(f)
+      }
+    })
   )
-  icons[[name]] %||% "❓"
 }
 
 
@@ -148,6 +171,9 @@ fac_path <- "./datasets/locationfacilitydata_filtered.csv"
 facilities_tbl <- readr::read_csv(fac_path, show_col_types = FALSE) %>%
   rename(station = LOCATION_NAME)
 
+station_wordcount_path <- "./datasets/sydney_train_metro_station_counts.csv"
+station_wordcount <- readr::read_csv(station_wordcount_path, show_col_types = FALSE)
+
 # merge facilities info into the main table
 raw_tbl <- raw_tbl %>%
   left_join(facilities_tbl, by = "station")
@@ -160,7 +186,10 @@ app_theme <- bs_theme(version = 5, bootswatch = "flatly")
 
 ui <- fluidPage(
   theme = app_theme,
-  titlePanel("Sydney Stations — Foot Traffic Explorer"),
+  div(
+    style = "text-align:center;",
+    titlePanel("Sydney Transport Analytics Portal")
+  ),
   sidebarLayout(
     sidebarPanel(
       width = 3,
@@ -173,43 +202,26 @@ ui <- fluidPage(
       hr(),
       htmlOutput("sel_info"),
       
-      selectInput("metric", "Metric",
+      selectInput("metric", "Metric in Overview",
                   choices = c("Total","Entries","Exits"), selected = "Total"),
-      numericInput("top_n", "Top N stations (Overview)",
-                   value = 10, min = 1, max = 30, step = 1),
+      numericInput("top_n", "Top N busiest stations last month",
+                   value = 10, min = 1, max = 25, step = 1),
+      
+      # div(style = "margin-bottom: 370px;"),  # ← add desired space
       hr(),
+      numericInput("wc_n", "Number of stations in wordcloud (in Wordcloud tab)",
+                   value = 30, min = 10, max = 100, step = 5),
       
-      selectInput("profile_station", "Station profile",
+      hr(),
+      selectInput("profile_station", "Station profile (in Station profile tab)",
                   choices = sort(unique(raw_tbl$station))),
+      hr(),
       selectizeInput(
-        "compare_stations", "Compare stations",
+        "compare_stations", "Stations Comparison (in Compare tab)",
         multiple = TRUE,
-        choices = sort(unique(raw_tbl$station))
+        choices = sort(unique(raw_tbl$station)),
+        options = list(maxItems = 10,placeholder = "Select up to 10 stations")
       ),
-      
-      # hr(),
-      # h5("Debug tools"),
-      # div(
-      #   class = "small",
-      #   "Total trips sum (raw): ",
-      #   textOutput("dbg_total_raw", inline = TRUE),
-      #   br(),
-      #   "Total trips sum (formatted): ",
-      #   textOutput("dbg_total_fmt", inline = TRUE)
-      # ),
-      # 
-      # # --- Debug tools (button always visible) ---
-      # h5("Debug tools"),
-      # actionButton("export_debug", "Export all as CSVs"),
-      # checkboxInput("show_debug", "Show table previews (heads)", TRUE),
-      # conditionalPanel(
-      #   condition = "input.show_debug",
-      #   tags$div(class = "small text-muted",
-      #            "Previewing first 20 rows of each:"),
-      #   h6("df_metric() head"),     DTOutput("dbg_df_metric"),
-      #   h6("df() head"),            DTOutput("dbg_df"),
-      #   h6("df_breakdown() head"),  DTOutput("dbg_df_breakdown")
-      # )
     ),
     mainPanel(
       width = 9,
@@ -240,10 +252,21 @@ ui <- fluidPage(
                    )
                  ),
                  br(),
-                 plotlyOutput("top_bar", height = "420px"),
+                 plotlyOutput("top_bar", height = "450px"),
                  br(),
-                 plotlyOutput("agg_ts", height = "300px")
+                 plotlyOutput("agg_ts", height = "400px"),
+                 uiOutput("hover_info")
         ),
+        tabPanel(
+          "Wordcloud",
+          uiOutput("station_wc_container"),
+          tags$p(
+            class = "text-muted text-center",
+            style = "font-size: 0.9em; margin-top: 6px;",
+            "Word cloud showing station prominence based on GTFS appearance."
+          )
+        ),
+        
         tabPanel("Station profile",
                  plotlyOutput("profile_ts", height = "420px"),
                  br(),
@@ -284,22 +307,6 @@ server <- function(input, output, session) {
     )
   })
   
-  # Show the snapped month selection in the sidebar
-  # output$sel_info <- renderUI({
-  #   rng <- sel_months()
-  #   tags$div(
-  #     class = "small",
-  #     tags$b("Selected months"),
-  #     tags$ul(class = "list-unstyled mb-0",
-  #             tags$li(paste("Start:", format(rng$start_date, "%b %Y"))),
-  #             tags$li(paste("End:",   format(rng$end_date,   "%b %Y"))),
-  #             tags$li(paste("start_year:",  rng$start_year)),
-  #             tags$li(paste("start_month:", sprintf("%02d", rng$start_month))),
-  #             tags$li(paste("end_year:",    rng$end_year)),
-  #             tags$li(paste("end_month:",   sprintf("%02d", rng$end_month)))
-  #     )
-  #  )
-  # })
   
   # Metric-specific dataset (ensure Date type)
   df_metric <- reactive({
@@ -337,28 +344,6 @@ server <- function(input, output, session) {
     if (!nrow(d)) return(NA)
     max(d$date)
   })
-  # 
-  # # ----- Totals (reactive) -----
-  # total_val <- reactive({
-  #   d <- df()
-  #   if (!nrow(d) || all(is.na(d$trips))) return(0)
-  #   val <- suppressWarnings(sum(d$trips, na.rm = TRUE))
-  #   if (!is.finite(val)) 0 else val
-  # })
-  # 
-  # # Console log on change (optional)
-  # observeEvent(total_val(), {
-  #   cat(sprintf("[debug] total_val (raw) = %s\n",
-  #               format(total_val(), big.mark = ",", scientific = FALSE)))
-  # }, ignoreInit = FALSE)
-  # 
-  # # Sidebar debug readouts
-  # output$dbg_total_raw <- renderText({
-  #   format(total_val(), big.mark = ",", scientific = FALSE)
-  # })
-  # output$dbg_total_fmt <- renderText({
-  #   fmt_big(total_val())
-  # })
   
   # ----- KPIs -----
   output$vb_total <- renderUI({
@@ -406,8 +391,8 @@ server <- function(input, output, session) {
   output$top_bar <- renderPlotly({
     ld <- latest_date()
     validate(need(!is.na(ld), "No data in selection."))
-    validate(need(is.numeric(input$top_n) && input$top_n > 0 && input$top_n <= 30,
-                  "Top N must be between 1 and 30"))
+    validate(need(is.numeric(input$top_n) && input$top_n > 0 && input$top_n <= 25,
+                  "Top N must be between 1 and 25"))
     
     top_df <- df() %>%
       filter(date == ld) %>%
@@ -427,18 +412,69 @@ server <- function(input, output, session) {
     ) %>%
       layout(
         xaxis = list(title = paste0(input$metric, " trips — latest month")),
-        yaxis = list(title = NULL),
+        yaxis = list(title = "Stations"),
         margin = list(l = 120, r = 20, t = 20, b = 20)
       )
   })
+  # ----- Overview: Wordcloud of stations -----
+  output$station_wordcloud <- renderPlot({
+    req(nrow(station_wordcount) > 0)
+    validate(
+      need(is.numeric(input$wc_n) && input$wc_n >= 10 && input$wc_n <= 100,
+           "Number of stations in wordcloud must be between 10 and 100")
+    )
+    
+    library(wordcloud)
+    library(RColorBrewer)
+    
+    # --- Dynamic text size control ---
+    max_size <- scales::rescale(input$wc_n, to = c(3, 2.8), from = c(10, 100))
+    min_size <- max_size * 0.35
+    
+    
+    wordcloud(
+      words = station_wordcount$station_name,
+      freq = station_wordcount$total_appearance,
+      min.freq = 1,
+      max.words = input$wc_n,
+      random.order = FALSE,
+      rot.per = 0.15,
+      colors = brewer.pal(8, "Dark2"),
+      scale = c(max_size, min_size)
+    )
+  })
+  
+  
+  output$station_wc_container <- renderUI({
+    req(input$wc_n)
+    
+    # Dynamic height formula for base wordcloud
+    h <- 500 + input$wc_n * 4   # adjust as needed
+    
+    plotOutput(
+      "station_wordcloud",
+      height = paste0(h, "px"),
+      width = "100%"
+    )
+  })
+  
+  
+  
   
   # ----- Overview: Aggregate time series -----
   output$agg_ts <- renderPlotly({
     agg <- df() %>% group_by(date) %>% summarise(total_trips = sum(trips), .groups = "drop")
     plot_ly(agg, x = ~date, y = ~total_trips, type = "scatter", mode = "lines") %>%
       layout(yaxis = list(title = paste0(input$metric, " trips (total)")),
-             xaxis = list(title = NULL))
+             xaxis = list(title = NULL)) %>%
+      layout(
+        xaxis = list(title = paste0(input$metric, " trips — across date range")),
+        yaxis = list(title = NULL),
+        margin = list(l = 120, r = 20, t = 50, b = 100)
+      )
+    
   })
+  
   
   # ----- Station profile -----
   output$profile_ts <- renderPlotly({
@@ -470,22 +506,27 @@ server <- function(input, output, session) {
       distinct(FACILITIES) %>%
       pull(FACILITIES)
     
-    if (is.null(fac) || all(is.na(fac)) || fac == "") {
+    if (length(fac) == 0 || is.na(fac) || fac == "") {
       HTML("<p><em>No facility data available for this station.</em></p>")
     } else {
-      # Split by | and display as bullets
-      fac_list <- unlist(strsplit(fac, "\\|"))
       tags$div(
-        h5("Facilities available:"),
-        tags$ul(lapply(fac_list, function(x) tags$li(trimws(x))))
+        style = "margin-bottom:100px;",
+        tagList(
+          h5("Facilities available:"),
+          render_facility_icons(fac)
+        )
       )
     }
+    
   })
+  
   
   
   # ----- Compare -----
   output$cmp_ts <- renderPlotly({
     req(input$compare_stations)
+    validate(need(is.numeric(input$top_n) && input$top_n >= 0 && input$top_n <= 10,
+                  "Number of stations to compare must be between 0 and 10"))
     d <- df() %>% filter(station %in% input$compare_stations)
     plot_ly(d, x = ~date, y = ~trips, color = ~station, type = "scatter", mode = "lines") %>%
       layout(yaxis = list(title = paste0(input$metric, " trips")),
@@ -496,12 +537,10 @@ server <- function(input, output, session) {
   output$cmp_facilities <- renderUI({
     req(input$compare_stations)
     
-    # Extract facilities for selected stations
     fac_df <- raw_tbl %>%
       filter(station %in% input$compare_stations) %>%
       distinct(station, FACILITIES)
     
-    # Build a named list of facilities per station
     fac_list <- setNames(
       lapply(fac_df$FACILITIES, function(f) {
         if (is.null(f) || is.na(f) || f == "") return(character(0))
@@ -510,42 +549,38 @@ server <- function(input, output, session) {
       fac_df$station
     )
     
-    # ---- Facilities common to ALL selected stations (intersection) ----
     common_facilities <- if (length(fac_list) > 0) Reduce(intersect, fac_list) else character(0)
     common_facilities <- sort(unique(common_facilities))
     
-    # ---- Facilities per station that are NOT in the common set ----
     diff_facilities <- lapply(names(fac_list), function(st) {
       setdiff(fac_list[[st]], common_facilities)
     })
     names(diff_facilities) <- names(fac_list)
     
-    # ---- UI ----
-    tags$div(
+    tagList(
       h4("Facilities common to all compared stations"),
       if (length(common_facilities) == 0) {
-        HTML("<p><em>No facilities are shared by all selected stations (or some stations have no facility data).</em></p>")
+        HTML("<p><em>No facilities shared by all selected stations.</em></p>")
       } else {
-        tags$ul(lapply(common_facilities, function(f) tags$li(f)))
+        render_facility_icons(paste(common_facilities, collapse = "|"))
       },
       br(),
       h4("Other facilities by station (not common to all)"),
       lapply(names(diff_facilities), function(st) {
         if (length(fac_list[[st]]) == 0) {
-          tags$div(tags$b(st), HTML("<em>No facility data available.</em>"))
+          tags$div(style = "margin-bottom:100px;",tags$b(st), HTML("<em>No facility data available.</em>"))
         } else if (length(diff_facilities[[st]]) == 0) {
-          tags$div(tags$b(st), HTML("<em>All facilities are common to all compared stations.</em>"))
+          tags$div(style = "margin-bottom:100px;",tags$b(st), HTML("<em>All facilities are common to all compared stations.</em>"))
         } else {
           tags$div(
+            style = "margin-bottom:100px;",
             tags$b(st),
-            tags$ul(lapply(diff_facilities[[st]], function(f) tags$li(f)))
+            render_facility_icons(paste(diff_facilities[[st]], collapse = "|"))
           )
         }
       })
     )
   })
-  
-  
   
   
   
@@ -577,31 +612,6 @@ server <- function(input, output, session) {
       rownames = FALSE
     )
   })
-  
-  
-  # ----- Debug previews & one-click export -----
-  # output$dbg_df_metric <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df_metric(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # output$dbg_df <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # output$dbg_df_breakdown <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df_breakdown(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # observeEvent(input$export_debug, {
-  #   ts <- format(Sys.time(), "%Y%m%d-%H%M%S")
-  #   readr::write_csv(df_metric(),    file.path(getwd(), paste0("df_metric_", ts, ".csv")))
-  #   readr::write_csv(df(),           file.path(getwd(), paste0("df_filtered_", ts, ".csv")))
-  #   readr::write_csv(df_breakdown(), file.path(getwd(), paste0("df_breakdown_", ts, ".csv")))
-  #   showNotification("Exported df_metric, df (filtered), and df_breakdown as CSVs.", type = "message")
-  # })
 }
 
 # ---------- Run ----------

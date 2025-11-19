@@ -1,16 +1,19 @@
-library(dplyr)
-library(readr)
-library(purrr) # for discard()
+library(shiny)
+library(wordcloud2)
 
-fac <- read_csv("datasets/locationfacilitydata_filtered.csv", show_col_types = FALSE)
+ui <- fluidPage(
+  wordcloud2Output("wc")
+)
 
-all_facilities <- fac %>%
-  pull(FACILITIES) %>%
-  strsplit("\\|") %>%
-  unlist() %>%
-  trimws() %>%
-  purrr::discard(~ .x == "" | is.na(.x)) %>%
-  unique() %>%
-  sort()
+server <- function(input, output, session) {
+  output$wc <- renderWordcloud2({
+    wordcloud2(
+      data = data.frame(
+        word = c("A", "B", "C"),
+        freq = c(10, 20, 30)
+      )
+    )
+  })
+}
 
-print(all_facilities)
+shinyApp(ui, server)

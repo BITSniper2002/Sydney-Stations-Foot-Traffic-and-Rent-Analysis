@@ -10,6 +10,7 @@ library(plotly)
 library(DT)
 library(scales)
 library(janitor)
+library(wordcloud2)
 
 # ---------- Helpers ----------
 # 2-decimal abbreviated number: 1,234 -> 1.23K, 12,345,678 -> 12.35M, etc.
@@ -185,7 +186,10 @@ app_theme <- bs_theme(version = 5, bootswatch = "flatly")
 
 ui <- fluidPage(
   theme = app_theme,
-  titlePanel("Sydney Stations — Foot Traffic Explorer"),
+  div(
+    style = "text-align:center;",
+    titlePanel("Sydney Transport Analytics Portal")
+  ),
   sidebarLayout(
     sidebarPanel(
       width = 3,
@@ -198,43 +202,26 @@ ui <- fluidPage(
       hr(),
       htmlOutput("sel_info"),
       
-      selectInput("metric", "Metric",
+      selectInput("metric", "Metric in Overview",
                   choices = c("Total","Entries","Exits"), selected = "Total"),
-      numericInput("top_n", "Top N stations (Overview)",
-                   value = 10, min = 1, max = 30, step = 1),
+      numericInput("top_n", "Top N busiest stations last month",
+                   value = 10, min = 1, max = 25, step = 1),
+      
+      # div(style = "margin-bottom: 370px;"),  # ← add desired space
       hr(),
+      numericInput("wc_n", "Number of stations in wordcloud (in Wordcloud tab)",
+                   value = 30, min = 10, max = 100, step = 5),
       
-      selectInput("profile_station", "Station profile",
+      hr(),
+      selectInput("profile_station", "Station profile (in Station profile tab)",
                   choices = sort(unique(raw_tbl$station))),
+      hr(),
       selectizeInput(
-        "compare_stations", "Compare stations",
+        "compare_stations", "Stations Comparison (in Compare tab)",
         multiple = TRUE,
-        choices = sort(unique(raw_tbl$station))
+        choices = sort(unique(raw_tbl$station)),
+        options = list(maxItems = 10,placeholder = "Select up to 10 stations")
       ),
-      
-      # hr(),
-      # h5("Debug tools"),
-      # div(
-      #   class = "small",
-      #   "Total trips sum (raw): ",
-      #   textOutput("dbg_total_raw", inline = TRUE),
-      #   br(),
-      #   "Total trips sum (formatted): ",
-      #   textOutput("dbg_total_fmt", inline = TRUE)
-      # ),
-      # 
-      # # --- Debug tools (button always visible) ---
-      # h5("Debug tools"),
-      # actionButton("export_debug", "Export all as CSVs"),
-      # checkboxInput("show_debug", "Show table previews (heads)", TRUE),
-      # conditionalPanel(
-      #   condition = "input.show_debug",
-      #   tags$div(class = "small text-muted",
-      #            "Previewing first 20 rows of each:"),
-      #   h6("df_metric() head"),     DTOutput("dbg_df_metric"),
-      #   h6("df() head"),            DTOutput("dbg_df"),
-      #   h6("df_breakdown() head"),  DTOutput("dbg_df_breakdown")
-      # )
     ),
     mainPanel(
       width = 9,
@@ -266,16 +253,20 @@ ui <- fluidPage(
                  ),
                  br(),
                  plotlyOutput("top_bar", height = "450px"),
-                 plotOutput("station_wordcloud", height = "500px"),
-                 tags$p(
-                   class = "text-muted text-center",
-                   style = "font-size: 0.9em; margin-top: 6px;",
-                   "Word cloud showing TOP40 station prominence based on GTFS route frequency (Sydney Metro & Trains)."
-                 ),
                  br(),
-                 plotlyOutput("agg_ts", height = "400px")
-                 
+                 plotlyOutput("agg_ts", height = "400px"),
+                 uiOutput("hover_info")
         ),
+        tabPanel(
+          "Wordcloud",
+          uiOutput("station_wc_container"),
+          tags$p(
+            class = "text-muted text-center",
+            style = "font-size: 0.9em; margin-top: 6px;",
+            "Word cloud showing station prominence based on GTFS appearance."
+          )
+        ),
+        
         tabPanel("Station profile",
                  plotlyOutput("profile_ts", height = "420px"),
                  br(),
@@ -315,23 +306,7 @@ server <- function(input, output, session) {
       end_month   = month(end_date)
     )
   })
-  
-  # Show the snapped month selection in the sidebar
-  # output$sel_info <- renderUI({
-  #   rng <- sel_months()
-  #   tags$div(
-  #     class = "small",
-  #     tags$b("Selected months"),
-  #     tags$ul(class = "list-unstyled mb-0",
-  #             tags$li(paste("Start:", format(rng$start_date, "%b %Y"))),
-  #             tags$li(paste("End:",   format(rng$end_date,   "%b %Y"))),
-  #             tags$li(paste("start_year:",  rng$start_year)),
-  #             tags$li(paste("start_month:", sprintf("%02d", rng$start_month))),
-  #             tags$li(paste("end_year:",    rng$end_year)),
-  #             tags$li(paste("end_month:",   sprintf("%02d", rng$end_month)))
-  #     )
-  #  )
-  # })
+
   
   # Metric-specific dataset (ensure Date type)
   df_metric <- reactive({
@@ -369,29 +344,7 @@ server <- function(input, output, session) {
     if (!nrow(d)) return(NA)
     max(d$date)
   })
-  # 
-  # # ----- Totals (reactive) -----
-  # total_val <- reactive({
-  #   d <- df()
-  #   if (!nrow(d) || all(is.na(d$trips))) return(0)
-  #   val <- suppressWarnings(sum(d$trips, na.rm = TRUE))
-  #   if (!is.finite(val)) 0 else val
-  # })
-  # 
-  # # Console log on change (optional)
-  # observeEvent(total_val(), {
-  #   cat(sprintf("[debug] total_val (raw) = %s\n",
-  #               format(total_val(), big.mark = ",", scientific = FALSE)))
-  # }, ignoreInit = FALSE)
-  # 
-  # # Sidebar debug readouts
-  # output$dbg_total_raw <- renderText({
-  #   format(total_val(), big.mark = ",", scientific = FALSE)
-  # })
-  # output$dbg_total_fmt <- renderText({
-  #   fmt_big(total_val())
-  # })
-  
+
   # ----- KPIs -----
   output$vb_total <- renderUI({
     d <- df()
@@ -459,28 +412,54 @@ server <- function(input, output, session) {
     ) %>%
       layout(
         xaxis = list(title = paste0(input$metric, " trips — latest month")),
-        yaxis = list(title = NULL),
+        yaxis = list(title = "Stations"),
         margin = list(l = 120, r = 20, t = 20, b = 20)
       )
   })
   # ----- Overview: Wordcloud of stations -----
   output$station_wordcloud <- renderPlot({
     req(nrow(station_wordcount) > 0)
+    validate(
+      need(is.numeric(input$wc_n) && input$wc_n >= 10 && input$wc_n <= 100,
+           "Number of stations in wordcloud must be between 10 and 100")
+    )
     
     library(wordcloud)
     library(RColorBrewer)
+    
+    # --- Dynamic text size control ---
+    max_size <- scales::rescale(input$wc_n, to = c(3, 2.8), from = c(10, 100))
+    min_size <- max_size * 0.35
+    
     
     wordcloud(
       words = station_wordcount$station_name,
       freq = station_wordcount$total_appearance,
       min.freq = 1,
-      max.words = 40,
+      max.words = input$wc_n,
       random.order = FALSE,
       rot.per = 0.15,
       colors = brewer.pal(8, "Dark2"),
-      scale = c(2.5, 1)
+      scale = c(max_size, min_size)
     )
   })
+ 
+  
+  output$station_wc_container <- renderUI({
+    req(input$wc_n)
+    
+    # Dynamic height formula for base wordcloud
+    h <- 500 + input$wc_n * 4   # adjust as needed
+    
+    plotOutput(
+      "station_wordcloud",
+      height = paste0(h, "px"),
+      width = "100%"
+    )
+  })
+  
+  
+  
   
   # ----- Overview: Aggregate time series -----
   output$agg_ts <- renderPlotly({
@@ -546,6 +525,8 @@ server <- function(input, output, session) {
   # ----- Compare -----
   output$cmp_ts <- renderPlotly({
     req(input$compare_stations)
+    validate(need(is.numeric(input$top_n) && input$top_n >= 0 && input$top_n <= 10,
+                  "Number of stations to compare must be between 0 and 10"))
     d <- df() %>% filter(station %in% input$compare_stations)
     plot_ly(d, x = ~date, y = ~trips, color = ~station, type = "scatter", mode = "lines") %>%
       layout(yaxis = list(title = paste0(input$metric, " trips")),
@@ -631,31 +612,6 @@ server <- function(input, output, session) {
       rownames = FALSE
     )
   })
-  
-  
-  # ----- Debug previews & one-click export -----
-  # output$dbg_df_metric <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df_metric(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # output$dbg_df <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # output$dbg_df_breakdown <- DT::renderDT({
-  #   req(input$show_debug)
-  #   utils::head(df_breakdown(), 20)
-  # }, options = list(dom = "t", pageLength = 20), rownames = FALSE)
-  # 
-  # observeEvent(input$export_debug, {
-  #   ts <- format(Sys.time(), "%Y%m%d-%H%M%S")
-  #   readr::write_csv(df_metric(),    file.path(getwd(), paste0("df_metric_", ts, ".csv")))
-  #   readr::write_csv(df(),           file.path(getwd(), paste0("df_filtered_", ts, ".csv")))
-  #   readr::write_csv(df_breakdown(), file.path(getwd(), paste0("df_breakdown_", ts, ".csv")))
-  #   showNotification("Exported df_metric, df (filtered), and df_breakdown as CSVs.", type = "message")
-  # })
 }
 
 # ---------- Run ----------
