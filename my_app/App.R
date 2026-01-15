@@ -11,6 +11,7 @@ library(DT)
 library(scales)
 library(janitor)
 library(wordcloud2)
+library(readxl)
 
 # ---------- Helpers ----------
 # 2-decimal abbreviated number: 1,234 -> 1.23K, 12,345,678 -> 12.35M, etc.
@@ -178,119 +179,206 @@ station_wordcount <- readr::read_csv(station_wordcount_path, show_col_types = FA
 raw_tbl <- raw_tbl %>%
   left_join(facilities_tbl, by = "station")
 
+# ---------- Rent data ----------
+rent_path <- "./datasets/rent.xlsx"
+
+rent_tbl <- readxl::read_excel(rent_path) %>%
+  janitor::clean_names() %>%
+  mutate(
+    station       = as.character(station),
+    rent_aud_week = as.numeric(rent_aud_week)
+  )
+rent_tbl <- rent_tbl %>%
+  distinct(station, .keep_all = TRUE)
+
+
+
+# rent_tbl <- rent_tbl %>%
+#   semi_join(raw_tbl, by = "station")
+
 date_min <- min(raw_tbl$date, na.rm = TRUE)
 date_max <- max(raw_tbl$date, na.rm = TRUE)
+
+
+
+
+
 
 # ---------- UI ----------
 app_theme <- bs_theme(version = 5, bootswatch = "flatly")
 
 ui <- fluidPage(
-  theme = app_theme,
-  div(
-    style = "text-align:center;",
-    titlePanel("Sydney Transport Analytics Portal")
-  ),
-  sidebarLayout(
-    sidebarPanel(
-      width = 3,
-      dateRangeInput(
-        "date_range", "Date range",
-        start = date_min, end = date_max,
-        min = date_min, max = date_max,
-        format = "dd M yyyy", startview = "year"
-      ),
-      hr(),
-      htmlOutput("sel_info"),
-      
-      selectInput("metric", "Metric in Overview",
-                  choices = c("Total","Entries","Exits"), selected = "Total"),
-      numericInput("top_n", "Top N busiest stations last month",
-                   value = 10, min = 1, max = 25, step = 1),
-      
-      # div(style = "margin-bottom: 370px;"),  # ← add desired space
-      hr(),
-      numericInput("wc_n", "Number of stations in wordcloud (in Wordcloud tab)",
-                   value = 30, min = 10, max = 100, step = 5),
-      
-      hr(),
-      selectInput("profile_station", "Station profile (in Station profile tab)",
-                  choices = sort(unique(raw_tbl$station))),
-      hr(),
-      selectizeInput(
-        "compare_stations", "Stations Comparison (in Compare tab)",
-        multiple = TRUE,
-        choices = sort(unique(raw_tbl$station)),
-        options = list(maxItems = 10,placeholder = "Select up to 10 stations")
-      ),
-    ),
-    mainPanel(
-      width = 9,
-      tabsetPanel(
-        id = "tabs",
-        tabPanel("Overview",
-                 fluidRow(
-                   column(
-                     4, bslib::value_box(
-                       title = "Total trips (selected)",
-                       value = uiOutput("vb_total"),
-                       showcase = icon("person-walking")
-                     )
-                   ),
-                   column(
-                     4, bslib::value_box(
-                       title = "YoY growth (latest month)",
-                       value = uiOutput("vb_yoy"),
-                       showcase = icon("chart-line")
-                     )
-                   ),
-                   column(
-                     4, bslib::value_box(
-                       title = "Stations with ↑ trend (6-mo)",
-                       value = uiOutput("vb_rising"),
-                       showcase = icon("arrow-trend-up")
-                     )
-                   )
-                 ),
-                 br(),
-                 plotlyOutput("top_bar", height = "450px"),
-                 br(),
-                 plotlyOutput("agg_ts", height = "400px"),
-                 uiOutput("hover_info")
-        ),
-        tabPanel(
-          "Wordcloud",
-          uiOutput("station_wc_container"),
-          tags$p(
-            class = "text-muted text-center",
-            style = "font-size: 0.9em; margin-top: 6px;",
-            "Word cloud showing station prominence based on GTFS appearance."
+  theme = bs_theme(bootswatch = "flatly"),
+  titlePanel("Sydney train usage and rent"),
+  
+  tabsetPanel(
+    id = "tabs",
+    
+    # ---- Overview tab ----
+    tabPanel(
+      "Overview",
+      # Controls for Overview at the top of this tab
+      fluidRow(
+        column(
+          4,
+          dateRangeInput(
+            "date_range", "Select date range:",
+            start = date_min, end = date_max,
+            min   = date_min, max = date_max
           )
         ),
-        
-        tabPanel("Station profile",
-                 plotlyOutput("profile_ts", height = "420px"),
-                 br(),
-                 plotlyOutput("profile_breakdown", height = "300px"),
-                 br(),
-                 uiOutput("profile_facilities")
-                 
+        column(
+          4,
+          selectInput("metric", "Metric", c("Total", "Entries", "Exits"))
         ),
-        tabPanel("Compare",
-                 plotlyOutput("cmp_ts", height = "520px"),
-                 br(),
-                 uiOutput("cmp_facilities")
-                 
+        column(
+          4,
+          numericInput("top_n", "Top N busiest stations", 10, min = 1)
+        )
+      ),
+      br(),
+      # ---- Overview outputs below ----
+      fluidRow(
+        column(
+          4,
+          bslib::value_box(
+            title = "Total trips (selected)",
+            value = uiOutput("vb_total"),
+            showcase = icon("person-walking")
+          )
         ),
-        tabPanel("Data",
-                 DTOutput("table")
+        column(
+          4,
+          bslib::value_box(
+            title = "YoY growth (latest month)",
+            value = uiOutput("vb_yoy"),
+            showcase = icon("chart-line")
+          )
+        ),
+        column(
+          4,
+          bslib::value_box(
+            title = "Stations with ↑ trend (6-mo)",
+            value = uiOutput("vb_rising"),
+            showcase = icon("arrow-trend-up")
+          )
         )
       )
+      ,
+      br(),
+      plotlyOutput("top_bar", height = "350px"),
+      br(),
+      plotlyOutput("agg_ts", height = "350px"),
+      br(),
+      uiOutput("hover_info")
+    ),
+    
+    # ---- Wordcloud tab ----
+    tabPanel(
+      "Wordcloud",
+      fluidRow(
+        column(
+          4,
+          numericInput(
+            "wc_n", "Number of stations to show",
+            30, min = 10, max = 100, step = 5
+          )
+        )
+      ),
+      br(),
+      plotOutput("station_wordcloud", height = "800px"),
+      tags$p(
+        "Word cloud showing station prominence",
+        style = "text-align:center; font-size:20px; color:#555;"
+      )
+    )
+    ,
+    
+    # ---- Station profile tab ----
+    tabPanel(
+      "Station profile",
+      fluidRow(
+        column(
+          4,
+          selectInput(
+            "profile_station", "Select station:",
+            choices = sort(unique(raw_tbl$station))
+          )
+        )
+      ),
+      br(),
+      plotlyOutput("profile_ts", height = "350px"),
+      br(),
+      plotlyOutput("profile_breakdown", height = "350px"),
+      br(),
+      uiOutput("profile_facilities")
+    ),
+    
+    # ---- Compare tab ----
+    tabPanel(
+      "Compare",
+      fluidRow(
+        column(
+          6,
+          selectizeInput(
+            "compare_stations", "Stations comparison",
+            multiple = TRUE,
+            choices = sort(unique(raw_tbl$station)),
+            options  = list(maxItems = 10)
+          )
+        ),
+        column(
+          2,
+          br(),  # vertical spacing so button aligns nicely
+          actionButton("clear_compare", "Clear all", icon = icon("eraser"))
+        )
+      )
+      ,
+      br(),
+      plotlyOutput("cmp_ts", height = "520px"),
+      br(),
+      h4("Weekly rent near selected stations"),
+      DTOutput("cmp_rent_table"),
+      br(),
+      uiOutput("cmp_facilities")
+    ),
+    
+    # ---- Rent vs Trips tab ----
+    tabPanel(
+      "Rent vs Trips",
+      fluidRow(
+        column(
+          4,
+          sliderInput(
+            "bubble_size", "Bubble size scale",
+            min = 1, max = 3, value = 2
+          )
+        )
+      ),
+      br(),
+      plotlyOutput("rent_scatter", height = "520px"),
+      br(),
+      DTOutput("rent_table")
+    ),
+    
+    # ---- Data tab ----
+    tabPanel(
+      "Data",
+      DTOutput("table")
     )
   )
 )
 
 # ---------- SERVER ----------
 server <- function(input, output, session) {
+  
+#   observe({
+#   cat("df rows = ", nrow(df()), "\n")
+#   cat("rent_station rows = ", nrow(rent_station()), "\n")
+# })
+#   observe({
+#     print(input$compare_stations)
+#   })
   
   # Month-aligned selection (Dates already include year)
   sel_months <- reactive({
@@ -306,7 +394,7 @@ server <- function(input, output, session) {
       end_month   = month(end_date)
     )
   })
-  
+
   
   # Metric-specific dataset (ensure Date type)
   df_metric <- reactive({
@@ -321,6 +409,7 @@ server <- function(input, output, session) {
   
   # Entries/Exits breakdown
   df_breakdown <- reactive({
+    
     rng <- sel_months()
     raw_tbl %>%
       mutate(entry_exit = factor(normalize_entry_exit(entry_exit), levels = c("entry","exit"))) %>%
@@ -329,14 +418,135 @@ server <- function(input, output, session) {
       summarise(trips = sum(trip), .groups = "drop")
   })
   
+  rent_station <- reactive({
+    
+    # ---- 1. Normalize and dedupe rent table ----
+    rent_clean <- rent_tbl %>%
+      mutate(
+        station_raw = station,                       # keep original name for display
+        station = tolower(gsub("\\s+", " ", trimws(station))),  # normalize
+        rent_aud_week = as.numeric(rent_aud_week)
+      ) %>%
+      distinct(station, .keep_all = TRUE)
+    
+    
+    # ---- 2. Normalize station names in trips and aggregate ---
+    d_trips <- df() %>%
+      mutate(
+        station_raw = station,                       # backup
+        station = tolower(gsub("\\s+", " ", trimws(station)))
+      ) %>%
+      group_by(station) %>%
+      summarise(
+        total_trips = sum(trips, na.rm = TRUE),
+        station_raw = first(station_raw),            # recover original nice name
+        .groups = "drop"
+      )
+    
+    
+    # ---- 3. Join and produce final clean table ----
+    d <- d_trips %>%
+      inner_join(rent_clean %>% select(station, rent_aud_week), by = "station") %>%
+      select(
+        station = station_raw,
+        total_trips,
+        rent_aud_week
+      ) %>%
+      filter(!is.na(rent_aud_week))
+    
+    d
+  })
+  
+  
+  
+  # ---- Compare tab: rent for selected stations ----
+  cmp_rent <- reactive({
+    req(input$compare_stations)
+    
+    unique_stations <- unique(input$compare_stations)
+    
+    rent_tbl %>%
+      filter(station %in% unique_stations) %>%
+      distinct(station, .keep_all = TRUE) %>%   
+      arrange(station)
+  })
+  
+  output$cmp_rent_table <- DT::renderDT({
+    d <- cmp_rent()
+    if (!nrow(d)) return(NULL)
+    
+    d %>%
+      mutate(
+        rent_aud_week = round(rent_aud_week, 0)
+      ) %>%
+      datatable(
+        rownames = FALSE,
+        options = list(
+          pageLength = 10,
+          dom = "tip"   
+        ),
+        colnames = c(
+          "Station",
+          "Weekly rent (AUD)"
+        )
+      )
+  })
+  
   # Keep station inputs in sync with filtered data
   observe({
     st_choices <- df() %>% distinct(station) %>% arrange(station) %>% pull()
     if (length(st_choices)) {
       updateSelectInput(session, "profile_station", choices = st_choices, selected = st_choices[1])
       updateSelectizeInput(session, "compare_stations", choices = st_choices, server = TRUE)
+      # ---- Reset filters button ----
+      observeEvent(input$reset_filters, {
+        updateDateRangeInput(
+          session, "date_range",
+          start = date_min,
+          end   = date_max
+        )
+        
+        # Metric default "Total"
+        updateSelectInput(
+          session, "metric",
+          selected = "Total"
+        )
+        
+        # Top N, default 10
+        updateNumericInput(
+          session, "top_n",
+          value = 10
+        )
+        
+        # Wordcloud station, the default number is 30
+        updateNumericInput(
+          session, "wc_n",
+          value = 30
+        )
+        
+        # Station profile,default choose first station
+        st_choices <- sort(unique(raw_tbl$station))
+        if (length(st_choices) > 0) {
+          updateSelectInput(
+            session, "profile_station",
+            choices  = st_choices,
+            selected = st_choices[1]
+          )
+        }
+        
+        # Compare tab 
+        updateSelectizeInput(
+          session, "compare_stations",
+          selected = character(0)
+        )
+      })
     }
   })
+  
+  observeEvent(input$clear_compare, {
+    updateSelectizeInput(session, "compare_stations", selected = character(0))
+  })
+  
   
   # Latest available month within the filtered data
   latest_date <- reactive({
@@ -344,7 +554,7 @@ server <- function(input, output, session) {
     if (!nrow(d)) return(NA)
     max(d$date)
   })
-  
+
   # ----- KPIs -----
   output$vb_total <- renderUI({
     d <- df()
@@ -376,6 +586,74 @@ server <- function(input, output, session) {
     if (length(last_yoy) == 0) span("N/A") else span(scales::percent(last_yoy, accuracy = 0.1))
   })
   
+  # ---- Rent vs Trips: Scatter plot ----
+  output$rent_scatter <- renderPlotly({
+    d <- rent_station()
+    if (!nrow(d)) return(NULL)
+    
+    # Make sure the slider value is available
+    req(input$bubble_size)
+    
+    d <- d %>%
+      filter(total_trips > 0, rent_aud_week > 0)
+    
+    p <- ggplot(d, aes(
+      x     = rent_aud_week,
+      y     = total_trips,
+      size  = total_trips,
+      color = rent_aud_week,
+      text  = paste0(
+        "<b>", station, "</b><br>",
+        "Weekly Rent: $", round(rent_aud_week), "<br>",
+        "Total Trips: ", scales::comma(total_trips)
+      )
+    )) +
+      geom_point(alpha = 0.7) +
+      scale_y_log10(labels = scales::comma) +
+      # ★ use the slider value to control bubble size
+      scale_size_continuous(
+        range = c(3 * input$bubble_size, 12 * input$bubble_size),
+        guide = "none"
+      ) +
+      scale_color_viridis_c(option = "plasma") +
+      labs(
+        title = "Rent vs Foot Traffic (log-scaled Y axis)",
+        x     = "Weekly Rent (AUD)",
+        y     = "Total Trips (log10 scale)",
+        color = "Rent (AUD)"
+      ) +
+      theme_minimal(base_size = 14)
+    
+    ggplotly(p, tooltip = "text")
+  })
+  
+  # ---- Rent vs Trips: Data table ----
+  output$rent_table <- DT::renderDT({
+    d <- rent_station()
+    write.csv(d, "rent_station_debug.csv", row.names = FALSE)
+    
+    d <- distinct(d)
+    if (!nrow(d)) return(NULL)
+    
+    d %>%
+      arrange(desc(total_trips)) %>%
+      mutate(
+        rent_aud_week = round(rent_aud_week, 0),
+        total_trips   = round(total_trips, 0)
+      ) %>%
+      datatable(
+        rownames = FALSE,
+        options = list(
+          pageLength = 10,
+          order = list(list(2, "desc")) 
+        ),
+        colnames = c(
+          "Station",
+          "Total trips (selected)",
+          "Weekly rent (AUD)"
+        )
+      )
+  })
   
   output$vb_rising <- renderUI({
     rising <- df() %>%
@@ -443,7 +721,7 @@ server <- function(input, output, session) {
       scale = c(max_size, min_size)
     )
   })
-  
+ 
   
   output$station_wc_container <- renderUI({
     req(input$wc_n)
@@ -582,9 +860,9 @@ server <- function(input, output, session) {
     )
   })
   
-  
-  
-  
+
+
+
   
   
   # ----- Data table (time-aware sorting) -----
