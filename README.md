@@ -1,6 +1,6 @@
 # Sydney Train Usage and Rent Analysis Dashboard
 
-An interactive Shiny web application for analyzing Sydney train station foot traffic patterns and their relationship with rental prices. This dashboard provides comprehensive visualizations and insights into station usage trends, facility information, and rent correlations.
+An interactive Shiny web application for analyzing Sydney train station foot traffic patterns and their relationship with rental prices. This dashboard provides comprehensive visualizations and insights into station usage trends, facility information, and rent correlations. Dashboard can be found [here](https://jameschen25.shinyapps.io/my_app/).
 
 ## Features
 
