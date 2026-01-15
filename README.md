@@ -75,16 +75,15 @@ install.packages(c(
 ### Setup
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd Ass2
+git clone https://github.com/BITSniper2002/Sydney-Stations-Foot-Traffic-and-Rent-Analysis
 ```
 
 2. Ensure data files are in the correct location:
-   - `./datasets/entry_exit_sydney_merged.csv`
-   - `./datasets/locationfacilitydata_filtered.csv`
-   - `./datasets/sydney_train_metro_station_counts.csv`
-   - `./datasets/rent.xlsx`
-   - `./facilities/` directory with facility icon images
+   - `.my_app/datasets/entry_exit_sydney_merged.csv`
+   - `.my_app/datasets/locationfacilitydata_filtered.csv`
+   - `.my_app/datasets/sydney_train_metro_station_counts.csv`
+   - `.my_app/datasets/rent.xlsx`
+   - `.my_app/facilities/` directory with facility icon images
 
 3. Run the application:
 ```r
